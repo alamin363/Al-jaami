@@ -1,9 +1,19 @@
-.service-item{
-  height: 400px !important;
-}
-.btn_Slider_wrapper{
+/* .background-banner {
+  min-height: 500px !important;
+  change this
+} */
+
+/* 
+ .service-item{
+  height: 500px !important;
+  width: 500px !important;
+} */
+.btn_Slider_wrapper {
   margin-top: 90px;
-  margin-left:20px ;
+  margin-left: 20px;
+}
+.swiper .swiper-slide.bg-color1 {
+  background-color: #d6b404;
 }
 /* .swiper {
   height: auto;

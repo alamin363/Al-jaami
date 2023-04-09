@@ -14,16 +14,19 @@ import Image from "next/image";
 export default function VerticalSlider() {
   return (
     <Swiper
-    breakpoints={{
-      600: {
-          width:500,
+      breakpoints={{
+        600: {
+          width: 500,
           slidesPerView: 2,
-          spaceBetween: 50
+          spaceBetween: 50,
         },
-    }}
+      }}
+      loop={true}
+      autoplay={true}
       modules={[Navigation, Pagination, A11y]}
       spaceBetween={50}
       slidesPerView={3}
+      
       navigation
       pagination={{ clickable: true }}
     >

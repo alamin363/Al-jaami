@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Roboto", sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.video-slider .slick-slide {
+  width: 378px !important;
+}
+
+.offer-slider .slick-slide {
+  width: 385px !important;
+}
+
+/* .list_none {
+  list-style: none;
+}
+
+.m_b_1 {
+  margin-bottom: 1px;
+}
+
+a {
+  color: #d7b680;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0e2b3d;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+.m_l_237 {
+  margin-left: 237px;
+}
+
+.m_t-60 {
+  margin-top: -60px;
+}
+
+.m_t-38 {
+  margin-top: -38px;
+}
+
+.m_t-32 {
+  margin-top: -32px;
+}
+img {
+  max-width: 100%;
+}
+*/
+/* .btn__primary {
+  background-color: #d7b680 !important;
+  color: #ffffff;
+} */
+/* .btn {
+  text-transform: capitalize;
+  position: relative;
+  z-index: 1;
+  font-size: 15px;
+  font-weight: 700;
+  min-width: 170px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  padding: 0 15px;
+  letter-spacing: 1px;
+  border: 0;
+  border-radius: 3px;
+  overflow: hidden;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+} */
+
+.action__btn-contact {
+  font-size: 14px !important;
+  min-width: 106px !important;
+  height: 39px !important;
+  line-height: 39px !important;
+  border-radius: 2px !important;
+  letter-spacing: 0;
+}
+
+.btn_nav {
+  text-transform: capitalize;
+  position: relative;
+  z-index: 1;
+  font-size: 15px;
+  font-weight: 700;
+  min-width: 170px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  padding: 0 15px;
+  letter-spacing: 1px;
+  border: 0;
+  border-radius: 3px;
+  overflow: hidden;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+} 
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Barlow", sans-serif;
+  text-transform: capitalize;
+}
+
+.bg-slider-img {
+  background-image: url("../assets/images/sliders/firstSlider.jpg") !important;
+  background-size: cover !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 1321px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index: 999;
+  opacity: 1;
+}
+
+.bg-slider-img-2 {
+  /* background-blend-mode: multiply; */
+  /* background-color: rgba(6, 57, 70, 0.8); */
+  background-image: url(https://cdn.pixabay.com/photo/2015/01/09/11/09/meeting-594091__340.jpg);
+  background-size: cover !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 1321px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index: 999;
+  opacity: 1;
+}
+.banner_img {
+  background-blend-mode: overlay;
+  background-image: url(https://images.pexels.com/photos/5473337/pexels-photo-5473337.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.banner_img-2 {
+  background-blend-mode: overlay;
+  background-image: url("../assets//images//backgrounds/wordpress-923188__340.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.bg-slider-img-Banner-two {
+  background-color: #00243b;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index: 999;
+  opacity: 1;
+}
+/* .bg-overlay-primary:before {
+  background-color: #d7b680;
+}
+.is-sticky {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1040;
+  height: 80px;
+  max-height: 80px;
+  border-bottom: 0 !important;
+  background-color: #063946 !important;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.07);
+  animation: headerAnimation 0.7s;
+}
+.header-transparent .is-sticky .nav__item > .nav__item-link {
+  color: #d7b680 !important;
+}
+
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+.btn__icon {
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-box;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 0 20px;
+}
+.btn__primary {
+  background-color: #d7b680;
+  color: #ffffff;
+}
+.btn {
+  text-transform: capitalize;
+  position: relative;
+  z-index: 1;
+  font-size: 15px;
+  font-weight: 700;
+  min-width: 170px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  padding: 0 15px;
+  letter-spacing: 1px;
+  border: 0;
+  border-radius: 3px;
+  overflow: hidden;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+section.page-title.page-title-layout9.bg-overlay.bg-overlay-gradient.bg-parallax {
+  background-blend-mode: multiply !important;
+  background-color: rgb(10 63 100 / 68%) !important;
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  width: 1903px !important;
+  position: relative !important;
+  left: 0px !important;
+  top: 0px !important;
+  z-index: 999 !important;
+  opacity: 1 !important;
+} */
+
+
+.navbar .dropdown-toggle:after {
+  content: "";
+  font-family: "Font Awesome 5 Free";
+  border: none;
+  vertical-align: middle;
+  margin-left: 0;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  display: inline-block;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "";
+}
+/* .navbar>.container, .navbar>.container-fluid {
+  position: relative;
+  height: 100px;
+}
+.is-sticky .action__btn-contact {
+  background-color: #d7b680 !important;
+  border-color: #d7b680 !important;
+  color: #063946 !important;
+}
+.header-transparent .action__btn-contact {
+  background-color: #ffffff;
+  color: #063946;
+}
+.header-transparent .action__btn-contact:hover {
+  background-color: #063946;
+  color: #fff;
+}
+.action__btn-contact {
+  font-size: 14px;
+  min-width: 106px;
+  height: 39px;
+  line-height: 39px;
+  border-radius: 2px;
+  letter-spacing: 0;
+} */

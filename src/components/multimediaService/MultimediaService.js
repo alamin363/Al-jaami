@@ -1,5 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
 
 const MultimediaService = () => {
   return (
@@ -16,14 +14,14 @@ const MultimediaService = () => {
         <div className="row">
           <div className="multimedia-service-list">
             <div className="single-list">
-              <div className="service-icon">
-                <i class="fa-solid fa-house"></i>
+              <div className="service-icon fa-home">
+                
               </div>
               <span className="title">Finance &amp; Banking</span>
             </div>
             <div className="single-list">
               <div className="service-icon">
-                <FontAwesomeIcon icon="fas fa-building" />
+          <i className="fa fa-facebook"></i>
               </div>
               <span className="title">E-commerce</span>
             </div>

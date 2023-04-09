@@ -1,9 +1,15 @@
-import styles from "@/styles/Home.module.css";
-import Homes from "./Home/Home";
+// import "@/styles/Home.module.css";
+import Header from "@/components/header/Header";
+import Home from "./Home/Home";
+import About from "./aboutus";
+import { Layout } from "@/Layout/Layout";
+
 export default function index() {
   return (
-    <>
-      <Homes />
-    </>
+    <Layout>
+      <Home />
+      <About />
+      
+    </Layout>
   );
 }

@@ -6,7 +6,7 @@ import VerticalSlider from "./VerticalSlider/VerticalSlider";
 import Image from "next/image";
 const Banner = () => {
   return (
-    <section class="banner-layout5 banner-layout5-sticky bg-parallax pt-130 pb-0 bg-slider-img-Banner">
+    <section class="banner-layout5 banner-layout5-sticky bg-parallax pt-130 pb-0 banner_img">
       {/* <div class="bg-img">
         <Image src={bannerImgHeader} alt="background" /> 
        </div> */}
@@ -188,10 +188,7 @@ const Banner = () => {
                 {/* col-sm-6 ends */}
               </div>
             </div>
-            <section
-              class="awards"
-              style={{ backgroundColor: "#063946" }}
-            >
+            <section class="awards" style={{ backgroundColor: "#063946" }}>
               <div class="row heading heading-light mb-60">
                 <div class="col-sm-6">
                   <h3 class="heading__title">Our awards and recognitions</h3>

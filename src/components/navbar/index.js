@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Light from "../../assets/images/logo/al Jaami-02.png";
-import logo from "../../assets/images/logo/al-Jaami-03.png";
+import Light from "../../assets/images/logo/dark-logo.png";
+import logo from "../../assets/images/logo/light-logo.png";
 const { default: Link } = require("next/link");
 
 const Navbar = () => {

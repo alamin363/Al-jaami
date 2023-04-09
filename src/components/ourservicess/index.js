@@ -40,7 +40,7 @@ const OurServices = () => {
           <div class="col-12 btn-wrapper btn_Slider_wrapper">
             <Link
               href="services.html"
-              class="btn btn__secondary btn__bordered btn__icon"
+              class="btn btn__secondary btn__bordered btn__icon responsive"
             >
               <span>Explore All Services</span>
               <i class="icon-arrow-right"></i>

@@ -23,8 +23,18 @@ const About = () => {
               </h3>
             </div>
             <div className="col-sm-12 col-md-12 col-lg-6">
-            <p>Al jaami's unique approach to technology management and advisory solutions has helped enterprises worldwide manage their IT. With the help of our skilled professionals, give appropriate access and view permissions to requests, issues, revisions, contracts, assets, solutions, and reports.</p>
-            <p>Our job as one of the world's leading IT service providers is to assist you in keeping your IT business secure while ensuring high availability.</p>
+              <p>
+                Al jaami's unique approach to technology management and advisory
+                solutions has helped enterprises worldwide manage their IT. With
+                the help of our skilled professionals, give appropriate access
+                and view permissions to requests, issues, revisions, contracts,
+                assets, solutions, and reports.
+              </p>
+              <p>
+                Our job as one of the world's leading IT service providers is to
+                assist you in keeping your IT business secure while ensuring
+                high availability.
+              </p>
             </div>
           </div>
           <div className="row">
@@ -44,7 +54,13 @@ const About = () => {
               </ul>
               <div className="clients">
                 <p className="text__link text-center">Trusted By The World's</p>
-                <Link href="/it-solutions.html" class="btn btn__link btn__primary btn__underlined">Best Organizations</Link>
+                <Link
+                  href="/it-solutions"
+                  class="btn btn__link  btn__underlined"
+                  style={{ borderBottom: " 2px solid #d7b680" }}
+                >
+                  Best Organizations
+                </Link>
                 <AnimatedSlider />
               </div>
             </div>

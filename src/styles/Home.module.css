@@ -1,0 +1,12 @@
+@media only screen and (max-width: 320) {
+  .checking {
+    margin-top: -600px !important;
+  }
+}
+
+.test {
+  margin-left: -130px !important;
+}
+.checking {
+  margin-top: -700px !important;
+}

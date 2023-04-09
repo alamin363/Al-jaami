@@ -11,8 +11,8 @@
     @include prefix(transition, all .4s ease, webkit moz ms o);
 
     &:not(.service-item-custom) {
-        background-color: $color-white;
-
+        background-color:$color-white;
+          
         &:before {
             content: '';
             position: absolute;
@@ -31,7 +31,7 @@
             line-height: 38px;
             min-width: 138px;
             padding: 0 20px;
-
+            margin-top: 30px !important;
             span {
                 display: inline-block;
             }
@@ -115,7 +115,7 @@
             .btn {
                 padding-left: 15px;
                 padding-right: 40px;
-
+                
                 &:before {
                     @include prefix(transform, scaleX(1), webkit moz ms o);
                     @include prefix(transform-origin, left center, webkit moz ms o);
