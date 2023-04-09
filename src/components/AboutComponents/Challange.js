@@ -5,9 +5,10 @@ import React from "react";
 
 const Challenge = () => {
   return (
-    <div className="banner_img-2">
+    <div className="slider">
+      <div className="slick-carousel carousel-arrows-light carousel-dots-light m-slides-0">
       <section
-        className="page-title page-title-layout1 text-center bg-overlay bg-overlay-gradient bg-parallax"
+        className="page-title page-title-layout1 text-center bg-overlay bg-overlay-gradient bg-parallax banner_img-2"
         style={{
           backgroundBlendMode: "multiply",
           backgroundColor: "rgba(6, 57, 70, 0.8)",
@@ -56,6 +57,7 @@ const Challenge = () => {
           </div>
         </div>
       </section>
+    </div>
     </div>
   );
 };

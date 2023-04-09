@@ -18,10 +18,11 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Tab2 from "@/components/Tabs/Tab2";
 import Tabs from "@/components/Tabs/Tabs";
+import Header from "@/components/header";
 const Home = () => {
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       {/* <Navbar /> */}
       <Sliders />
       <About />

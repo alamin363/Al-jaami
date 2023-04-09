@@ -8361,8 +8361,8 @@ section>.fw-container-fluid.rull-container {
 
 .history-timeline .slick-arrow {
   line-height: 38px;
-  border: 2px solid #173e50;
-  background-color: #002b3e;
+  border: 2px solid #173e50; 
+   background-color: #002b3e;
 }
 
 .history-timeline .slick-arrow:hover {

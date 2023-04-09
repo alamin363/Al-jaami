@@ -12450,7 +12450,7 @@ a.btn.action__btn-contact {
 
 .slick-arrow {
   position: absolute;
-  top: 30% !important;
+  top: 63% !important;
   transform: translateY(-50%);
   color: rgba(3, 24, 45, 0.7);
   width: 40px;
@@ -12464,12 +12464,24 @@ a.btn.action__btn-contact {
   transition: all 0.3s linear;
 }
 
+
+
 .slick-arrow.slick-next {
   right: -80px !important;
 }
 
 .slick-arrow.slick-prev {
   left: -80px !important;
+}
+
+@media (max-width:800px) {
+  .slick-arrow{
+    top: 6.4% !important;
+  }
+  
+  .slick-arrow{
+    left: 380px !important;
+  }
 }
 
 ul.dropdown-menu.d-left {
