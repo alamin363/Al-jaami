@@ -28,7 +28,7 @@ const Sliders = () => {
                 <div className="row">
                   <div className="col-sm-12 col-md-12 col-lg-12 col-xl-7">
                     <div className="slide__content">
-                      <h4 className="slide__title" style={{ fontSize: "56px" }}>
+                      <h4 className="slide__title" style={{ fontSize: "46px",marginTop:"30px" }}>
                       We can help your business In reducing labor costs Increasing profit, and eclipsing your competitors.
                       </h4>
                       <p className="slide__desc">
