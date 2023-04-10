@@ -14,7 +14,7 @@ const Header = () => {
   const [windowSize, setWindowSize] = useState(getWindowSize());
 
   useEffect(() => {
-    const handleScrollDisplay = (event) => {
+    const handleScrollDisplay = () => {
       if (windowSize.innerWidth >= 992) {
         setDisplayScroll(window.scrollY > 50);
       }
@@ -84,13 +84,10 @@ const Header = () => {
                   href="/"
                   data-toggle="dropdown"
                   className="nav__item-link active"
-                  defaultValue
                 >
                   Home
                 </Link>
-                {/* /.dropdown-menu */}
               </li>
-              {/* /.nav-item */}
               <li className="nav__item  has-dropdown">
                 <i class="fa-solid fa-angle-down"></i>
                 <p
@@ -118,7 +115,7 @@ const Header = () => {
                   </li>
                   {/* /.nav-item */}
                   <li className="nav__item">
-                    <Link href="/leadership-team" className="nav__item-link">
+                    <Link href="/leadershipe" className="nav__item-link">
                       Leadership Team
                     </Link>
                   </li>

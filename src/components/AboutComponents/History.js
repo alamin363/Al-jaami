@@ -68,7 +68,7 @@ const History = () => {
                 </p>
               </div>
             </div>
-            <div class="row">
+            <div class="row" style={{marginTop:"10px"}}>
               <div class="col-sm-12 col-md-6">
                 <p class="mb-30 font-weight-bold sub__desc">
                   As one of the world's largest ITService Providers with over

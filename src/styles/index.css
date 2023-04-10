@@ -332,6 +332,13 @@ section.page-title.page-title-layout9.bg-overlay.bg-overlay-gradient.bg-parallax
   background-position: center center;
   background-repeat: no-repeat;
 }
+.background-careers-3 {
+  background-blend-mode: overlay;
+  background-image: url("https://cdn.pixabay.com/photo/2015/06/24/15/45/hands-820272_960_720.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
 /* .banner-layout1{
   background-blend-mode: overlay;
   background-image: url("../assets/images/banners/5.jpg");
@@ -364,6 +371,12 @@ section.page-title.page-title-layout9.bg-overlay.bg-overlay-gradient.bg-parallax
   box-shadow: 0px 5px 83px 0px rgba(40, 40, 40, 0.05);
 }
 
+@media (min-width: 320px) and (max-width: 767px) {
+  .awards .fancybox-item {
+    height: auto !important;
+  }
+}
+
 .justify-content-between {
   justify-content: space-around !important;
 }
@@ -373,6 +386,13 @@ section.page-title.page-title-layout9.bg-overlay.bg-overlay-gradient.bg-parallax
 }
 .responsive-mini-nav {
   margin-left: -300px;
+}
+
+@media (max-width: 800px) {
+  .flacybox_content_h-400 {
+    /* height: 300px !important; */
+    padding: 48px 35px 37px;
+  }
 }
 @media (max-width: 800px) {
   .member__img {

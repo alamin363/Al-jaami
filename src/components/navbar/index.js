@@ -59,19 +59,19 @@ const Navbar = () => {
                     </a>
                   </li>
                   <li className="nav__item">
-                    <a href="why-us.html" className="nav__item-link">
+                    <Link href="/choose" className="nav__item-link">
                       Why Choose Us
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav__item">
-                    <a href="leadership-team.html" className="nav__item-link">
+                    <Link href="/leadershipe" className="nav__item-link">
                       Leadership Team
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav__item">
-                    <a href="awards.html" className="nav__item-link">
+                    <Link href="/awards" className="nav__item-link">
                       Award & Recognition
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav__item">
                     <a href="pricing.html" className="nav__item-link">
@@ -84,9 +84,9 @@ const Navbar = () => {
                     </a>
                   </li>
                   <li className="nav__item">
-                    <a href="careers.html" className="nav__item-link">
+                    <Link href="/careers" className="nav__item-link">
                       Careers
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>

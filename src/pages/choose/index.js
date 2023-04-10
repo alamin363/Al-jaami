@@ -10,7 +10,7 @@ import React from "react";
 
 const index = () => {
   return (
-    <>
+    <div>
       <Header />
       <Easy />
       <SecondaryNav />
@@ -18,7 +18,7 @@ const index = () => {
       <Business />
       <BannerLayout />
       <Footer />
-    </>
+    </div>
   );
 };
 

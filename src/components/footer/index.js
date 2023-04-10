@@ -7,6 +7,7 @@ import transLogo from './../../assets/images/icons/transferwise-icon.svg';
 import paypalLogo from './../../assets/images/icons/paypal-icon.svg';
 import stripLogo from './../../assets/images/icons/stripe-icon.svg';
 import logo from './../../assets/images/logo/big-logo.svg';
+import Link from 'next/link';
 
 const imageHeiWid = {
   height: 50,
@@ -35,19 +36,19 @@ const Footer = () => {
                       <a href="about-us.html" className="nav__item-link">About Us</a>
                     </li>
                     <li className="nav__item">
-                      <a href="why-us.html" className="nav__item-link">Why Choose Us</a>
+                      <Link href="choose" className="nav__item-link">Why Choose Us</Link>
                     </li>
                     <li className="nav__item">
-                      <a href="leadership-team.html" className="nav__item-link">Leadership Team</a>
+                      <Link href="/leadershipe" className="nav__item-link">Leadership Team</Link>
                     </li>
                     <li className="nav__item">
-                      <a href="awards.html" className="nav__item-link">Award & Recognition</a>
+                      <Link href="/awards" className="nav__item-link">Award & Recognition</Link>
                     </li>
                     <li className="nav__item">
                       <a href="faqs.html" className="nav__item-link">Help & FAQs</a>
                     </li> 
                     <li className="nav__item">
-                      <a href="careers.html" className="nav__item-link">Careers</a>
+                      <Link href="/careers" className="nav__item-link">Careers</Link>
                     </li>
                   </ul>
                 </nav>

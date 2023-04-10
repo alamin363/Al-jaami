@@ -11,7 +11,7 @@ const NavbarSecondary = () => {
               <Link href="/aboutus" class="nav__link">
                 About Us
               </Link>
-              <Link href="why-us.html" class="nav__link active">
+              <Link href="/choose" class="nav__link active">
                 Why Choose Us
               </Link>
               <Link href="/leadershipteaml" class="nav__link">

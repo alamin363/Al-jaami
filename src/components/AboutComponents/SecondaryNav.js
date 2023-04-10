@@ -11,16 +11,16 @@ const SecondaryNav = () => {
               <Link href="about-us.html" className="nav__link active">
                 About Us
               </Link>
-              <Link href="why-us.html" className="nav__link">
+              <Link href="/choose" className="nav__link">
                 Why Choose Us
               </Link>
-              <Link href="leadership-team.html" className="nav__link">
+              <Link href="/leadershipe" className="nav__link">
                 Leadership Team
               </Link>
-              <Link href="awards.html" className="nav__link">
+              <Link href="/awards" className="nav__link">
                 Awards & Recognition
               </Link>
-              <Link href="careers.html" className="nav__link">
+              <Link href="/careers" className="nav__link">
                 Careers
               </Link>
             </nav>
