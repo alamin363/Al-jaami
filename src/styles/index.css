@@ -23,10 +23,10 @@ code {
   width: 385px !important;
 }
 
-/* .list_none {
+.list_none {
   list-style: none;
 }
-
+/*
 .m_b_1 {
   margin-bottom: 1px;
 }
@@ -325,6 +325,34 @@ section.page-title.page-title-layout9.bg-overlay.bg-overlay-gradient.bg-parallax
   background-position: center center;
   background-repeat: no-repeat;
 }
+.background-img-3 {
+  background-blend-mode: overlay;
+  background-image: url("../assets/images/backgrounds/telework.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+/* .banner-layout1{
+  background-blend-mode: overlay;
+  background-image: url("../assets/images/banners/5.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+} */
+.page-title-layout3 {
+  background-blend-mode: overlay;
+  background-image: url("../assets/images/banners/student-849821__340\ \(1\).jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.award_backgroun_color {
+  background-blend-mode: overlay;
+  background-image: url("../assets/images/backgrounds/student-849826_960_720.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
 .awards .fancybox-item {
   border-radius: 5px;
   height: 500px !important;
@@ -334,4 +362,21 @@ section.page-title.page-title-layout9.bg-overlay.bg-overlay-gradient.bg-parallax
   background-color: #ffffff;
   transition: all 0.3s ease;
   box-shadow: 0px 5px 83px 0px rgba(40, 40, 40, 0.05);
+}
+
+.justify-content-between {
+  justify-content: space-around !important;
+}
+.swiper-horizontal {
+  touch-action: pan-y;
+  width: 500px;
+}
+.responsive-mini-nav {
+  margin-left: -300px;
+}
+@media (max-width: 800px) {
+  .member__img {
+    height: 486px;
+    width: 400px;
+  }
 }

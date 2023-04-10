@@ -112,7 +112,7 @@ const Header = () => {
                   </li>
                   {/* /.nav-item */}
                   <li className="nav__item">
-                    <Link href="/why-us" className="nav__item-link">
+                    <Link href="/choose" className="nav__item-link">
                       Why Choose Us
                     </Link>
                   </li>

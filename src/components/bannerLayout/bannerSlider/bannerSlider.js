@@ -12,7 +12,8 @@ import "swiper/css/scrollbar";
 const BannerSlider = ({ children }) => {
   return (
     <Swiper
-      modules={[Navigation, Pagination, A11y]}
+      modules={[Navigation, Pagination]}
+      
       // spaceBetween={30}
       slidesPerView={1}
       // navigation

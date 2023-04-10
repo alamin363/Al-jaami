@@ -106,9 +106,9 @@ const Tabs = () => {
         </div>
       ),
     },
-    { title: "Frontend", content: "This is the content of Tab 2." },
-    { title: "Backend", content: "This is the content of Tab 3." },
-    { title: "Database", content: "This is the content of Tab 4." },
+    { title: "Frontend", content: <></> },
+    { title: "Backend", content: <></> },
+    { title: "Database", content: <></> },
   ];
 
   return (
@@ -145,7 +145,7 @@ const Tabs = () => {
                     </ul>
                   </div>
                   <div class="tab-content">
-                    
+                  {/* <div className="tab-content">{tabs[activeTab].content}</div> */}
                   </div>
                 </div>
               </div>
@@ -154,7 +154,7 @@ const Tabs = () => {
         </div>
       </section>
       <ul className="nav tech-list" id="myTab"></ul>
-      <div className="tab-content">{tabs[activeTab].content}</div>
+      {/*  */}
     </div>
   );
 };
