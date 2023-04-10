@@ -29,11 +29,10 @@ const Sliders = () => {
                   <div className="col-sm-12 col-md-12 col-lg-12 col-xl-7">
                     <div className="slide__content">
                       <h4 className="slide__title" style={{ fontSize: "56px" }}>
-                        We can help your business In reducing labor costs
-                        Increasing profit, and eclipsing your competitors.
+                      We can help your business In reducing labor costs Increasing profit, and eclipsing your competitors.
                       </h4>
                       <p className="slide__desc">
-                        Our sites are designed to each group's specific needs.
+                        Our sites are designed to each group&apos;s specific needs.
                         We can help your company with anything from landing
                         pages, style, photos, graphics, and media to branding,
                         marketing, analytics, and sales strategy. We can make it

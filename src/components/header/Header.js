@@ -434,8 +434,8 @@ const Header = () => {
           {/* /.navbar-collapse */}
           <ul className="navbar-actions list-unstyled mb-0 d-flex align-items-center">
             <li>
-              <a className="btn action__btn-contact d-sm-none" href="">
-                <i className="icon-user" />
+              <a className="btn action__btn-contact" href="">
+                <i className="icon-user mr-2" />
                 <span>Login</span>
               </a>
             </li>
