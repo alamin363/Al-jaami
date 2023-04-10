@@ -10,15 +10,9 @@ import Technologies from "@/components/Technologies/Technologies";
 // import Header from "@/components/header/";
 import BannerLayout from "@/components/bannerLayout/BannerLayout";
 
-import {
-  faSearch,
-  faAmbulance,
-  faAnchor,
-} from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Tab2 from "@/components/Tabs/Tab2";
 import Tabs from "@/components/Tabs/Tabs";
-import Header from "@/components/header";
+import Header from "@/components/header/Header";
 const Home = () => {
   return (
     <>

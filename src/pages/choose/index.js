@@ -5,12 +5,12 @@ import Business from "@/components/chooseComponent/Business";
 import Easy from "@/components/chooseComponent/Easy";
 import Serves from "@/components/chooseComponent/Serves";
 import Footer from "@/components/footer";
-import Header from "@/components/header";
+import Header from "@/components/header/Header";
 import React from "react";
 
 const index = () => {
   return (
-    <div>
+    <>
       <Header />
       <Easy />
       <SecondaryNav />
@@ -18,7 +18,7 @@ const index = () => {
       <Business />
       <BannerLayout />
       <Footer />
-    </div>
+    </>
   );
 };
 

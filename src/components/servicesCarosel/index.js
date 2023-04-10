@@ -9,7 +9,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import { sliderData } from "./SliderData";
+// import { sliderData } from "./SliderData";
 const ServicesCarousel = () => {
   return (
     <Swiper
@@ -27,9 +27,9 @@ const ServicesCarousel = () => {
           slidesPerView: 3,
         },
       }}
-      modules={[Navigation, Pagination, A11y]}
+      modules={[Navigation, Pagination]}
       spaceBetween={30}
-      // slidesPerView={3}
+      slidesPerView={3}
       // navigation
       pagination={{ clickable: true }}
       // onSwiper={(swiper) => console.log(swiper)}

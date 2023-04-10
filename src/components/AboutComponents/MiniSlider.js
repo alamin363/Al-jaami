@@ -6,6 +6,7 @@ import slide3 from "../../assets/images/awards/icons/3.png";
 import slide4 from "../../assets/images/awards/icons/4.png";
 const MiniSlider = () => {
   var settings = {
+    
     dots: false,
     arrows: false,
     infinite: true,
@@ -14,8 +15,8 @@ const MiniSlider = () => {
     autoplay: true,
     speed: 5000,
     autoplaySpeed: 2000,
-    cssEase: "linear",
   };
+
   return (
     // <div className="row awards-wrapper">
     //   <div className="col-sm-12">

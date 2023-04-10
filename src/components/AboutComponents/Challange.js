@@ -6,8 +6,6 @@ import NavHero from "../header/NavHero";
 
 const Challenge = () => {
   return (
-    <div className="slider">
-      <div className="slick-carousel carousel-arrows-light carousel-dots-light m-slides-0">
       <section
         className="page-title page-title-layout1 text-center bg-overlay bg-overlay-gradient bg-parallax banner_img-2"
         style={{
@@ -38,8 +36,6 @@ const Challenge = () => {
           </div>
         </div>
       </section>
-    </div>
-    </div>
   );
 };
 

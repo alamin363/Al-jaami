@@ -1,9 +1,6 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import Image from "next/image";
-import slider1 from "../../assets/images/sliders/student-849825__480.jpg";
-import slider2 from "../../assets/images/sliders/student-849825__480.jpg";
 import Link from "next/link";
 const Sliders = () => {
   const settings = {
@@ -13,6 +10,7 @@ const Sliders = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    // cssEase: "linear",
   };
   return (
     <div className="slider">

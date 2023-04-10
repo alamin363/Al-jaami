@@ -3,18 +3,18 @@ import SecondaryNav from "@/components/AboutComponents/SecondaryNav";
 import Careers from "@/components/CareersComponents/Careers";
 import HeroSection from "@/components/CareersComponents/HeroSection";
 import Footer from "@/components/footer";
-import Header from "@/components/header";
+import Header from "@/components/header/Header";
 
 const index = () => {
   return (
-    <div>
+    <>
       <Header />
       <HeroSection />
       <SecondaryNav />
       <Careers />
       <History />
       <Footer />
-    </div>
+    </>
   );
 };
 

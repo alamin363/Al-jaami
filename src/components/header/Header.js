@@ -92,7 +92,7 @@ const Header = () => {
                 <i class="fa-solid fa-angle-down"></i>
                 <p
                   data-toggle="dropdown"
-                  className="dropdown-toggle nav__item-link"
+                  className="dropdown-toggle nav__item-link iconFlex"
                 >
                   Company
                   <FontAwesomeIcon
@@ -131,16 +131,17 @@ const Header = () => {
 
               {/* /.nav-item */}
               <li className="nav__item  has-dropdown">
-                <a
+                <Link
+                  href="/company"
                   data-toggle="dropdown"
-                  className="dropdown-toggle nav__item-link"
+                  className="dropdown-toggle nav__item-link iconFlex"
                 >
-                  Services
+                  <span>Services</span>
                   <FontAwesomeIcon
                     style={{ fontSize: 20, marginLeft: 5 }}
                     icon={faAngleDown}
                   />
-                </a>
+                </Link>
                 <ul className="dropdown-menu">
                   {/* /.nav-item */}
                   <li className="nav__item has-dropdown">
@@ -433,7 +434,7 @@ const Header = () => {
           {/* /.navbar-collapse */}
           <ul className="navbar-actions list-unstyled mb-0 d-flex align-items-center">
             <li>
-              <a className="btn action__btn-contact" href="">
+              <a className="btn action__btn-contact d-sm-none" href="">
                 <i className="icon-user" />
                 <span>Login</span>
               </a>
