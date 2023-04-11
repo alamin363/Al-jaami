@@ -7,13 +7,14 @@ import "../styles/css/style.css";
 import "./../styles/scss/style.scss";
 import "../styles/globals.css";
 import "./../styles/index.css";
+import "../styles/serves.css"
 import { useEffect } from "react";
 config.autoAddCss = false;
 
 
 export default function App({ Component, pageProps }) {
-  useEffect(() => {
-    require("bootstrap/dist/js/bootstrap.bundle.min.js");
-  }, []);
+  // useEffect(() => {
+  //   require("bootstrap/dist/js/bootstrap.bundle.min.js");
+  // }, []);
   return <Component {...pageProps} />;
 }

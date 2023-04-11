@@ -132,7 +132,7 @@ const Header = () => {
               {/* /.nav-item */}
               <li className="nav__item  has-dropdown">
                 <Link
-                  href="/company"
+                  href="/services"
                   data-toggle="dropdown"
                   className="dropdown-toggle nav__item-link iconFlex"
                 >
@@ -148,95 +148,49 @@ const Header = () => {
                     <Link
                       data-toggle="dropdown"
                       className="dropdown-toggle nav__item-link"
-                      href="/Design-Services"
+                      href="/services/webdevelopment"
                     >
-                      Design Services
-                    </Link>
-                    <ul className="dropdown-menu d-left">
-                      <li className="nav__item">
-                        <Link href="/website-design" className="nav__item-link">
-                          Website design
-                        </Link>
-                      </li>
-                      <li className="nav__item">
-                        <Link href="/Logo-Branding" className="nav__item-link">
-                          Logo & Branding
-                        </Link>
-                      </li>
-                      <li className="nav__item">
-                        <Link href="/advertising" className="nav__item-link">
-                          Advertising
-                        </Link>
-                      </li>
-                      <li className="nav__item">
-                        <Link href="/Social-media" className="nav__item-link">
-                          Social Media
-                        </Link>
-                      </li>
-                      <li className="nav__item">
-                        <Link href="/packaging" className="nav__item-link">
-                          Packaging
-                        </Link>
-                      </li>
-                      <li className="nav__item">
-                        <Link href="/Graphic-Design" className="nav__item-link">
-                          Graphic design
-                        </Link>
-                      </li>
-                      <li className="nav__item">
-                        <Link
-                          href="/Copy-writing-Services"
-                          className="nav__item-link"
-                        >
-                          Copywriting Services
-                        </Link>
-                      </li>
-                    </ul>
-                  </li>
-                  {/* /.nav-item */}
-                  <li className="nav__item has-dropdown">
-                    <Link
-                      data-toggle="dropdown"
-                      className="dropdown-toggle nav__item-link"
-                      href="/IT-Web-Services"
-                    >
-                      IT & Web Services
+                      Web Development
                     </Link>
                     <ul className="dropdown-menu d-left">
                       <li className="nav__item">
                         <Link
-                          href="/Website-Building"
+                          href="/services/webdevelopment/websitedesign"
                           className="nav__item-link"
                         >
-                          Website Building
+                          Website Design
                         </Link>
                       </li>
                       <li className="nav__item">
-                        <Link href="/IT-Support" className="nav__item-link">
-                          IT Support
+                        <Link
+                          href="/services/webdevelopment/webapplication"
+                          className="nav__item-link"
+                        >
+                          Web Application
                         </Link>
                       </li>
                       <li className="nav__item">
-                        <Link href="/web-app" className="nav__item-link">
-                          Web App Development
-                        </Link>
-                      </li>
-                      <li className="nav__item">
-                        <Link href="/Mobile-App " className="nav__item-link">
+                        <Link
+                          href="/services/webdevelopment/mobileapp"
+                          className="nav__item-link"
+                        >
                           Mobile App Development
                         </Link>
                       </li>
                       <li className="nav__item">
-                        <Link href="/AI-ML" className="nav__item-link">
-                          AI & ML
+                        <Link
+                          href="/services/webdevelopment/ecommercedevelopment"
+                          className="nav__item-link"
+                        >
+                          Ecommerce Development
                         </Link>
                       </li>
                       <li className="nav__item">
                         <Link
-                          href="/Digital-Marketing"
+                          href="/services/webdevelopment/cmcdevelopment"
                           className="nav__item-link"
                         >
-                          Digital Marketing
+                          CMS Development
                         </Link>
                       </li>
                     </ul>
@@ -246,116 +200,62 @@ const Header = () => {
                     <Link
                       data-toggle="dropdown"
                       className="dropdown-toggle nav__item-link"
-                      href="/Selling-Platforms"
+                      href="/services/graphicdesign"
                     >
-                      Selling Platforms
+                      Graphics Design
                     </Link>
                     <ul className="dropdown-menu d-left">
                       <li className="nav__item">
-                        <Link href="/Amazon" className="nav__item-link">
-                          Amazon
-                        </Link>
-                      </li>
-                      <li className="nav__item">
-                        <Link href="/eBay" className="nav__item-link">
-                          eBay
-                        </Link>
-                      </li>
-                      <li className="nav__item">
-                        <Link href="/OnBuy" className="nav__item-link">
-                          OnBuy
-                        </Link>
-                      </li>
-                      <li className="nav__item">
                         <Link
-                          href="/Social-Marketing "
+                          href="/services/graphicdesign/branddesign"
                           className="nav__item-link"
                         >
-                          Social Marketing
-                        </Link>
-                      </li>
-                      <li className="nav__item">
-                        <Link href="/E-Campaigners" className="nav__item-link">
-                          e-Campaigners
-                        </Link>
-                      </li>
-                    </ul>
-                  </li>
-                  <li className="nav__item has-dropdown">
-                    <Link
-                      data-toggle="dropdown"
-                      className="dropdown-toggle nav__item-link"
-                      href="/Sales-Marketing"
-                    >
-                      Sales & Marketing
-                    </Link>
-                    <ul className="dropdown-menu d-left">
-                      <li className="nav__item">
-                        <Link href="/Data-Discovery" className="nav__item-link">
-                          Data Discovery
+                          Brand Design
                         </Link>
                       </li>
                       <li className="nav__item">
                         <Link
-                          href="/Product-Sourcing"
+                          href="/services/graphicdesign/logodesign"
                           className="nav__item-link"
                         >
-                          Product Sourcing
+                          Logo Design
                         </Link>
                       </li>
                       <li className="nav__item">
                         <Link
-                          href="/Business-Opportunitie"
+                          href="/services/graphicdesign/uiuxdesign"
                           className="nav__item-link"
                         >
-                          Business Opportunities
+                          UIUX Design
                         </Link>
                       </li>
                       <li className="nav__item">
                         <Link
-                          href="/LinkedIn-Services"
+                          href="/services/graphicdesign/socal mediadesign"
                           className="nav__item-link"
                         >
-                          LinkedIn Services
-                        </Link>
-                      </li>
-                    </ul>
-                  </li>
-                  <li className="nav__item has-dropdown">
-                    <Link
-                      data-toggle="dropdown"
-                      className="dropdown-toggle nav__item-link"
-                      href="/Network-Partners"
-                    >
-                      Network Partners
-                    </Link>
-                    <ul className="dropdown-menu d-left">
-                      <li className="nav__item">
-                        <Link href="/Sales-Agents" className="nav__item-link">
-                          Sales Agents
-                        </Link>
-                      </li>
-                      <li className="nav__item">
-                        <Link href="/Accountants" className="nav__item-link">
-                          Accountants
-                        </Link>
-                      </li>
-                      <li className="nav__item">
-                        <Link href="/Solicitorsn" className="nav__item-link">
-                          Solicitors
+                          Social Media Design
                         </Link>
                       </li>
                       <li className="nav__item">
                         <Link
-                          href="/Telecommunications"
+                          href="/services/graphicdesign/packagingdesign"
                           className="nav__item-link"
                         >
-                          Telecommunications
+                          Packaging Design
                         </Link>
                       </li>
                       <li className="nav__item">
                         <Link
-                          href="/Video-Production"
+                          href="/services/graphicdesign/coverdesign"
+                          className="nav__item-link"
+                        >
+                          Cover Design
+                        </Link>
+                      </li>
+                      <li className="nav__item">
+                        <Link
+                          href="/services/graphicdesign/videoproduction"
                           className="nav__item-link"
                         >
                           Video Production
@@ -363,60 +263,83 @@ const Header = () => {
                       </li>
                     </ul>
                   </li>
+                  {/* /.nav-item */}
                   <li className="nav__item has-dropdown">
                     <Link
                       data-toggle="dropdown"
                       className="dropdown-toggle nav__item-link"
-                      href="/Recruitment"
+                      href="/services/contentwriting"
                     >
-                      Recruitment Services
+                      Content Writing
                     </Link>
                     <ul className="dropdown-menu d-left">
                       <li className="nav__item">
-                        <Link href="/Salespeople" className="nav__item-link">
-                          Salespeople
+                        <Link
+                          href="/services/contentwriting/ebooks"
+                          className="nav__item-link"
+                        >
+                          E-books
                         </Link>
                       </li>
                       <li className="nav__item">
                         <Link
-                          href="/Technology-Industry"
+                          href="/services/contentwriting/articalmarketing"
                           className="nav__item-link"
                         >
-                          Technology Industry
-                        </Link>
-                      </li>
-                      <li className="nav__item">
-                        <Link href="/Education" className="nav__item-link">
-                          Education
+                          Artical Marketing
                         </Link>
                       </li>
                       <li className="nav__item">
                         <Link
-                          href="/Medical-Healthcare"
+                          href="/services/contentwriting/blogcontent"
                           className="nav__item-link"
                         >
-                          Medical & Healthcare
-                        </Link>
-                      </li>
-                      <li className="nav__item">
-                        <Link href="/Hospitality" className="nav__item-link">
-                          Hospitality
-                        </Link>
-                      </li>
-                      <li className="nav__item">
-                        <Link href="/Finance" className="nav__item-link">
-                          Finance
+                          Blog Content
                         </Link>
                       </li>
                       <li className="nav__item">
                         <Link
-                          href="/Recruitment-services"
+                          href="/services/contentwriting/Businesswebpage"
                           className="nav__item-link"
                         >
-                          Recruitment services
+                          Business Webpage
+                        </Link>
+                      </li>
+                      <li className="nav__item">
+                        <Link
+                          href="/services/contentwriting/marketingcollateral"
+                          className="nav__item-link"
+                        >
+                          Marketing Collateral
+                        </Link>
+                      </li>
+                      <li className="nav__item">
+                        <Link
+                          href="/services/contentwriting/emailmarketingcampagins"
+                          className="nav__item-link"
+                        >
+                          Email Marketing Campagins
                         </Link>
                       </li>
                     </ul>
+                  </li>
+                  <li className="nav__item has-dropdown">
+                    <Link
+                      data-toggle="dropdown"
+                      className="dropdown-toggle nav__item-link"
+                      href="/services/seodigitalmarketing"
+                    >
+                      SEO & Digital Marketing
+                    </Link>
+                  </li>
+                  <li className="nav__item has-dropdown">
+                    <Link
+                      data-toggle="dropdown"
+                      className="dropdown-toggle nav__item-link"
+                      href="/services/appdevelopment"
+                    >
+                      App Development
+                    </Link>
                   </li>
                 </ul>
                 {/* /.dropdown-menu */}

@@ -426,27 +426,19 @@ h6 {
   color: #ffffff;
 }
 
-/* .btn__bordered { 
-  background-color: transparent !important;
-} */
-
-/* .btn__secondary:before { */
-/* background-color: #d7b680 !important; */
-/* color: #063946 !important; */
-/* } */
 .swiper,
-  swiper-container {
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    overflow: hidden;
-    list-style: none;
-    padding: 0;
-    z-index: 1;
-    display: block;
-    /* width: 200pc; */
-    /* height:350px; */
-  }
+swiper-container {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+  display: block;
+  /* width: 200pc; */
+  /* height:350px; */
+}
 @media (min-width: 320px) and (max-width: 767px) {
   .awards .fancybox-item {
     /* height: auto !important; */
@@ -489,3 +481,20 @@ h6 {
     align-items: center;
   }
 } */
+/* .btn__bordered { 
+  background-color: transparent !important;
+} */
+
+/* .btn__secondary:before { */
+/* background-color: #d7b680 !important; */
+/* color: #063946 !important; */
+/* } */
+.btn__secondary.btn__bordered {
+  background-color: transparent !important;
+  border: 2px solid #063946 !important;
+  color: #063946 !important;
+}
+.btn__secondary.btn__bordered:hover {
+  color: #ffffff !important;
+  background-color: #0e2b3d !important;
+}
