@@ -8,11 +8,9 @@ import React from "react";
 const index = () => {
   return (
     <div>
-      <Header />
       <AppDevelopMentComponentHeroSection />
       <AppDevelopmentMainCard />
       <ContactUs />
-      <Footer />
     </div>
   );
 };

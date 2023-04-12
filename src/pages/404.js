@@ -1,11 +1,9 @@
-import Header from '@/components/header/Header'
 import Link from 'next/link'
 import React from 'react'
 
 const ErrorPage = () => {
   return (
     <>
-    <Header />
       <section className="page-404 mt--100 py-0 bg-overlay error-page-bg">
       <div className="container">
         <div className="row">

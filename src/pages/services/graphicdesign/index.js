@@ -13,11 +13,9 @@ const index = () => {
   };
   return (
     <div>
-      <Header />
       <GraphicHeroSection />
       <CommonServices value={value}/>
       <ContactUs />
-      <Footer />
     </div>
   );
 };

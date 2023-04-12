@@ -2,6 +2,7 @@ import { faPlus } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import React from "react";
+import Accordion from "./Accordion";
 
 const PricingFeatures = () => {
   return (
@@ -20,286 +21,77 @@ const PricingFeatures = () => {
         {/* <!-- /.row --> */}
         <div className="row" id="accordion">
           <div className="col-sm-12 col-md-12 col-lg-6">
-            <div className="accordion-item">
-              <div
-                className="accordion__header"
-                data-toggle="collapse"
-                data-target="#collapse1"
-              >
-                <Link className="accordion__title" href="#">
-                  Which Plan Is Right For Me?
-                  <FontAwesomeIcon
-                    className="accordion__title_after"
-                    icon={faPlus}
-                  />
-                </Link>
-              </div>
-              {/* <!-- /.accordion-item-header --> */}
-              <div id="collapse1" className="collapse" data-parent="#accordion">
-                <div className="accordion__body">
-                  <p>
-                    With any financial product that you buy, it is important
+            <Accordion
+              title="Which Plan Is Right For Me?"
+              content="With any financial product that you buy, it is important
                     that you know you are getting the best advice from a
-                    reputable company as often
-                  </p>
-                </div>
-                {/* <!-- /.accordion-item-body --> */}
-              </div>
-            </div>
-            {/* <!-- /.accordion-item --> */}
-            <div className="accordion-item">
-              <div
-                className="accordion__header"
-                data-toggle="collapse"
-                data-target="#collapse2"
-              >
-                <Link className="accordion__title" href="#">
-                  Do I have to commit to a contract?
-                  <FontAwesomeIcon
-                    className="accordion__title_after"
-                    icon={faPlus}
-                  />
-                </Link>
-              </div>
-              {/* <!-- /.accordion-item-header --> */}
-              <div id="collapse2" className="collapse" data-parent="#accordion">
-                <div className="accordion__body">
-                  <p>
-                    With any financial product that you buy, it is important
+                    reputable company as often"
+            />
+
+            <Accordion
+              title="Do I have to commit to a contract?
+"
+              content=" With any financial product that you buy, it is important
                     that you know you are getting the best advice from a
-                    reputable company as often
-                  </p>
-                </div>
-                {/* <!-- /.accordion-item-body --> */}
-              </div>
-            </div>
-            {/* <!-- /.accordion-item --> */}
-            <div className="accordion-item opened">
-              <div
-                className="accordion__header"
-                data-toggle="collapse"
-                data-target="#collapse3"
-              >
-                <Link className="accordion__title" href="#">
-                  What Payment Methods Are Available?
-                  <FontAwesomeIcon
-                    className="accordion__title_after"
-                    icon={faPlus}
-                  />
-                </Link>
-              </div>
-              {/* <!-- /.accordion-item-header --> */}
-              <div
-                id="collapse3"
-                className="collapse show"
-                data-parent="#accordion"
-              >
-                <div className="accordion__body">
-                  <p>
-                    With any financial product that you buy, it is important
+                    reputable company as often"
+            />
+
+            <Accordion
+              title="What Payment Methods Are Available?"
+              content=" With any financial product that you buy, it is important
                     that you know you are getting the best advice from a
-                    reputable company as often
-                  </p>
-                </div>
-                {/* <!-- /.accordion-item-body --> */}
-              </div>
-            </div>
-            {/* <!-- /.accordion-item --> */}
-            <div className="accordion-item">
-              <div
-                className="accordion__header"
-                data-toggle="collapse"
-                data-target="#collapse4"
-              >
-                <Link className="accordion__title" href="#">
-                  What if I pick the wrong plan?
-                  <FontAwesomeIcon
-                    className="accordion__title_after"
-                    icon={faPlus}
-                  />
-                </Link>
-              </div>
-              {/* <!-- /.accordion-item-header --> */}
-              <div id="collapse4" className="collapse" data-parent="#accordion">
-                <div className="accordion__body">
-                  <p>
-                    With any financial product that you buy, it is important
+                    reputable company as often"
+            />
+            <Accordion
+              title="What if I pick the wrong plan?"
+              content="With any financial product that you buy, it is important
                     that you know you are getting the best advice from a
-                    reputable company as often
-                  </p>
-                </div>
-                {/* <!-- /.accordion-item-body --> */}
-              </div>
-            </div>
-            {/* <!-- /.accordion-item --> */}
-            <div className="accordion-item">
-              <div
-                className="accordion__header"
-                data-toggle="collapse"
-                data-target="#collapse5"
-              >
-                <Link className="accordion__title" href="#">
-                  Any contracts or commitments?
-                  <FontAwesomeIcon
-                    className="accordion__title_after"
-                    icon={faPlus}
-                  />
-                </Link>
-              </div>
-              {/* <!-- /.accordion-item-header --> */}
-              <div id="collapse5" className="collapse" data-parent="#accordion">
-                <div className="accordion__body">
-                  <p>
-                    With any financial product that you buy, it is important
+                    reputable company as often"
+            />
+            <Accordion
+              title="Any contracts or commitments?"
+              content="With any financial product that you buy, it is important
                     that you know you are getting the best advice from a
-                    reputable company as often
-                  </p>
-                </div>
-                {/* <!-- /.accordion-item-body --> */}
-              </div>
-            </div>
-            {/* <!-- /.accordion-item --> */}
+                    reputable company as often"
+            />
           </div>
           {/* <!-- /.col-lg-6 --> */}
           <div className="col-sm-12 col-md-12 col-lg-6">
-            <div className="accordion-item">
-              <div
-                className="accordion__header"
-                data-toggle="collapse"
-                data-target="#collapse6"
-              >
-                <Link className="accordion__title" href="#">
-                  What are my payment options?
-                  <FontAwesomeIcon
-                    className="accordion__title_after"
-                    icon={faPlus}
-                  />
-                </Link>
-              </div>
-              {/* <!-- /.accordion-item-header --> */}
-              <div id="collapse6" className="collapse" data-parent="#accordion">
-                <div className="accordion__body">
-                  <p>
-                    With any financial product that you buy, it is important
+            <Accordion
+              title=" What are my payment options?"
+              content=" With any financial product that you buy, it is important
                     that you know you are getting the best advice from a
-                    reputable company as often
-                  </p>
-                </div>
-                {/* <!-- /.accordion-item-body --> */}
-              </div>
-            </div>
+                    reputable company as often"
+            />
             {/* <!-- /.accordion-item --> */}
-            <div className="accordion-item">
-              <div
-                className="accordion__header"
-                data-toggle="collapse"
-                data-target="#collapse7"
-              >
-                <Link className="accordion__title" href="#">
-                  How does the free trial work?
-                  <FontAwesomeIcon
-                    className="accordion__title_after"
-                    icon={faPlus}
-                  />
-                </Link>
-              </div>
-              {/* <!-- /.accordion-item-header --> */}
-              <div id="collapse7" className="collapse" data-parent="#accordion">
-                <div className="accordion__body">
-                  <p>
-                    With any financial product that you buy, it is important
+            <Accordion
+              title="How does the free trial work?"
+              content=" With any financial product that you buy, it is important
                     that you know you are getting the best advice from a
-                    reputable company as often
-                  </p>
-                </div>
-                {/* <!-- /.accordion-item-body --> */}
-              </div>
-            </div>
+                    reputable company as often"
+            />
             {/* <!-- /.accordion-item --> */}
-            <div className="accordion-item">
-              <div
-                className="accordion__header"
-                data-toggle="collapse"
-                data-target="#collapse8"
-              >
-                <Link className="accordion__title" href="#">
-                  What Payment Methods Are Available?
-                  <FontAwesomeIcon
-                    className="accordion__title_after"
-                    icon={faPlus}
-                  />
-                </Link>
-              </div>
-              {/* <!-- /.accordion-item-header --> */}
-              <div id="collapse8" className="collapse" data-parent="#accordion">
-                <div className="accordion__body">
-                  <p>
-                    With any financial product that you buy, it is important
+            <Accordion
+              title="What Payment Methods Are Available?"
+              content="With any financial product that you buy, it is important
                     that you know you are getting the best advice from a
-                    reputable company as often
-                  </p>
-                </div>
-                {/* <!-- /.accordion-item-body --> */}
-              </div>
-            </div>
+                    reputable company as often"
+            />
             {/* <!-- /.accordion-item --> */}
-            <div className="accordion-item">
-              <div
-                className="accordion__header"
-                data-toggle="collapse"
-                data-target="#collapse9"
-              >
-                <Link className="accordion__title" href="#">
-                  How does the free trial work?
-                  <FontAwesomeIcon
-                    className="accordion__title_after"
-                    icon={faPlus}
-                  />
-                </Link>
-              </div>
-              {/* <!-- /.accordion-item-header --> */}
-              <div id="collapse9" className="collapse" data-parent="#accordion">
-                <div className="accordion__body">
-                  <p>
-                    With any financial product that you buy, it is important
+            <Accordion
+              title="How does the free trial work?"
+              content="With any financial product that you buy, it is important
                     that you know you are getting the best advice from a
-                    reputable company as often
-                  </p>
-                </div>
-                {/* <!-- /.accordion-item-body --> */}
-              </div>
-            </div>
+                    reputable company as often"
+            />
             {/* <!-- /.accordion-item --> */}
-            <div className="accordion-item opened">
-              <div
-                className="accordion__header"
-                data-toggle="collapse"
-                data-target="#collapse10"
-              >
-                <Link className="accordion__title" href="#">
-                  If I have questions, where can I find answers?{" "}
-                  <FontAwesomeIcon
-                    className="accordion__title_after"
-                    icon={faPlus}
-                  />
-                </Link>
-              </div>
-              {/* <!-- /.accordion-item-header --> */}
-              <div
-                id="collapse10"
-                className="collapse show"
-                data-parent="#accordion"
-              >
-                <div className="accordion__body">
-                  <p>
-                    With any financial product that you buy, it is important
+            <Accordion
+              title="If I have questions, where can I find answers?"
+              content="With any financial product that you buy, it is important
                     that you know you are getting the best advice from a
-                    reputable company as often
-                  </p>
-                </div>
-                {/* <!-- /.accordion-item-body --> */}
-              </div>
-            </div>
+                    reputable company as often"
+            />
+
             {/* <!-- /.accordion-item --> */}
           </div>
           {/* <!-- /.col-lg-6 --> */}

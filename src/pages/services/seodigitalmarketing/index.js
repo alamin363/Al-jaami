@@ -8,11 +8,9 @@ import React from 'react'
 const SeoDigitalmarketing = () => {
   return (
     <div>
-    <Header />
       <SeoDigitalmarketingHeader />
       <SeoMainComponent />
       <ContactUs />
-      <Footer />
     </div>
   )
 }

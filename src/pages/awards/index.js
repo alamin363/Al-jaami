@@ -9,12 +9,10 @@ import React from "react";
 const index = () => {
   return (
     <>
-      <Header />
       <HeroSection />
       <SecondaryNav />
       <Awards />
       <BannerLayout />
-      <Footer />
     </>
   );
 };

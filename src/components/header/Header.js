@@ -7,12 +7,14 @@ import Image from "next/image";
 import { useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
-
+import { useRouter } from "next/router";
 const Header = () => {
   const [DisplayScroll, setDisplayScroll] = useState(false);
-  const [toggle, setToggle] = useState(false);
+  const [toggle, setToggle] = useState(true);
   const [windowSize, setWindowSize] = useState(getWindowSize());
-
+  const [hidelogin, setHidelogin] = useState(false);
+  const [QuoteHide, setQuote] = useState(false);
+  const router = useRouter();
   useEffect(() => {
     const handleScrollDisplay = () => {
       if (windowSize.innerWidth >= 992) {
@@ -24,7 +26,20 @@ const Header = () => {
       window.removeEventListener("scroll", handleScrollDisplay);
     };
   }, []);
+  // hide login and quote in conditional
 
+useEffect(() => {
+  switch (router.pathname) {
+    case "/":
+      setQuote(false);
+      setHidelogin(true);
+      break;
+    default:
+      setQuote(true);
+      setHidelogin(false);
+      break;
+  }
+},[router.pathname])
   function getWindowSize() {
     if (typeof window !== "undefined") {
       const { innerWidth, innerHeight } = window;
@@ -32,7 +47,7 @@ const Header = () => {
     }
   }
   const handelMenu = () => {
-    setToggle(!toggle);
+    setToggle((Pre) => !Pre);
   };
 
   return (
@@ -89,14 +104,14 @@ const Header = () => {
                 </Link>
               </li>
               <li className="nav__item  has-dropdown">
-                <i class="fa-solid fa-angle-down"></i>
+                {/* <i class="fa-solid fa-angle-down"></i> */}
                 <p
                   data-toggle="dropdown"
                   className="dropdown-toggle nav__item-link iconFlex"
                 >
                   Company
                   <FontAwesomeIcon
-                    style={{ fontSize: 20, marginLeft: 5 }}
+                    style={{ fontSize: 20, marginLeft: 5, marginTop: "10px" }}
                     icon={faAngleDown}
                   />
                 </p>
@@ -355,11 +370,15 @@ const Header = () => {
             {/* /.navbar-nav */}
           </div>
           {/* /.navbar-collapse */}
-          <ul className="navbar-actions list-unstyled mb-0 d-flex align-items-center">
-            <li>
+          <ul className="navbar-actions list-unstyled mb-0 d-sm-none d-xl-flex align-items-center">
+            <li className={`${QuoteHide ? "d-none" : "d-block"}`}>
               <Link className="btn action__btn-contact" href="/quote">
-                {/* <i className="icon-user mr-2" /> */}
                 <span>Request A Quote</span>
+              </Link>
+            </li>
+            <li className={`${hidelogin ? "d-none" : "d-block"}`}>
+              <Link className="btn action__btn-contact" href="/login">
+                <span>Login</span>
               </Link>
             </li>
           </ul>
