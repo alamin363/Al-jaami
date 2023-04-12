@@ -6,11 +6,16 @@ import ContactUs from "@/components/servicesComponent/ContactUs";
 import React from "react";
 
 const ContentWriting = () => {
+  let value = {
+    webDeveloper: false,
+    graphicDesign: false,
+    contentWriting: true,
+  };
   return (
     <div>
       <Header />
       <ContentWritingHeroSection />
-      <CommonServices />
+      <CommonServices value={value}/>
       <ContactUs />
       <Footer />
     </div>

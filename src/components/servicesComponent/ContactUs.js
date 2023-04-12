@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const ContactUs = () => {
@@ -11,9 +12,9 @@ const ContactUs = () => {
             </h2>
           </div>
           <div className="col-lg-3  col-sm-4 col-md-3 text-right">
-            <a className="common_btn" href="contact.html">
+            <Link className="common_btn" href="/contact">
               <span>Contact with us</span>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

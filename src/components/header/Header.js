@@ -132,7 +132,7 @@ const Header = () => {
               {/* /.nav-item */}
               <li className="nav__item  has-dropdown">
                 <Link
-                  href="/services"
+                  href="/"
                   data-toggle="dropdown"
                   className="dropdown-toggle nav__item-link iconFlex"
                 >
@@ -346,7 +346,7 @@ const Header = () => {
               </li>
 
               <li className="nav__item">
-                <Link href="/contact-us" className="nav__item-link">
+                <Link href="/contact" className="nav__item-link">
                   Contacts
                 </Link>
               </li>
@@ -357,10 +357,10 @@ const Header = () => {
           {/* /.navbar-collapse */}
           <ul className="navbar-actions list-unstyled mb-0 d-flex align-items-center">
             <li>
-              <a className="btn action__btn-contact" href="">
-                <i className="icon-user mr-2" />
-                <span>Login</span>
-              </a>
+              <Link className="btn action__btn-contact" href="/quote">
+                {/* <i className="icon-user mr-2" /> */}
+                <span>Request A Quote</span>
+              </Link>
             </li>
           </ul>
           {/* /.navbar-actions */}

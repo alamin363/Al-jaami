@@ -1,7 +1,7 @@
 import Link from "next/link";
 import aboutImg from "../../assets/images/about/1.jpg";
 import Image from "next/image";
-import AnimatedSlider from "../AnimationSlider";
+import AnimatedSlider from "../AnimationSlider/AnimatedSlider";
 const About = () => {
   return (
     <div>

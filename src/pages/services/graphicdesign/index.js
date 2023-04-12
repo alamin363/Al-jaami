@@ -6,11 +6,16 @@ import ContactUs from "@/components/servicesComponent/ContactUs";
 import React from "react";
 
 const index = () => {
+  let value = {
+    webDeveloper: false,
+    graphicDesign: true,
+    contentWriting: false,
+  };
   return (
     <div>
       <Header />
       <GraphicHeroSection />
-      <CommonServices />
+      <CommonServices value={value}/>
       <ContactUs />
       <Footer />
     </div>

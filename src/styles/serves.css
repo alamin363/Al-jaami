@@ -298,3 +298,24 @@
   background-position: center center;
   background-repeat: no-repeat;
 }
+.contact-common-header-bg {
+  background-blend-mode: overlay;
+  background-image: url("https://media.istockphoto.com/id/184876722/photo/red-phone.jpg?s=612x612&w=0&k=20&c=d9QrsMWdHZv_8nDiSgDYYcz4Gi4I7rdsdyqLoAiGKC0=");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.error-page-bg {
+  background-blend-mode: overlay;
+  background-image: url("../assets/images/banners/2.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.bg-main-services-pages {
+  background-blend-mode: overlay;
+  background-image: url("https://images.pexels.com/photos/2058128/pexels-photo-2058128.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}

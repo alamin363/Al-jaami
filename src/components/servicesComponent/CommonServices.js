@@ -1,10 +1,10 @@
 import Image from "next/image";
 import { useState } from "react";
 
-const CommonServices = () => {
-  const [webDevelopment, setWebDevelopment] = useState(true);
-  const [graphics, setGraphics] = useState(false);
-  const [seo, setSeo] = useState(false);
+const CommonServices = ({value}) => {
+  const [webDevelopment, setWebDevelopment] = useState(value.webDeveloper);
+  const [graphics, setGraphics] = useState(value.graphicDesign);
+  const [seo, setSeo] = useState(value.contentWriting);
 
   return (
     <section className="service">

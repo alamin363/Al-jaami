@@ -360,6 +360,20 @@ section.page-title.page-title-layout9.bg-overlay.bg-overlay-gradient.bg-parallax
   background-position: center center;
   background-repeat: no-repeat;
 }
+.quoter-bg-header {
+  background-blend-mode: overlay;
+  background-image: url("https://images.pexels.com/photos/374074/pexels-photo-374074.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.quote-Banneralyout-bg {
+  background-blend-mode: overlay;
+  background-image: url("../assets/images/banners/8.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
 .awards .fancybox-item {
   border-radius: 5px;
   height: 500px !important;
@@ -497,4 +511,38 @@ swiper-container {
 .btn__secondary.btn__bordered:hover {
   color: #ffffff !important;
   background-color: #0e2b3d !important;
+}
+.accordion__title:after {
+  position: absolute;
+  right: 0;
+  top: 0;
+  content: "" !important;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  background-color: transparent;
+  color: #03182d;
+  font-size: 10px;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 3px;
+}
+
+.accordion__title_after{
+  position: absolute;
+  right: 0;
+  top: 0;
+  content: "";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  background-color: transparent;
+  color: #03182d;
+  font-size: 10px;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 3px;
+  
 }
