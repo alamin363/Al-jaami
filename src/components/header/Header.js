@@ -8,12 +8,14 @@ import { useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import { useRouter } from "next/router";
+import Login from "../LoginRegisterModal/LoginRegisterModal";
 const Header = () => {
   const [DisplayScroll, setDisplayScroll] = useState(false);
   const [toggle, setToggle] = useState(true);
   const [windowSize, setWindowSize] = useState(getWindowSize());
   const [hidelogin, setHidelogin] = useState(false);
   const [QuoteHide, setQuote] = useState(false);
+  const [modalopen, setModalOpen] = useState(false);
   const router = useRouter();
   useEffect(() => {
     const handleScrollDisplay = () => {
@@ -27,19 +29,19 @@ const Header = () => {
     };
   }, []);
   // hide login and quote in conditional
-
-useEffect(() => {
-  switch (router.pathname) {
-    case "/":
-      setQuote(false);
-      setHidelogin(true);
-      break;
-    default:
-      setQuote(true);
-      setHidelogin(false);
-      break;
-  }
-},[router.pathname])
+  console.log(modalopen);
+  useEffect(() => {
+    switch (router.pathname) {
+      case "/":
+        setQuote(true);
+        setHidelogin(false);
+        break;
+      default:
+        setQuote(false);
+        setHidelogin(true);
+        break;
+    }
+  }, [router.pathname]);
   function getWindowSize() {
     if (typeof window !== "undefined") {
       const { innerWidth, innerHeight } = window;
@@ -52,6 +54,7 @@ useEffect(() => {
 
   return (
     <header className="header header-transparent">
+      {modalopen && <Login modalopen={modalopen} setModalOpen={setModalOpen} />}
       <nav
         className={
           DisplayScroll
@@ -377,9 +380,12 @@ useEffect(() => {
               </Link>
             </li>
             <li className={`${hidelogin ? "d-none" : "d-block"}`}>
-              <Link className="btn action__btn-contact" href="/login">
+              <button
+                onClick={() => setModalOpen((Pre) => !Pre)}
+                className="btn action__btn-contact"
+              >
                 <span>Login</span>
-              </Link>
+              </button>
             </li>
           </ul>
           {/* /.navbar-actions */}

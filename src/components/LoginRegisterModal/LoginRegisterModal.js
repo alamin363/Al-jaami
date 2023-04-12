@@ -1,7 +1,7 @@
 import Loader from "@/components/Loader/Loader";
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
-const Login = () => {
+const Login = ({ modalopen, setModalOpen }) => {
   const [open, setOpen] = useState({
     login: true,
     register: false,
@@ -9,22 +9,28 @@ const Login = () => {
   // get the path name
   const router = useRouter();
 
-  const onOpenLogin = (e) => {
-    e.preventDefault();
+  const onOpenLogin = () => {
     setOpen({
       login: true,
       register: false,
     });
   };
+ 
   // // Register
-  const onOpenRegister = (e) => {
-    e.preventDefault();
+  const onOpenRegister = () => {
     setOpen({
       login: false,
       register: true,
     });
   };
-  
+  useEffect(() => {
+  //   if (router.pathname == "/login") {
+  //     onOpenLogin();
+  //   }
+  if (modalopen) {
+    onOpenLogin();
+  }
+  }, []);
 
   return (
     <div>
@@ -33,7 +39,7 @@ const Login = () => {
         id="login-popup"
       >
         <div className="login-popup-wrapper">
-          <form className="login-popup__form" onSubmit={onOpenLogin}>
+          <form className="login-popup__form">
             <h3 className="login-popup__title">Login!</h3>
             <p className="login-popup__desc">
               Connect, organize and get things done to keep your IT business
@@ -90,11 +96,11 @@ const Login = () => {
       </div>
       {/* register */}
       <div
-        className={`login-popup ${open.register ? "inActive" : "inActive"}`}
+        className={`login-popup ${open.register ? "active" : "inActive"}`}
         id="register-popup"
       >
         <div className="login-popup-wrapper">
-          <form className="login-popup__form" onSubmit={onOpenRegister}>
+          <form className="login-popup__form">
             <h3 className="login-popup__title">Register!</h3>
             <p className="login-popup__desc">
               Connect, organize and get things done to keep your IT business
