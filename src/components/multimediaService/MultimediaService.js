@@ -1,5 +1,8 @@
+import { faBriefcase, faBuilding, faBurger, faCar, faCity, faCouch, faEarthAsia, faGraduationCap, faGuitar, faHandHoldingDollar, faHome, faHotel, faLaptopCode, faPersonWalking, faPhotoFilm, faPills, faPizzaSlice, faPodcast, faTowerCell, faUserDoctor } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const MultimediaService = () => {
+
   return (
     <section
       className="multimedia-service-section light-mode"
@@ -15,127 +18,132 @@ const MultimediaService = () => {
           <div className="multimedia-service-list">
             <div className="single-list">
               <div className="service-icon fa-home">
-                
+                 <FontAwesomeIcon icon={faHome} />
               </div>
               <span className="title">Finance &amp; Banking</span>
             </div>
             <div className="single-list">
               <div className="service-icon">
+              <FontAwesomeIcon icon={faBuilding} />
           <i className="fa fa-facebook"></i>
               </div>
               <span className="title">E-commerce</span>
             </div>
             <div className="single-list">
               <div className="service-icon">
-                <i className="fas fa-broadcast-tower"></i>
+              <FontAwesomeIcon icon={faTowerCell} />
               </div>
               <span className="title">Telco</span>
             </div>
             <div className="single-list">
               <div className="service-icon">
-                <i className="fas fa-city"></i>
+
+                <FontAwesomeIcon icon={faCity} />
               </div>
               <span className="title">Real Estate</span>
             </div>
             <div className="single-list">
               <div className="service-icon">
-                <i className="fas fa-laptop-code"></i>
+              <FontAwesomeIcon icon={faLaptopCode} />
               </div>
               <span className="title">Software</span>
             </div>
             <div className="single-list">
               <div className="service-icon">
-                <i className="fas fa-walking"></i>
+              <FontAwesomeIcon icon={faPersonWalking} />
               </div>
               <span className="title">Health &amp; Fitness</span>
             </div>
             <div className="single-list">
               <div className="service-icon">
-                <i className="	fas fa-pizza-slice"></i>
+
+                <FontAwesomeIcon icon={faPizzaSlice} />
               </div>
               <span className="title">Food &amp; Drink</span>
             </div>
             <div className="single-list">
               <div className="service-icon">
-                <i className="	fas fa-guitar"></i>
+              <FontAwesomeIcon icon={faGuitar} />
               </div>
               <span className="title">Music</span>
             </div>
             <div className="single-list">
               <div className="service-icon">
-                <i className="	fas fa-user-md"></i>
+              <FontAwesomeIcon icon={faUserDoctor} />
               </div>
               <span className="title">Medical</span>
             </div>
             <div className="single-list">
               <div className="service-icon">
-                <i className="fas fa-pills"></i>
+
+                <FontAwesomeIcon icon={faPills} />
               </div>
               <span className="title">Pharmaceutical</span>
             </div>
             <div className="single-list">
               <div className="service-icon">
-                <i className="fas fa-car-alt"></i>
+              <FontAwesomeIcon icon={faCar} />
               </div>
               <span className="title">Automotive</span>
             </div>
             <div className="single-list">
               <div className="service-icon">
-                <i className="fas fa-graduation-cap"></i>
+              <FontAwesomeIcon icon={faGraduationCap} />
               </div>
               <span className="title">Education</span>
             </div>
             <div className="single-list">
               <div className="service-icon">
-                <i className="fas fa-globe-asia"></i>
+                
+              <FontAwesomeIcon icon={faEarthAsia} />
               </div>
               <span className="title">Travel</span>
             </div>
             <div className="single-list">
               <div className="service-icon">
-                <i className="fas fa-hamburger"></i>
+              <FontAwesomeIcon icon={faBurger} />
               </div>
               <span className="title">Entertainment</span>
             </div>
             <div className="single-list">
               <div className="service-icon">
-                <i className="fas fa-hotel"></i>
+              <FontAwesomeIcon icon={faHotel} />
               </div>
               <span className="title">Retail</span>
             </div>
             <div className="single-list">
               <div className="service-icon">
-                <i className="fas fa-briefcase"></i>
+              <FontAwesomeIcon icon={faBriefcase} />
               </div>
               <span className="title">Business</span>
             </div>
             <div className="single-list">
               <div className="service-icon">
-                <i className="fas fa-photo-video"></i>
+              <FontAwesomeIcon icon={faPhotoFilm} />
               </div>
               <span className="title">Photo &amp; Video</span>
             </div>
             <div className="single-list">
               <div className="service-icon">
-                <i className="fas fa-hand-holding-usd"></i>
+              <FontAwesomeIcon icon={faHandHoldingDollar} />
               </div>
               <span className="title">Non-Profit</span>
             </div>
             <div className="single-list">
               <div className="service-icon">
-                <i className="	fa fa-podcast"></i>
+              <FontAwesomeIcon icon={faPodcast} />
               </div>
               <span className="title">Startup</span>
             </div>
             <div className="single-list">
               <div className="service-icon">
-                <i className="fas fa-turntable"></i>
+              <FontAwesomeIcon icon="fa-sharp fa-solid fa-turntable" />
               </div>
               <span className="title">AR/VR</span>
             </div>
             <div className="single-list">
               <div className="service-icon">
-                <i className="fas fa-couch"></i>
+              <FontAwesomeIcon icon={faCouch} />
               </div>
               <span className="title">Furniture</span>
             </div>

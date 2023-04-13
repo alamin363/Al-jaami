@@ -4,7 +4,7 @@ import aboutbannere from "../../assets/images/about/aboutbannere.webp";
 import Student from "../../assets/images/about/student-849822__180.jpg";
 import Image from "next/image";
 import MiniSlider from "./MiniSlider";
-
+import Pdf from "../PDF/Pdf";
 const AboutBannerLayout = () => {
   const styling = {
     backgroundImage: `url('${aboutbannere}')`,
@@ -93,7 +93,6 @@ const AboutBannerLayout = () => {
                     target="_blank"
                     className="btn btn__white btn__bordered btn__xl btn__icon"
                   >
-                  <iframe src="" frameborder="0"></iframe>
                     <span>Download Brochure</span>
                     <i className="icon-arrow-right"></i>
                   </a>

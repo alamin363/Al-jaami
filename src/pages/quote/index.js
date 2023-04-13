@@ -2,10 +2,12 @@ import PricingFeatures from "@/components/QuoteComponents/PricingFeatures";
 import QuoteAbout from "@/components/QuoteComponents/QuoteAbout";
 import QuoteBannerLayout from "@/components/QuoteComponents/QuoteBennerLayout";
 import QuoteHeader from "@/components/QuoteComponents/QuoteHeader";
+import Header from "@/components/header/Header";
 
 const index = () => {
   return (
     <>
+    <Header />
       <QuoteHeader />
       <QuoteAbout />
       <QuoteBannerLayout />

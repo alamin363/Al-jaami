@@ -66,8 +66,17 @@
     margin-left: 50px;
   }
 } */
-.slick-dots {
+/* .slick-dots {
   display: none !important;
+} */
+
+/* SLICK__DOT_STYLED */
+.slick-dots li button{
+  display: none !important;
+}
+.slick-dots li {
+  width: 0 !important;
+  height: 0 !important;
 }
 .navbar .nav__item.has-dropdown > .nav__item-link {
 

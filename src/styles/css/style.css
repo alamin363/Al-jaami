@@ -3911,7 +3911,7 @@ section>.fw-container-fluid.rull-container {
 }
 .multimedia-service-section .single-list:hover{ 
   background-color: #d7b680;
-  border: 2px solid rgba(255, 255, 255, 0.8);
+  outline: 2px solid rgba(255, 255, 255, 0.8);
   border-radius: 10px;
   box-shadow: 0 2rem 3rem rgb(255 255 255 / 15%);
   color: #063946;

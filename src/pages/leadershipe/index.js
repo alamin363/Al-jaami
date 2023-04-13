@@ -7,6 +7,7 @@ import Header from "@/components/header/Header";
 const index = () => {
   return (
     <div>
+    <Header />
       <Banner />
       <SecondaryNav />
       <ContentLeader />

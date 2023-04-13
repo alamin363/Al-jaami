@@ -24,7 +24,7 @@ const MiniSlider = () => {
     //       <div className="slick-carousel">
             
             <Slider {...settings}>
-              <div style={{height:"400px"}} className="fancybox-item">
+              <div style={{height:"400px"}} className="mini-fancybox fancybox-item">
                 <div className="fancybox__icon-img">
                   <Image width="auto" height="auto" src={slide1} alt="icon" />
                 </div>

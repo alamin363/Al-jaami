@@ -7,9 +7,11 @@ import MultimediaService from "@/components/multimediaService/MultimediaService"
 import BannerLayout from "@/components/bannerLayout/BannerLayout";
 
 import Tabs from "@/components/Tabs/Tabs";
+import Header from "@/components/header/Header";
 const Home = () => {
   return (
     <>
+    <Header />
       <Sliders />
       <About />
       <OurServices />

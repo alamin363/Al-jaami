@@ -55,7 +55,6 @@ const Header = () => {
   const handelMenu = () => {
     setToggle((Pre) => !Pre);
   };
-  console.log(openSlideNavItem);
 
   return (
     <header className="header header-transparent">
