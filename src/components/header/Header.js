@@ -85,7 +85,7 @@ const Header = () => {
           </Link>
           <button
             onClick={() => handelMenu()}
-            className="navbar-toggler"
+            className={`navbar-toggler ${toggle ? "" : "actived"}`}
             type="button"
           >
             <span className="menu-lines">
@@ -102,11 +102,7 @@ const Header = () => {
           >
             <ul className="navbar-nav ml-auto">
               <li className="nav__item  has-dropdown">
-                <Link
-                  href="/"
-                  data-toggle="dropdown"
-                  className="nav__item-link active"
-                >
+                <Link href="/" className="nav__item-link active">
                   Home
                 </Link>
               </li>

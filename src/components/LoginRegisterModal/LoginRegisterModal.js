@@ -15,7 +15,7 @@ const Login = ({ modalopen, setModalOpen }) => {
       register: false,
     });
   };
- 
+
   // // Register
   const onOpenRegister = () => {
     setOpen({
@@ -24,12 +24,12 @@ const Login = ({ modalopen, setModalOpen }) => {
     });
   };
   useEffect(() => {
-  //   if (router.pathname == "/login") {
-  //     onOpenLogin();
-  //   }
-  if (modalopen) {
-    onOpenLogin();
-  }
+    //   if (router.pathname == "/login") {
+    //     onOpenLogin();
+    //   }
+    if (modalopen) {
+      onOpenLogin();
+    }
   }, []);
 
   return (
@@ -40,7 +40,15 @@ const Login = ({ modalopen, setModalOpen }) => {
       >
         <div className="login-popup-wrapper">
           <form className="login-popup__form">
-            <h3 className="login-popup__title">Login!</h3>
+            <div className="d-flex justify-content-between">
+              <h3 className="login-popup__title">Login!</h3>
+              <button
+                style={{ padding: "5px 10px", border: "1px solid" }}
+                onClick={() => setModalOpen(false)}
+              >
+                Close
+              </button>
+            </div>
             <p className="login-popup__desc">
               Connect, organize and get things done to keep your IT business
               safe.
@@ -101,7 +109,15 @@ const Login = ({ modalopen, setModalOpen }) => {
       >
         <div className="login-popup-wrapper">
           <form className="login-popup__form">
-            <h3 className="login-popup__title">Register!</h3>
+            <div className="d-flex justify-content-between">
+              <h3 className="login-popup__title">Register!</h3>
+              <button
+                style={{ padding: "5px 10px", border: "1px solid" }}
+                onClick={() => setModalOpen(false)}
+              >
+                Close
+              </button>
+            </div>
             <p className="login-popup__desc">
               Connect, organize and get things done to keep your IT business
               safe.

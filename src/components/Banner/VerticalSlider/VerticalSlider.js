@@ -22,7 +22,7 @@ export default function VerticalSlider() {
         },
       }}
       loop={true}
-      autoplay={true}
+      // autoplay={true}
       modules={[Navigation, Pagination, A11y]}
       spaceBetween={50}
       slidesPerView={3}

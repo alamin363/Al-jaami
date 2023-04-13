@@ -137,7 +137,7 @@ const MultimediaService = () => {
             </div>
             <div className="single-list">
               <div className="service-icon">
-              <FontAwesomeIcon icon="fa-sharp fa-solid fa-turntable" />
+              <FontAwesomeIcon icon={faGraduationCap} />
               </div>
               <span className="title">AR/VR</span>
             </div>

@@ -33,7 +33,7 @@ const BannerSlider = ({ children }) => {
             business through our techniques!
           </p>
 
-          <div style={{ position: "relative" }}>
+          <div className="slider-img-text">
             <div class="testimonial__meta">
               <h4 class="testimonial__meta-title">Ahmed Abdallah</h4>
               <p class="testimonial__meta-desc">Digital Media Manager</p>
@@ -57,7 +57,7 @@ const BannerSlider = ({ children }) => {
             impact, you’ve come to the right place. We will transform your
             business through our techniques!{" "}
           </p>
-          <div style={{ position: "relative" }}>
+          <div className="slider-img-text">
             <div class="testimonial__meta">
               <h4 class="testimonial__meta-title">John Peter</h4>
               <p class="testimonial__meta-desc">7oroof Inc</p>
@@ -122,7 +122,7 @@ const BannerSlider = ({ children }) => {
             impact, you’ve come to the right place. We will transform your
             business through our techniques!{" "}
           </p>
-          <div style={{ position: "relative" }}>
+          <div className="slider-img-text">
             <div class="testimonial__meta">
               <h4 class="testimonial__meta-title">John Peter</h4>
               <p class="testimonial__meta-desc">7oroof Inc</p>
@@ -152,7 +152,7 @@ const BannerSlider = ({ children }) => {
             determination turned it into an awesome and great project which make
             me happy .
           </p>
-          <div style={{ position: "relative" }}>
+          <div className="slider-img-text">
             <div class="testimonial__meta">
               <h4 class="testimonial__meta-title">John Peter</h4>
               <p class="testimonial__meta-desc">7oroof Inc</p>

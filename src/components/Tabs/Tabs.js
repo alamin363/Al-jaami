@@ -146,6 +146,9 @@ const Tabs = () => {
                   </div>
                   <div class="tab-content">
                   {/* <div className="tab-content">{tabs[activeTab].content}</div> */}
+                  {
+                    
+                  }
                   </div>
                 </div>
               </div>

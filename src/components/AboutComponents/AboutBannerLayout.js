@@ -5,6 +5,7 @@ import Student from "../../assets/images/about/student-849822__180.jpg";
 import Image from "next/image";
 import MiniSlider from "./MiniSlider";
 import Pdf from "../PDF/Pdf";
+import VerticalSlider from "../Banner/VerticalSlider/VerticalSlider";
 const AboutBannerLayout = () => {
   const styling = {
     backgroundImage: `url('${aboutbannere}')`,
@@ -220,8 +221,8 @@ const AboutBannerLayout = () => {
                 </div>
               </div>
               {/* carocell */}
-              <MiniSlider />
-
+              {/* <MiniSlider /> */}
+              <VerticalSlider />
               {/* carocell */}
             </section>
           </div>

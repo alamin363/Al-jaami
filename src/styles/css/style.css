@@ -3853,7 +3853,7 @@ section>.fw-container-fluid.rull-container {
   position: relative;
   display: inline-block;
 }
-.technologies .single-row .single-item i {
+.technologies .single-row .single-item svg {
   color: #0a2d43;
     font-size: 75px;
 }
