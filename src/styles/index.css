@@ -564,7 +564,7 @@ swiper-container {
   color: #444;
   cursor: pointer;
   padding: 10px;
-  display: flex;
+  /* display: flex; */
   align-items: center;
   justify-content: space-between;
   border: none;

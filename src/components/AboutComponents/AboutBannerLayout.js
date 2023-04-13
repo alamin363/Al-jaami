@@ -93,6 +93,7 @@ const AboutBannerLayout = () => {
                     target="_blank"
                     className="btn btn__white btn__bordered btn__xl btn__icon"
                   >
+                  <iframe src="" frameborder="0"></iframe>
                     <span>Download Brochure</span>
                     <i className="icon-arrow-right"></i>
                   </a>

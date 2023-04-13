@@ -76,7 +76,7 @@ const Banner = () => {
                     ready to help.
                   </p>
                   <a
-                    href="assets/Broucher.pdf"
+                    href=""
                     target="_blank"
                     class="btn btn__white btn__bordered btn__xl btn__icon"
                   >

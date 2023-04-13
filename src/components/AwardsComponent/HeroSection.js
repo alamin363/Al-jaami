@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const HeroSection = () => {
   return (
         <section
@@ -20,10 +22,10 @@ const HeroSection = () => {
                 <nav>
                   <ol className="breadcrumb justify-content-center mt-30 mb-0">
                     <li className="breadcrumb-item">
-                      <a href="index.html">Home</a>
+                      <Link href="/">Home</Link>
                     </li>
                     <li className="breadcrumb-item">
-                      <a href="about-us.html">Company</a>
+                      <Link href="/aboutus">Company</Link>
                     </li>
                     <li className="breadcrumb-item active" aria-current="page">
                       Awards

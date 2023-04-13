@@ -126,7 +126,7 @@ const ContactFrom = () => {
                 </p>
               </div>
               <Link
-                href="/src/assets/Broucher.pdf"
+                href=""
                 target="_blank"
                 className="btn btn__white btn__bordered btn__icon"
               >
