@@ -12,16 +12,16 @@ import Tab2 from "@/components/Tabs/Tab2";
 const Home = () => {
   return (
     <>
-    <Header />
+      <Header />
       <Sliders />
       <About />
       <OurServices />
       <Features />
       <Banner />
       <MultimediaService />
+      <Tab2 />
       <BannerLayout />
       {/* <Tabs /> */}
-      <Tab2 />
     </>
   );
 };

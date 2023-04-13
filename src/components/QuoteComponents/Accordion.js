@@ -20,6 +20,7 @@ function Accordion(props) {
         <div
           className={`accordion ${active ? "active collapse show" : ""}`}
           onClick={toggleAccordion}
+          style={{ display: "flex", justifyContent: "space-between" }}
         >
           <p className="accordion__title">{props.title}</p>
           <span style={{ marginLeft: "20px" }}>{active ? "-" : "+"}</span>

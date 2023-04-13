@@ -39,7 +39,7 @@ const Sliders = () => {
                         happen.
                       </p>
                       <Link
-                        href="/about_us"
+                        href="/aboutus"
                         className="btn btn__primary btn__icon mr-30"
                       >
                         <span>More About Us</span>
@@ -79,7 +79,7 @@ const Sliders = () => {
                         approach to emerging technology.
                       </p>
                       <Link
-                        href="/"
+                        href="/aboutus"
                         className="btn btn__primary btn__icon mr-30"
                       >
                         <span>More About Us</span>

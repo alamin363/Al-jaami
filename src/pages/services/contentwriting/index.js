@@ -13,6 +13,7 @@ const ContentWriting = () => {
   };
   return (
     <div>
+    <Header />
       <ContentWritingHeroSection />
       <CommonServices value={value}/>
       <ContactUs />

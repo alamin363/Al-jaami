@@ -437,7 +437,7 @@
 @include xs-sm-screens {
     .btn:not(.btn__link) {
         font-size: 13px;
-        min-width: 120px;
+        min-width: 120px !important;
         height: 50px;
         line-height: 50px;
     }
