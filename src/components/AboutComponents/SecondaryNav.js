@@ -1,9 +1,33 @@
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const SecondaryNav = () => {
+  const [DisplayScroll, setDisplayScroll] = useState(false);
+  const [windowSize, setWindowSize] = useState(getWindowSize());
+  useEffect(() => {
+    const handleScrollDisplay = () => {
+      if (windowSize.innerWidth >= 992) {
+        setDisplayScroll(window.scrollY > 450);
+      }
+    };
+    window.addEventListener("scroll", handleScrollDisplay);
+    return () => {
+      window.removeEventListener("scroll", handleScrollDisplay);
+    };
+  }, []);
+
+  function getWindowSize() {
+    if (typeof window !== "undefined") {
+      const { innerWidth, innerHeight } = window;
+      return { innerWidth, innerHeight };
+    }
+  }
   return (
-    <section className="secondary-nav sticky-top py-0">
+    <section
+      className={`secondary-nav sticky-top py-0 ${
+        DisplayScroll && "secondary-nav-sticky"
+      }`}
+    >
       <div className="container">
         <div className="row">
           <div className="col-12">
