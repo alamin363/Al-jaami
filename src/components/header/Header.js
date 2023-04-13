@@ -157,6 +157,11 @@ const Header = () => {
                       Award &amp; Recognition
                     </Link>
                   </li>
+                  <li className="nav__item">
+                    <Link href="/careers" className="nav__item-link">
+                      Careers
+                    </Link>
+                  </li>
                 </ul>
                 {/* /.dropdown-menu */}
               </li>
