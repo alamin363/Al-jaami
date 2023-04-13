@@ -2567,7 +2567,7 @@ input[type=radio] {
 /*----------------------
     Pre Loader
 -----------------------*/
-/* .preloader {
+.preloader {
   position: fixed;
   top: 0;
   left: 0;
@@ -2677,7 +2677,7 @@ input[type=radio] {
     -webkit-transform: scale3D(0, 0, 1);
     transform: scale3D(0, 0, 1);
   }
-} */
+}
 
 /*----------------------------
      Header & Navbar 

@@ -564,7 +564,7 @@ swiper-container {
 }
 
 /* Style the buttons that are used to open and close the accordion panel */
- /* .accordion {
+/* .accordion {
   background-color: #eee;
   color: #444;
   cursor: pointer;
@@ -646,3 +646,7 @@ swiper-container {
   justify-content: space-evenly;
   margin-right: 300px; */
 }
+.client {
+  background-color: rgba(6, 57, 70, 0.8) !important;
+}
+

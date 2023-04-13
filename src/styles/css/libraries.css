@@ -11949,7 +11949,7 @@ screen and (max-height: 300px) {
 /* slick carousel */
 .slick-slider {
   position: relative;
-  display: block;
+  display: block !important;
   box-sizing: border-box;
   -webkit-user-select: none;
   -moz-user-select: none;

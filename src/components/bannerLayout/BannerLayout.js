@@ -3,6 +3,7 @@ import banner8 from "../../assets/images/banners/8.jpg";
 import banrImag from "../../assets/service/images/pexels-photo-3262878.webp";
 import ServicesCarousel from "./bannerSlider/bannerSlider";
 import ClientSlider from "./bannerSlider/clientSlider";
+import AnimatedSlider from "../AnimationSlider/AnimatedSlider";
 const BannerLayout = () => {
   return (
     <section className="banner-layout2 pb-0 bg-overlay bg-overlay-primary">
@@ -32,6 +33,7 @@ const BannerLayout = () => {
             <div className="heading heading-light">
               <h3 className="heading__title mb-30">Our Trusted Clients</h3>
             </div>
+            <AnimatedSlider />
           </div>
           {/* <!-- /.col-xl-6 --> */}
           <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6">
