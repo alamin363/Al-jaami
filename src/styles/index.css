@@ -453,10 +453,11 @@ swiper-container {
   /* width: 200pc; */
   /* height:350px; */
 }
+/* swiper modify */
 @media (min-width: 320px) and (max-width: 767px) {
   .awards .fancybox-item {
-    /* height: auto !important; */
-    width: 500px !important;
+    height: auto;
+    width: 500px;
   }
   .swiper,
   swiper-container {
@@ -468,8 +469,9 @@ swiper-container {
     padding: 0;
     z-index: 1;
     display: block;
-    width: 200pc;
-    height: 300px;
+    width: 100pc;
+    height: 600px;
+    margin-bottom: 20px;
   }
 }
 .btn__link {

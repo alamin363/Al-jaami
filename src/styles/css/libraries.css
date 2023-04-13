@@ -4893,7 +4893,10 @@ input[type="submit"].btn-block {
     padding-right: 0;
     padding-left: 0;
   }
+
 }
+
+
 
 @media (min-width: 576px) {
   .navbar-expand-sm {
@@ -12572,12 +12575,12 @@ button.btn.btn__secondary.btn__block.btn__icon.btn.btn-primary {
 }
 
 .service-item {
-  height: 600px !important;
+  /* height: 600px !important; */
 }
 
 @media (max-width:700px) {
   .service-item {
-    height: 500px !important;
+    /* height: 500px !important; */
   }
   .responsive{
     margin: -20px auto;

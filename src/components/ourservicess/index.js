@@ -30,12 +30,10 @@ const OurServices = () => {
           </div>
         </div>
         {/* <div className="row"> */}
-          {/* <div className="col-12"> */}
-            <div className="slick-carousel">
+            {/* <div className="slick-carousel"> */}
               <ServicesCarousel />
             {/* </div> */}
           {/* </div> */}
-        </div>
         <div class="row">
           <div class="col-12 btn-wrapper btn_Slider_wrapper">
             <Link

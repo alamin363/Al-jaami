@@ -16,6 +16,10 @@ const Header = () => {
   const [hidelogin, setHidelogin] = useState(false);
   const [QuoteHide, setQuote] = useState(false);
   const [modalopen, setModalOpen] = useState(false);
+  const [openSlideNavItem, setOpenSlideItem] = useState({
+    company: false,
+    services: false,
+  });
   const router = useRouter();
   useEffect(() => {
     const handleScrollDisplay = () => {
@@ -28,8 +32,8 @@ const Header = () => {
       window.removeEventListener("scroll", handleScrollDisplay);
     };
   }, []);
+
   // hide login and quote in conditional
-  console.log(modalopen);
   useEffect(() => {
     switch (router.pathname) {
       case "/":
@@ -51,6 +55,7 @@ const Header = () => {
   const handelMenu = () => {
     setToggle((Pre) => !Pre);
   };
+  console.log(openSlideNavItem);
 
   return (
     <header className="header header-transparent">
@@ -109,17 +114,27 @@ const Header = () => {
               <li className="nav__item  has-dropdown">
                 {/* <i class="fa-solid fa-angle-down"></i> */}
                 <p
+                  onClick={() =>
+                    setOpenSlideItem({
+                      company: !openSlideNavItem.company,
+                      services: false,
+                    })
+                  }
                   data-toggle="dropdown"
                   className="dropdown-toggle nav__item-link iconFlex"
                 >
                   Company
                   <FontAwesomeIcon
-                    style={{ fontSize: 20, marginLeft: 5, marginTop: "10px" }}
+                    style={{ fontSize: 15, marginLeft: 5 }}
                     icon={faAngleDown}
                   />
                 </p>
 
-                <ul className="dropdown-menu">
+                <ul
+                  className={`dropdown-menu ${
+                    openSlideNavItem.company && "show"
+                  }`}
+                >
                   <li className="nav__item">
                     <Link href="/aboutus" className="nav__item-link">
                       About Us
@@ -149,18 +164,28 @@ const Header = () => {
 
               {/* /.nav-item */}
               <li className="nav__item  has-dropdown">
-                <Link
+                <p
+                  onClick={() =>
+                    setOpenSlideItem({
+                      company: false,
+                      services: !openSlideNavItem.services,
+                    })
+                  }
                   href="/"
                   data-toggle="dropdown"
                   className="dropdown-toggle nav__item-link iconFlex"
                 >
                   <span>Services</span>
                   <FontAwesomeIcon
-                    style={{ fontSize: 20, marginLeft: 5 }}
+                    style={{ fontSize: 15, marginLeft: 5 }}
                     icon={faAngleDown}
                   />
-                </Link>
-                <ul className="dropdown-menu">
+                </p>
+                <ul
+                  className={`dropdown-menu ${
+                    openSlideNavItem.services && "show"
+                  }`}
+                >
                   {/* /.nav-item */}
                   <li className="nav__item has-dropdown">
                     <Link
