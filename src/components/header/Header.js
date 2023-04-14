@@ -10,12 +10,12 @@ import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import { useRouter } from "next/router";
 import Login from "../LoginRegisterModal/LoginRegisterModal";
 const Header = () => {
-  const [DisplayScroll, setDisplayScroll] = useState(false);
-  const [toggle, setToggle] = useState(true);
-  const [windowSize, setWindowSize] = useState(getWindowSize());
   const [hidelogin, setHidelogin] = useState(false);
-  const [QuoteHide, setQuote] = useState(false);
+  const [DisplayScroll, setDisplayScroll] = useState(false);
   const [modalopen, setModalOpen] = useState(false);
+  const [toggle, setToggle] = useState(false);
+  const [windowSize, setWindowSize] = useState(getWindowSize());
+  const [QuoteHide, setQuote] = useState(false);
   const [openSlideNavItem, setOpenSlideItem] = useState({
     company: false,
     services: false,
@@ -23,7 +23,7 @@ const Header = () => {
   const router = useRouter();
   useEffect(() => {
     const handleScrollDisplay = () => {
-      if (windowSize.innerWidth >= 992) {
+      if (windowSize.innerWidth >= 1080) {
         setDisplayScroll(window.scrollY > 50);
       }
     };
@@ -58,13 +58,15 @@ const Header = () => {
 
   return (
     <header className="header header-transparent">
-      {modalopen && <Login modalopen={modalopen} setModalOpen={setModalOpen} />}
+      {modalopen ? (
+        <Login modalopen={modalopen} setModalOpen={setModalOpen} />
+      ) : (
+        <></>
+      )}
       <nav
-        className={
-          DisplayScroll
-            ? "navbar navbar-expand-lg sticky-navbar is-sticky"
-            : "navbar navbar-expand-lg sticky-navbar"
-        }
+        className={` navbar navbar-expand-lg sticky-navbar ${
+          DisplayScroll ? "is-sticky" : ""
+        }`}
       >
         <div className="container">
           <Link className="navbar-brand" href="/">
@@ -85,7 +87,7 @@ const Header = () => {
           </Link>
           <button
             onClick={() => handelMenu()}
-            className={`navbar-toggler ${toggle ? "" : "actived"}`}
+            className={`navbar-toggler ${toggle ? "actived" : ""}`}
             type="button"
           >
             <span className="menu-lines">
@@ -93,11 +95,9 @@ const Header = () => {
             </span>
           </button>
           <div
-            className={
-              toggle
-                ? "collapse navbar-collapse"
-                : "collapse navbar-collapse menu-opened"
-            }
+            className={`collapse navbar-collapse ${
+              toggle ? "menu-opened" : ""
+            }`}
             id="mainNavigation"
           >
             <ul className="navbar-nav ml-auto">
@@ -127,7 +127,7 @@ const Header = () => {
 
                 <ul
                   className={`dropdown-menu ${
-                    openSlideNavItem.company && "show"
+                    openSlideNavItem.company ? "show" : ""
                   }`}
                 >
                   <li className="nav__item">
@@ -183,7 +183,7 @@ const Header = () => {
                 </p>
                 <ul
                   className={`dropdown-menu ${
-                    openSlideNavItem.services && "show"
+                    openSlideNavItem.services ? "show" : ""
                   }`}
                 >
                   {/* /.nav-item */}
