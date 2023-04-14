@@ -10,7 +10,7 @@ const ErrorPage = () => {
           <div className="col-sm-12 col-md-12 col-lg-12 d-flex justify-content-center align-items-center vh-100">
             <div className="error-wrapper text-center">
               <h1 className="error-code">404</h1>
-              <p className="error__desc">The page requested couldn't be found. This could be a spelling error in the
+              <p className="error__desc">The page requested couldn`t be found. This could be a spelling error in the
                 URL or a removed page.
               </p>
               <Link href="/" className="btn btn__primary btn__icon">
