@@ -2,17 +2,17 @@ import React, { useEffect, useState } from "react";
 
 const Loader = () => {
   return (
-    <div class="preloader">
-      <div class="sk-cube-grid">
-        <span class="sk-cube"></span>
-        <span class="sk-cube"></span>
-        <span class="sk-cube"></span>
-        <span class="sk-cube"></span>
-        <span class="sk-cube"></span>
-        <span class="sk-cube"></span>
-        <span class="sk-cube"></span>
-        <span class="sk-cube"></span>
-        <span class="sk-cube"></span>
+    <div className="preloader">
+      <div className="sk-cube-grid">
+        <span className="sk-cube"></span>
+        <span className="sk-cube"></span>
+        <span className="sk-cube"></span>
+        <span className="sk-cube"></span>
+        <span className="sk-cube"></span>
+        <span className="sk-cube"></span>
+        <span className="sk-cube"></span>
+        <span className="sk-cube"></span>
+        <span className="sk-cube"></span>
       </div>
     </div>
   );

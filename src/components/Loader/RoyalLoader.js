@@ -8,10 +8,10 @@ const RoyalLoader = () => {
     // >
     //   <div className="complete"></div>
     // </div>
-    <div id="royal_preloader" class="royal_preloader">
-      <div class="wrapper">
-        <div class="preloader">
-          <div class="loading">
+    <div id="royal_preloader" className="royal_preloader">
+      <div className="wrapper">
+        <div className="preloader">
+          <div className="loading">
             <span></span>
             <span></span>
             <span></span>

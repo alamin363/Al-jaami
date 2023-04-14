@@ -3,24 +3,24 @@ import banner from "../../assets/images/banners/3.jpg";
 
 const Features = () => {
   return (
-    <section class="features-layout1 pb-0">
-      <div class="features-bg" style={{ backgroundColor: "#063946" }}>
-        <div class="bg-img">
+    <section className="features-layout1 pb-0">
+      <div className="features-bg" style={{ backgroundColor: "#063946" }}>
+        <div className="bg-img">
           {/* <img src="" alt="background" /> */}
         </div>
       </div>
-      <div class="container">
-        <div class="row heading heading-light mb-30">
-          <div class="col-sm-12 col-md-12 col-lg-5">
-            <div class="divider divider-primary mb-20"></div>
-            <h3 class="heading__title">
+      <div className="container">
+        <div className="row heading heading-light mb-30">
+          <div className="col-sm-12 col-md-12 col-lg-5">
+            <div className="divider divider-primary mb-20"></div>
+            <h3 className="heading__title">
               Provides consultative approach on emerging technology.{" "}
             </h3>
           </div>
-          <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-1">
-            <div class="row">
-              <div class="col-sm-6">
-                <p class="heading__desc">
+          <div className="col-sm-12 col-md-12 col-lg-6 offset-lg-1">
+            <div className="row">
+              <div className="col-sm-6">
+                <p className="heading__desc">
                   In today's highly competitive business world, software
                   development is essential. Al jaami technology s main strategy
                   is to be committed. We are committed to our professional
@@ -29,14 +29,14 @@ const Features = () => {
                 </p>
                 <a
                   href="request-quote.html"
-                  class="btn btn__primary btn__primary-style2 btn__icon mt-30 mb-30"
+                  className="btn btn__primary btn__primary-style2 btn__icon mt-30 mb-30"
                 >
                   <span>Request Demo</span>
-                  <i class="icon-arrow-right"></i>
+                  <i className="icon-arrow-right"></i>
                 </a>
               </div>
-              <div class="col-sm-6">
-                <p class="heading__desc">
+              <div className="col-sm-6">
+                <p className="heading__desc">
                   SmartData been helping organizations and Providers through the
                   World to manage their IT with our unique approach to
                   technology management and consultancy solutions.{" "}
@@ -53,13 +53,13 @@ const Features = () => {
               <div className="feature__icon">
                 <i className="icon-software" />
               </div>
-              <h4 class="feature__title">Software Asset</h4>
-              <p class="feature__desc">
+              <h4 className="feature__title">Software Asset</h4>
+              <p className="feature__desc">
                 All aspects of your software assets including purchasing,
                 deployment & maintenance.
               </p>
               <Link href="/" className="btn__link">
-                <i class="icon-arrow-right icon-outlined"></i>
+                <i className="icon-arrow-right icon-outlined"></i>
               </Link>
             </div>
           </div>
@@ -69,8 +69,8 @@ const Features = () => {
               <div className="feature__icon">
                 <i className="icon-dos"> </i>
               </div>
-              <h4 class="feature__title">Privileged Access</h4>
-              <p class="feature__desc">
+              <h4 className="feature__title">Privileged Access</h4>
+              <p className="feature__desc">
                 Extend proven Tech best practices to HR, finance, and other
                 service delivery areas.
               </p>
@@ -83,15 +83,15 @@ const Features = () => {
           <div className="col-sm-6 col-md-6 col-lg-3">
             <div className="feature-item text-center">
               <div className="feature__icon">
-                <i class="icon-operating-system"></i>
+                <i className="icon-operating-system"></i>
               </div>
-              <h4 class="feature__title">Software License</h4>
-              <p class="feature__desc">
+              <h4 className="feature__title">Software License</h4>
+              <p className="feature__desc">
                 Build dynamic request templates with associated workflows, and
                 tasks.
               </p>
               <Link href="/" className="btn__link">
-                <i class="icon-arrow-right icon-outlined"></i>
+                <i className="icon-arrow-right icon-outlined"></i>
               </Link>
             </div>
           </div>
@@ -102,7 +102,7 @@ const Features = () => {
                 <i className="icon-machine-learning" />
               </div>
               <h4 className="feature__title">Enterprise Service</h4>
-              <p class="feature__desc">
+              <p className="feature__desc">
                 Our technology allows you to offer the latest software to your
                 possible customers!
               </p>
@@ -126,8 +126,8 @@ const Features = () => {
                 </div>
               </div>
               <div className="col-sm-8">
-                <p class="read-note__text color-white">
-                  <span class="font-weight-bold text-underlined">
+                <p className="read-note__text color-white">
+                  <span className="font-weight-bold text-underlined">
                     99.9% Customer Satisfaction
                   </span>
                   based on 750+ reviews and 20,000 Objective Resource
@@ -136,16 +136,16 @@ const Features = () => {
             </div>
             <div className="row">
               <div className="col-sm-6">
-                <p class="mb-30 font-weight-bold sub__desc">
+                <p className="mb-30 font-weight-bold sub__desc">
                   As one of the world's largest ITService Providers with over
                   120 engineers and IT support staff are ready to help.
                 </p>
                 <Link
                   href="/request-quote"
-                  class="btn btn__primary btn__bordered btn__icon mb-30"
+                  className="btn btn__primary btn__bordered btn__icon mb-30"
                 >
                   <span>Request Demo</span>
-                  <i class="icon-arrow-right"></i>
+                  <i className="icon-arrow-right"></i>
                 </Link>
               </div>
               <div className="col-sm-6">

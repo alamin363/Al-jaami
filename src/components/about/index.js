@@ -56,7 +56,7 @@ const About = () => {
                 <p className="text__link text-center">Trusted By The World's</p>
                 <Link
                   href="/it-solutions"
-                  class="btn btn__link  btn__underlined"
+                  className="btn btn__link  btn__underlined"
                   style={{ borderBottom: " 2px solid #d7b680" }}
                 >
                   Best Organizations

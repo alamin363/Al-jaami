@@ -2,18 +2,18 @@ import React from "react";
 
 const GraphicHeroSection = () => {
   return (
-    <section class="slider">
+    <section className="slider">
       <div
-        class="slide-item align-v-h bg-overlay bg-overlay-gradient graphicsDesign-common-header-bg"
+        className="slide-item align-v-h bg-overlay bg-overlay-gradient graphicsDesign-common-header-bg"
         style={{
           height: "410px",
           backgroundBlendMode: " multiply",
           backgroundColor: "rgba(6, 57, 70, 0.8)",
         }}
       >
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-12 col-md-12 col-lg-12 col-xl-12">
               <h2
                 style={{
                   fontSize: "54px",

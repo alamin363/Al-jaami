@@ -8,37 +8,37 @@ import telework from "../../assets/images/history/telework-6795505__340.jpg";
 import AboutSlider from "./AboutSlider";
 const History = () => {
   return (
-    <section class="history-timeline pb-0">
+    <section className="history-timeline pb-0">
       <div
-        class="history-timeline-bg"
+        className="history-timeline-bg"
         style={{ backgroundColor: "rgb(6, 57, 70)" }}
       >
-        <div class="bg-img"></div>
+        <div className="bg-img"></div>
       </div>
-      <div class="container">
-        <div class="row heading mb-50">
-          <div class="col-sm-12 col-md-12 col-lg-6">
-            <div class="d-flex align-items-center mb-20">
-              <div class="divider divider-primary mr-30"></div>
-              <h2 class="heading__subtitle mb-0">
+      <div className="container">
+        <div className="row heading mb-50">
+          <div className="col-sm-12 col-md-12 col-lg-6">
+            <div className="d-flex align-items-center mb-20">
+              <div className="divider divider-primary mr-30"></div>
+              <h2 className="heading__subtitle mb-0">
                 Explore Our Great History!!
               </h2>
             </div>
           </div>
-          <div class="col-sm-12 col-md-12 col-lg-6">
-            <h3 class="heading__title color-white">
+          <div className="col-sm-12 col-md-12 col-lg-6">
+            <h3 className="heading__title color-white">
               One of the world's largest IT Providers since 2005.
             </h3>
           </div>
         </div>
       </div>
-      <div class="position-relative">
-        <div class="timeline-bar">
-          <div class="container d-flex">
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
+      <div className="position-relative">
+        <div className="timeline-bar">
+          <div className="container d-flex">
+            <div className="col"></div>
+            <div className="col"></div>
+            <div className="col"></div>
+            <div className="col"></div>
           </div>
         </div>
 
@@ -46,44 +46,44 @@ const History = () => {
         <AboutSlider />
         {/* slider */}
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-6 d-flex flex-column justify-content-between">
-            <div class="row row-no-gutter read-note">
-              <div class="col-sm-4">
-                <div class="rating mb-10">
-                  <i class="fas fa-star color-primary"></i>
-                  <i class="fas fa-star color-primary"></i>
-                  <i class="fas fa-star color-primary"></i>
-                  <i class="fas fa-star color-primary"></i>
-                  <i class="fas fa-star color-primary"></i>
+      <div className="container">
+        <div className="row">
+          <div className="col-sm-12 col-md-12 col-lg-6 d-flex flex-column justify-content-between">
+            <div className="row row-no-gutter read-note">
+              <div className="col-sm-4">
+                <div className="rating mb-10">
+                  <i className="fas fa-star color-primary"></i>
+                  <i className="fas fa-star color-primary"></i>
+                  <i className="fas fa-star color-primary"></i>
+                  <i className="fas fa-star color-primary"></i>
+                  <i className="fas fa-star color-primary"></i>
                 </div>
               </div>
-              <div class="col-sm-8">
-                <p class="read-note__text color-white">
-                  <span class="font-weight-bold text-underlined">
+              <div className="col-sm-8">
+                <p className="read-note__text color-white">
+                  <span className="font-weight-bold text-underlined">
                     99.9% Customer Satisfaction
                   </span>
                   based on 750+ reviews and 20,000 Objective Resource
                 </p>
               </div>
             </div>
-            <div class="row" style={{marginTop:"10px"}}>
-              <div class="col-sm-12 col-md-6">
-                <p class="mb-30 font-weight-bold sub__desc">
+            <div className="row" style={{marginTop:"10px"}}>
+              <div className="col-sm-12 col-md-6">
+                <p className="mb-30 font-weight-bold sub__desc">
                   As one of the world's largest ITService Providers with over
                   120 engineers and IT support staff are ready to help.
                 </p>
                 <a
                   href="request-quote.html"
-                  class="btn btn__primary btn__bordered btn__icon mb-30"
+                  className="btn btn__primary btn__bordered btn__icon mb-30"
                 >
                   <span>Request Demo</span>
-                  <i class="icon-arrow-right"></i>
+                  <i className="icon-arrow-right"></i>
                 </a>
               </div>
-              <div class="col-sm-12 col-md-6">
-                <ul class="list-items list-unstyled mb-30">
+              <div className="col-sm-12 col-md-6">
+                <ul className="list-items list-unstyled mb-30">
                   <li>450,000 client’s interactions </li>
                   <li>Help challenge critical activities</li>
                   <li>Simplify & Automate Workflows</li>
@@ -92,7 +92,7 @@ const History = () => {
               </div>
             </div>
           </div>
-          <div class="col-sm-12 col-md-12 col-lg-6">
+          <div className="col-sm-12 col-md-12 col-lg-6">
             <Image width="100%" height="100%" src={laptop} alt="banner" />
           </div>
         </div>

@@ -22,10 +22,11 @@ const Header = () => {
   });
   const router = useRouter();
   useEffect(() => {
-    const handleScrollDisplay = () => {
+    const handleScrollDisplay = (e) => {
       if (windowSize.innerWidth >= 1080) {
         setDisplayScroll(window.scrollY > 50);
       }
+      console.log(e)
     };
     window.addEventListener("scroll", handleScrollDisplay);
     return () => {
@@ -107,7 +108,7 @@ const Header = () => {
                 </Link>
               </li>
               <li className="nav__item  has-dropdown">
-                {/* <i class="fa-solid fa-angle-down"></i> */}
+                {/* <i className="fa-solid fa-angle-down"></i> */}
                 <p
                   onClick={() =>
                     setOpenSlideItem({

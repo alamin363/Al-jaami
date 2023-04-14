@@ -37,8 +37,8 @@ export default function VerticalSlider() {
           </div>
           {/* /.fancybox__icon-img */}
           <div className="fancybox__content">
-            <h4 class="fancybox__title">CSS Design Award</h4>
-            <p class="fancybox__desc">
+            <h4 className="fancybox__title">CSS Design Award</h4>
+            <p className="fancybox__desc">
               A web design & development award platform for digital folk, UI/UX
               peeps and inspiring leaders of the web.
             </p>
@@ -53,8 +53,8 @@ export default function VerticalSlider() {
             <Image src={Icon2} alt="icon" />
           </div>
           <div className="fancybox__content">
-            <h4 class="fancybox__title">W3 Design Award</h4>
-            <p class="fancybox__desc">
+            <h4 className="fancybox__title">W3 Design Award</h4>
+            <p className="fancybox__desc">
               Awards celebrates digital by honoring outstanding Websites, Web
               Marketing, Video, Sites, Apps & Social content.
             </p>
@@ -68,8 +68,8 @@ export default function VerticalSlider() {
           </div>
           {/* /.fancybox__icon-img */}
           <div className="fancybox__content">
-            <h4 class="fancybox__title">The FWA Award</h4>
-            <p class="fancybox__desc">
+            <h4 className="fancybox__title">The FWA Award</h4>
+            <p className="fancybox__desc">
               Showcasing innovation every day since 2000, our mission is to
               showcase cutting edge creativity, regardless
             </p>
@@ -84,8 +84,8 @@ export default function VerticalSlider() {
           </div>
           {/* /.fancybox__icon-img */}
           <div className="fancybox__content">
-            <h4 class="fancybox__title">WWW Awards</h4>
-            <p class="fancybox__desc">
+            <h4 className="fancybox__title">WWW Awards</h4>
+            <p className="fancybox__desc">
               The awards that recognize the talent and effort of the best web
               designers, developers and agencies in the world.
             </p>

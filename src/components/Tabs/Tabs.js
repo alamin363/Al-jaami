@@ -48,40 +48,40 @@ const Tabs = () => {
     {
       title: " Mobile",
       content: (
-        <div class="single-row tab-pane fade show active" id="id-0">
-          <div class="single-item">
-            <i class="fab fa-apple"></i>
+        <div className="single-row tab-pane fade show active" id="id-0">
+          <div className="single-item">
+            <i className="fab fa-apple"></i>
             <span>iOS</span>{" "}
           </div>
-          <div class="single-item">
-            <i class="fas fa-robot"></i>
+          <div className="single-item">
+            <i className="fas fa-robot"></i>
             <span>Android</span>{" "}
           </div>
-          <div class="single-item">
+          <div className="single-item">
             <Image width={100} height={100} src={Flutter} alt="" />
             <span style={{ marginTop: "-40px" }}>Flutter</span>{" "}
           </div>
-          <div class="single-item">
-            <i class="fab fa-java"></i>
+          <div className="single-item">
+            <i className="fab fa-java"></i>
             <span>JAVA</span>{" "}
           </div>
-          <div class="single-item">
+          <div className="single-item">
             <Image width={100} height={100} src={Flutter} alt="" />
             <span style={{ marginTop: "-40px" }}>Objective-C</span>{" "}
           </div>
-          <div class="single-item">
+          <div className="single-item">
             <Image width={100} height={100} src={Flutter} alt="" />
             <span style={{ marginTop: "-40px" }}>C#</span>{" "}
           </div>
-          <div class="single-item">
+          <div className="single-item">
             <Image width={100} height={100} src={Flutter} alt="" />
             <span style={{ marginTop: "-40px" }}>C++</span>{" "}
           </div>
-          <div class="single-item">
-            <i class="fab fa-swift"></i>
+          <div className="single-item">
+            <i className="fab fa-swift"></i>
             <span>Swift</span>{" "}
           </div>
-          <div class="single-item">
+          <div className="single-item">
             <Image
               style={{ height: "150px" }}
               width={100}
@@ -91,15 +91,15 @@ const Tabs = () => {
             />
             <span style={{ marginTop: "-3px" }}>Ionic</span>{" "}
           </div>
-          <div class="single-item">
+          <div className="single-item">
             <Image width={100} height={100} src={Flutter} alt="" />
             <span style={{ marginTop: "-40px" }}>Kotlin</span>{" "}
           </div>
-          <div class="single-item">
+          <div className="single-item">
             <Image width={100} height={100} src={Flutter} alt="" />
             <span style={{ marginTop: "-40px" }}>Augmented Reality</span>{" "}
           </div>
-          <div class="single-item">
+          <div className="single-item">
             <Image width={100} height={100} src={Flutter} alt="" />
             <span style={{ marginTop: "-40px" }}>Virtual Reality</span>{" "}
           </div>
@@ -113,20 +113,20 @@ const Tabs = () => {
 
   return (
     <div>
-      <section class="fw-main-row ">
-        <div class="fw-container-fluid rull-container">
-          <section class="tech-used-section light-mode gray-mode">
-            <div class="container">
-              <div class="row">
-                <div class="d-flex align-items-center">
-                  <div class="divider divider-primary mr-30"></div>
-                  <h2 class="heading__subtitle">Technologies We Work With</h2>
+      <section className="fw-main-row ">
+        <div className="fw-container-fluid rull-container">
+          <section className="tech-used-section light-mode gray-mode">
+            <div className="container">
+              <div className="row">
+                <div className="d-flex align-items-center">
+                  <div className="divider divider-primary mr-30"></div>
+                  <h2 className="heading__subtitle">Technologies We Work With</h2>
                 </div>
               </div>
-              <div class="row">
-                <div class="technologies">
-                  <div class="tech-list-wrapper">
-                    <ul class="nav tech-list" id="myTab">
+              <div className="row">
+                <div className="technologies">
+                  <div className="tech-list-wrapper">
+                    <ul className="nav tech-list" id="myTab">
                       <li className="nav-item">
                         {tabs.map((tab, index) => (
                           <a
@@ -144,7 +144,7 @@ const Tabs = () => {
                       </li>
                     </ul>
                   </div>
-                  <div class="tab-content">
+                  <div className="tab-content">
                   {/* <div className="tab-content">{tabs[activeTab].content}</div> */}
                   {
                     
