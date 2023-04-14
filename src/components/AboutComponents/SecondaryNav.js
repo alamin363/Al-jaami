@@ -6,7 +6,7 @@ const SecondaryNav = () => {
   const [windowSize, setWindowSize] = useState(getWindowSize());
   useEffect(() => {
     const handleScrollDisplay = () => {
-      if (windowSize.innerWidth >= 992) {
+      if (windowSize.innerWidth >= 1000) {
         setDisplayScroll(window.scrollY > 450);
       }
     };
@@ -14,7 +14,7 @@ const SecondaryNav = () => {
     return () => {
       window.removeEventListener("scroll", handleScrollDisplay);
     };
-  }, [windowSize.innerHeight, windowSize.innerWidth]);
+  }, []);
 
   function getWindowSize() {
     if (typeof window !== "undefined") {

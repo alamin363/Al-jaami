@@ -49,7 +49,7 @@ const Header = () => {
         setHidelogin(true);
         break;
     }
-  }, [router.pathname]);
+  }, []);
   function getWindowSize() {
     if (typeof window !== "undefined") {
       const { innerWidth, innerHeight } = window;
