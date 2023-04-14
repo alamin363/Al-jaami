@@ -1,18 +1,15 @@
-import Link from "next/link";
 import Bannerimg from "../../assets/images/about/aboutbanner.jpg";
 import aboutbannere from "../../assets/images/about/aboutbannere.webp";
-import Student from "../../assets/images/about/student-849822__180.jpg";
 import Image from "next/image";
-import MiniSlider from "./MiniSlider";
-import Pdf from "../PDF/Pdf";
+
 import VerticalSlider from "../Banner/VerticalSlider/VerticalSlider";
 const AboutBannerLayout = () => {
-  const styling = {
-    backgroundImage: `url('${aboutbannere}')`,
-    width: "100%",
-    height: "100%",
-    backgroundPosition: "cover",
-  };
+  // const styling = {
+  //   backgroundImage: `url('${aboutbannere}')`,
+  //   width: "100%",
+  //   height: "100%",
+  //   backgroundPosition: "cover",
+  // };
   return (
     <section
       // style={styling}
@@ -86,7 +83,7 @@ const AboutBannerLayout = () => {
                     professionals.
                   </p>
                   <p className="heading__desc mb-20">
-                    As one of the world's largest ITService Providers, we are
+                    As one of the worlds largest ITService Providers, we are
                     ready to help.
                   </p>
                   <a
@@ -214,7 +211,7 @@ const AboutBannerLayout = () => {
                 </div>
                 <div className="col-sm-6">
                   <p className="heading__desc">
-                    Trusted by the world's best organizations, for 21 years and
+                    Trusted by the worlds best organizations, for 21 years and
                     running, it has been delivering smiles to hundreds of IT
                     advisors, developers, users, and business owners.
                   </p>
