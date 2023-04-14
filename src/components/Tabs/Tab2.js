@@ -271,7 +271,7 @@ const Tab2 = () => {
                       }`}
                       id="id-2"
                     >
-                      <div className="single-item">
+                      {/* <div className="single-item">
                         <Image
                           width={50}
                           height={50}
@@ -324,7 +324,7 @@ const Tab2 = () => {
                           alt=""
                         />
                         <span>React Native</span>{" "}
-                      </div>
+                      </div> */}
                       <div className="single-item">
                         <Image
                           width={50}
@@ -407,7 +407,7 @@ const Tab2 = () => {
                           width={50}
                           height={50}
                           style={{ marginTop: "-42px" }}
-                          src="assets/images/icons/apache_couchdb-icon.svg"
+                          src={apache}
                           alt=""
                         />
                         <span style={{ marginTop: "-45px" }}>Apache</span>{" "}
