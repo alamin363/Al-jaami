@@ -27,7 +27,7 @@ const History = () => {
           </div>
           <div className="col-sm-12 col-md-12 col-lg-6">
             <h3 className="heading__title color-white">
-              One of the world&apos;s largest IT Providers since 2005.
+              One of the worlds largest IT Providers since 2005.
             </h3>
           </div>
         </div>
@@ -71,7 +71,7 @@ const History = () => {
             <div className="row" style={{marginTop:"10px"}}>
               <div className="col-sm-12 col-md-6">
                 <p className="mb-30 font-weight-bold sub__desc">
-                  As one of the world&apos;s largest ITService Providers with over
+                  As one of the worlds largest ITService Providers with over
                   120 engineers and IT support staff are ready to help.
                 </p>
                 <a

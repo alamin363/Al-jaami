@@ -16,7 +16,7 @@ const Business = () => {
                 Keep business safe & ensure high availability.
               </h3>
               <p className="heading__desc">
-                As one of the world's largest ITService Providers, our deep pool
+                As one of the world&#39;s largest ITService Providers, our deep pool
                 of certified engineers and IT staff are ready to help you to
                 keep your IT business safe & ensure high availability.
               </p>
