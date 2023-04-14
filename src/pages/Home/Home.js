@@ -8,22 +8,13 @@ import BannerLayout from "@/components/bannerLayout/BannerLayout";
 import Header from "@/components/header/Header";
 import Tab2 from "@/components/Tabs/Tab2";
 import { useEffect, useState } from "react";
-import Loader from "@/components/Loader/Loader";
+import Loader, { Loaders } from "@/components/Loader/Loader";
+import RoyalLoader from "@/components/Loader/RoyalLoader";
 const Home = () => {
-  const [pageLoading, setPageLoading] = useState(true);
-  useEffect(() => {
-    const time = setTimeout(() => {
-      setPageLoading(false);
-    }, 1000);
-
-    return () => {
-      clearTimeout(time);
-    };
-  }, []);
 
   return (
     <>
-      {pageLoading && <Loader />}
+        <Loaders />
       <Header />
       <Sliders />
       <About />

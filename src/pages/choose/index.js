@@ -1,4 +1,5 @@
 import SecondaryNav from "@/components/AboutComponents/SecondaryNav";
+import { Loaders } from "@/components/Loader/Loader";
 import BannerLayout from "@/components/chooseComponent/BannerLayout";
 import Business from "@/components/chooseComponent/Business";
 import Easy from "@/components/chooseComponent/Easy";
@@ -9,7 +10,8 @@ import React from "react";
 const index = () => {
   return (
     <>
-    <Header />
+      <Loaders />
+      <Header />
       <Easy />
       <SecondaryNav />
       <Serves />

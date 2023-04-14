@@ -13,9 +13,9 @@ const ContentWriting = () => {
   };
   return (
     <div>
-    <Header />
+      <Header />
       <ContentWritingHeroSection />
-      <CommonServices value={value}/>
+      <CommonServices value={value} />
       <ContactUs />
     </div>
   );
