@@ -9,6 +9,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import { useRouter } from "next/router";
 import Login from "../LoginRegisterModal/LoginRegisterModal";
+
 const Header = () => {
   const [hidelogin, setHidelogin] = useState(false);
   const [DisplayScroll, setDisplayScroll] = useState(false);
@@ -21,6 +22,8 @@ const Header = () => {
     services: false,
   });
   const router = useRouter();
+
+  // scroll display y  <=> / add and hide class "is-sticky" to display position sticky
   useEffect(() => {
     const handleScrollDisplay = (e) => {
       if (windowSize.innerWidth >= 1080) {
@@ -34,7 +37,7 @@ const Header = () => {
     };
   }, []);
 
-  // hide login and quote in conditional
+  // hide login and quote in conditional 
   useEffect(() => {
     switch (router.pathname) {
       case "/":
