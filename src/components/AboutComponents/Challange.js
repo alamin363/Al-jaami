@@ -6,11 +6,7 @@ import NavHero from "../header/NavHero";
 const Challenge = () => {
   return (
     <section
-      className="page-title page-title-layout1 text-center bg-overlay bg-overlay-gradient bg-parallax banner_img-2"
-      style={{
-        backgroundBlendMode: "multiply",
-        backgroundColor: "rgba(6, 57, 70, 0.8)",
-      }}
+      className="page-title page-title-layout1 text-center bg-overlay bg-overlay-gradient bg-parallax banner_img-2 bg-color-blend-mode"
     >
       <div className="container">
         <div className="row">

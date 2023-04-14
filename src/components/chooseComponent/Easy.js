@@ -4,11 +4,7 @@ import React from "react";
 const Easy = () => {
   return (
         <section
-          className="page-title page-title-layout2 bg-overlay bg-overlay-gradient bg-parallax background-img-3"
-          style={{
-            backgroundBlendMode: "multiply",
-            backgroundColor: "rgba(6, 57, 70, 0.8)",
-          }}
+          className="page-title page-title-layout2 bg-overlay bg-overlay-gradient bg-parallax background-img-3 bg-color-blend-mode"
         >
           {/* <div className="bg-img">
         <img

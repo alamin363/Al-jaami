@@ -32,16 +32,7 @@ const BannerSlider = ({ children }) => {
             impact, you’ve come to the right place. We will transform your
             business through our techniques!
           </p>
-          <div
-            className="testimonial__meta"
-            style={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              marginLeft: "-150px",
-              gap: "10px",
-            }}
-          >
+          <div className="testimonial__meta slider-height-white">
             <Image width={50} height={50} src={client1} alt="client" />
             <Image width={50} height={50} src={client2} alt="client" />
             <span>
@@ -58,16 +49,7 @@ const BannerSlider = ({ children }) => {
             impact, you’ve come to the right place. We will transform your
             business through our techniques!{" "}
           </p>
-          <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              marginLeft: "-150px",
-              gap: "10px",
-            }}
-            className="testimonial__meta"
-          >
+          <div className="testimonial__meta slider-height-white">
             <Image width={50} height={50} src={client3} alt="client" />
             <Image width={50} height={50} src={client5} alt="client" />
             <span>
@@ -84,16 +66,7 @@ const BannerSlider = ({ children }) => {
             impact, you’ve come to the right place. We will transform your
             business through our techniques!
           </p>
-          <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              marginLeft: "-150px",
-              gap: "10px",
-            }}
-            className="testimonial__meta"
-          >
+          <div className="testimonial__meta slider-height-white">
             <Image width={50} height={50} src={client2} alt="client" />
             <Image width={50} height={50} src={client3} alt="client" />
             <span>
@@ -111,16 +84,7 @@ const BannerSlider = ({ children }) => {
             impact, you’ve come to the right place. We will transform your
             business through our techniques!{" "}
           </p>
-          <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              marginLeft: "-150px",
-              gap: "10px",
-            }}
-            className="testimonial__meta"
-          >
+          <div className="testimonial__meta slider-height-white">
             <Image width={50} height={50} src={client3} alt="client" />
             <Image width={50} height={50} src={client4} alt="client" />
             <span>
@@ -137,16 +101,7 @@ const BannerSlider = ({ children }) => {
             determination turned it into an awesome and great project which make
             me happy .
           </p>
-          <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              marginLeft: "-150px",
-              gap: "10px",
-            }}
-            className="testimonial__meta"
-          >
+          <div className="testimonial__meta slider-height-white">
             <Image width={50} height={50} src={client4} alt="client" />
             <Image width={50} height={50} src={client5} alt="client" />
             <span>

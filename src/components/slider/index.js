@@ -18,11 +18,8 @@ const Sliders = () => {
         <Slider {...settings}>
           <div className="bg-slider-img">
             <div
-              className="slide-item align-v-h bg-overlay bg-overlay-gradient"
-              style={{
-                backgroundBlendMode: "multiply",
-                backgroundColor: "rgba(6, 57, 70, 0.8)",
-              }}
+              className="slide-item align-v-h bg-overlay bg-overlay-gradient bg-color-blend-mode"
+
             >
               <div className="container">
                 <div className="row">

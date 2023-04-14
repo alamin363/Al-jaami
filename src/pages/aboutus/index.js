@@ -9,7 +9,6 @@ import Header from "@/components/header/Header";
 const About = () => {
   return (
     <div>
-      <Loaders />
       <Header />
       <Challenge />
       <SecondaryNav />

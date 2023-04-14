@@ -4,11 +4,7 @@ import NavHero from "../header/NavHero";
 const HeroSection = () => {
   return (
     <section
-      className="page-title page-title-layout4 text-center bg-overlay bg-overlay-gradient bg-parallax award_backgroun_color"
-      style={{
-        backgroundBlendMode: " multiply",
-        backgroundColor: "rgba(6, 57, 70, 0.8)",
-      }}
+      className="page-title page-title-layout4 text-center bg-overlay bg-overlay-gradient bg-parallax award_backgroun_color bg-color-blend-mode"
     >
       {/* <div className="bg-img"><img src="https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849826_960_720.jpg" alt="background" /></div> */}
       <div className="container">

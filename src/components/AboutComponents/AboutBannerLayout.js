@@ -64,8 +64,7 @@ const AboutBannerLayout = () => {
           </div>
           <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6 offset-xl-1">
             <div
-              className="banner__content"
-              style={{ backgroundColor: " #063946" }}
+              className="banner__content bg-color-aboutLayout"
             >
               <div className="bg-img"></div>
               <div className="scroll__icon">

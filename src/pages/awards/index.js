@@ -9,7 +9,6 @@ import React from "react";
 const index = () => {
   return (
     <>
-      <Loaders />
       <Header />
       <HeroSection />
       <SecondaryNav />

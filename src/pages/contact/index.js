@@ -8,7 +8,6 @@ import Header from "@/components/header/Header";
 const index = () => {
   return (
     <>
-    <Loaders />
     <Header />
       <ContactHeroSection />
       <Location />

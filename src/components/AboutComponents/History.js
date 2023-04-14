@@ -10,8 +10,7 @@ const History = () => {
   return (
     <section className="history-timeline pb-0">
       <div
-        className="history-timeline-bg"
-        style={{ backgroundColor: "rgb(6, 57, 70)" }}
+        className="history-timeline-bg bg-color-aboutLayout"
       >
         <div className="bg-img"></div>
       </div>

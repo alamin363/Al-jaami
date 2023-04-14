@@ -4,12 +4,7 @@ const AppDevelopMentComponentHeroSection = () => {
   return (
     <section className="slider">
       <div
-        className="slide-item align-v-h bg-overlay bg-overlay-gradient app-developer-heder-bg"
-        style={{
-          height: "410px",
-          backgroundBlendMode: "multiply",
-          backgroundColor: "rgba(6, 57, 70, 0.8)",
-        }}
+        className="slide-item align-v-h bg-overlay bg-overlay-gradient app-developer-heder-bg app-dev-hero"
       >
         {/* <div className="bg-img"><img src="https://images.pexels.com/photos/2764670/pexels-photo-2764670.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="slide img" /></div> */}
         <div className="container">
