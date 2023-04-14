@@ -26,7 +26,7 @@ const Header = () => {
       if (windowSize.innerWidth >= 1080) {
         setDisplayScroll(window.scrollY > 50);
       }
-      console.log(e)
+      // console.log(e)
     };
     window.addEventListener("scroll", handleScrollDisplay);
     return () => {
