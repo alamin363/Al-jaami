@@ -16,7 +16,7 @@ const HeroSection = () => {
           <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6 offset-xl-3">
             <h1 className="pagetitle__heading mb-10">Awards</h1>
             <p className="pagetitle__desc">
-              Trusted by the world's best organizations, for 15 years and
+              Trusted by the world&#39;s best organizations, for 15 years and
               running, it has been delivering smiles to hundreds of IT advisors,
               developers, users, and business owners.
             </p>

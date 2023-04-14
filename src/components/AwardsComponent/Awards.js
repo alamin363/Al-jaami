@@ -17,7 +17,7 @@ const Awards = () => {
           </div>
           <div className="col-sm-12 col-md-12 col-lg-5">
             <h3 className="heading__title">
-              Trusted by the world's best organizations for 21 years.
+              Trusted by the world&#39;s best organizations for 21 years.
             </h3>
           </div>
           {/* <!-- /col-lg-5 --> */}

@@ -30,7 +30,7 @@ const Testimonials = () => {
               </div>
               <div className="testimonial__panel">
                 <div className="testimonial__desc">
-                  As one of the world's largest ITService Providers with over
+                  As one of the world&#39;s largest ITService Providers with over
                   120 engineers and IT support staff are ready to help.
                 </div>
               </div>
@@ -49,7 +49,7 @@ const Testimonials = () => {
               </div>
               <div className="testimonial__panel">
                 <div className="testimonial__desc">
-                  As one of the world's largest ITService Providers with over
+                  As one of the world&#39;s largest ITService Providers with over
                   120 engineers and IT support staff are ready to help.
                 </div>
               </div>
@@ -68,7 +68,7 @@ const Testimonials = () => {
               </div>
               <div className="testimonial__panel">
                 <div className="testimonial__desc">
-                  As one of the world's largest ITService Providers with over
+                  As one of the world&#39;s largest ITService Providers with over
                   120 engineers and IT support staff are ready to help.
                 </div>
               </div>
@@ -87,7 +87,7 @@ const Testimonials = () => {
               </div>
               <div className="testimonial__panel">
                 <div className="testimonial__desc">
-                  As one of the world's largest ITService Providers with over
+                  As one of the world&#39;s largest ITService Providers with over
                   120 engineers and IT support staff are ready to help.
                 </div>
               </div>
@@ -107,7 +107,7 @@ const Testimonials = () => {
               </div>
               <div className="testimonial__panel">
                 <div className="testimonial__desc">
-                  As one of the world's largest ITService Providers with over
+                  As one of the world&#39;s largest ITService Providers with over
                   120 engineers and IT support staff are ready to help.
                 </div>
               </div>

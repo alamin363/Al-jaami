@@ -25,7 +25,7 @@ const Serves = () => {
           <div className="col-sm-12 col-md-12 col-lg-12 col-xl-5 offset-xl-1">
             <i className="icon-quote"></i>
             <p>
-              In today's highly competitive business world, software development
+              In today&#39;s highly competitive business world, software development
               is essential. Al jaami technologies ‘s main strategy is to being
               commited. We are commited for our professional tactics and skills
               to make things bright for you. As we mean your success
@@ -34,7 +34,7 @@ const Serves = () => {
           </div>
           <div className="col-sm-12 col-md-12 col-lg-12 col-xl-5 offset-xl-1">
             <p>
-              As one of the world's largest ITService Providers, our deep pool
+              As one of the world&#39;s largest ITService Providers, our deep pool
               of certified engineers and IT staff are ready to help you to keep
               your IT business safe & ensure high availability.
             </p>

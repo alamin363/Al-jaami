@@ -15,7 +15,7 @@ const QuoteHeader = () => {
           <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6 offset-xl-3">
             <h1 className="pagetitle__heading">Request A Quote</h1>
             <p className="pagetitle__desc">
-              As one of the world's largest ITService Providers, our deep pool
+              As one of the world&#39;s largest ITService Providers, our deep pool
               of certified engineers and IT staff are ready to help you to keep
               your IT business safe & ensure high availability.
             </p>

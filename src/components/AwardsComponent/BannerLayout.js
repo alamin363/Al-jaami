@@ -57,7 +57,7 @@ const BannerLayout = () => {
                 <div className="col-sm-6">
                   <p className="heading__desc mb-20">Provide users with appropriate view access to requests, problems,
                     changes, contracts & solutions with experienced professionals.</p>
-                  <p className="heading__desc mb-20">As one of the world's largest ITService Providers, we are ready to
+                  <p className="heading__desc mb-20">As one of the world&#39;s largest ITService Providers, we are ready to
                     help.
                   </p>
                   <a href="" target="_blank" className="btn btn__white btn__bordered btn__xl btn__icon">

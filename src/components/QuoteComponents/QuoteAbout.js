@@ -32,7 +32,7 @@ const QuoteAbout = () => {
                 and protect confidential data, as well as detect internal and
                 external threats. Protect your business by choosing managed
                 security service provider. Our security services can help ensure
-                your business Trusted by the world's best organizations.
+                your business Trusted by the worlds best organizations.
               </p>
               <p className="mb-30">
                 for 15 years and running, it has been delivering smiles to
@@ -72,7 +72,7 @@ const QuoteAbout = () => {
                 </div>
                 <div className="blockquote__content">
                   <h4 className="blockquote__title mb-0">
-                    As one of the world's largest ITService Providers with over
+                    As one of the worlds largest ITService Providers with over
                     120 engineers and IT support staff are ready to help.
                   </h4>
                 </div>

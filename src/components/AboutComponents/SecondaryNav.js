@@ -14,7 +14,7 @@ const SecondaryNav = () => {
     return () => {
       window.removeEventListener("scroll", handleScrollDisplay);
     };
-  }, []);
+  }, [windowSize.innerHeight, windowSize.innerWidth]);
 
   function getWindowSize() {
     if (typeof window !== "undefined") {

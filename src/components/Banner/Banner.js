@@ -72,7 +72,7 @@ const Banner = () => {
                     and processes with our CRM solution.
                   </p>
                   <p className="heading__desc mb-20">
-                    As one of the world's largest ITService Providers, we are
+                    As one of the world&#39;s largest ITService Providers, we are
                     ready to help.
                   </p>
                   <a

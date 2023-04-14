@@ -13,7 +13,7 @@ const HeroSection = () => {
           <div className="col-12">
             <h1 className="pagetitle__heading">Careers</h1>
             <p className="pagetitle__desc">
-              Trusted by the world's best organizations, for 21 years and
+              Trusted by the world&#39;s best organizations, for 21 years and
               running, it has been delivering smiles to hundreds of IT advisors,
               developers, users, and business owners.
             </p>

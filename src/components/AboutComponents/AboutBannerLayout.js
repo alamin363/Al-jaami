@@ -3,6 +3,7 @@ import aboutbannere from "../../assets/images/about/aboutbannere.webp";
 import Image from "next/image";
 
 import VerticalSlider from "../Banner/VerticalSlider/VerticalSlider";
+import Link from "next/link";
 const AboutBannerLayout = () => {
   // const styling = {
   //   backgroundImage: `url('${aboutbannere}')`,
@@ -48,12 +49,12 @@ const AboutBannerLayout = () => {
                   </div>
                   <ul className="contact__list list-unstyled">
                     <li>
-                      <a href="mailto:SmartData@7oroof.com">
+                      <Link href="mailto:SmartData@7oroof.com">
                         Email: SmartData@7oroof.com
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="tel:5565454117">Phone: +55 654 541 17</a>
+                      <Link href="tel:5565454117">Phone: +55 654 541 17</Link>
                     </li>
                   </ul>
                 </div>
@@ -86,14 +87,14 @@ const AboutBannerLayout = () => {
                     As one of the worlds largest ITService Providers, we are
                     ready to help.
                   </p>
-                  <a
+                  <Link
                     href="assets/Broucher.pdf"
                     target="_blank"
                     className="btn btn__white btn__bordered btn__xl btn__icon"
                   >
                     <span>Download Brochure</span>
                     <i className="icon-arrow-right"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="row counters-wrapper counters-light mt-70">
@@ -148,7 +149,14 @@ const AboutBannerLayout = () => {
                   </div>
                 </div>
                 <div className="col-sm-6 d-none d-md-block">
-                  <Image width="" height="" src={Bannerimg} className="w-100" />
+                  <Image
+                    priority
+                    src={Bannerimg}
+                    className="w-100"
+                    layout="fill"
+                    objectFit="cover"
+                    alt=""
+                  />
                 </div>
               </div>
             </div>
@@ -165,13 +173,13 @@ const AboutBannerLayout = () => {
                       requests, problems, changes, contracts, solutions, and
                       reports.
                     </p>
-                    <a
+                    <Link
                       href="#"
                       className="btn btn__link btn__white btn__icon px-0"
                     >
                       <span>Find Your Solution</span>{" "}
                       <i className="icon-arrow-right"></i>
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="col-sm-6">

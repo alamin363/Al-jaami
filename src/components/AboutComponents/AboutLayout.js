@@ -26,7 +26,7 @@ const AboutLayout = () => {
               <p className="mb-40">
                 There are three responses to a piece of design – yes, no, and
                 WOW! Wow is the one, our company aim for” Our sites are designed
-                to each group's specific needs. We can help your company with
+                to each group&apos;s specific needs. We can help your company with
                 anything from landing pages, style, photos, graphics, and media
                 to branding, marketing, analytics, and sales strategy.
               </p>
@@ -50,7 +50,7 @@ const AboutLayout = () => {
                 </div>
                 <div className="blockquote__content">
                   <h4 className="blockquote__title mb-0">
-                    As one of the world's largest ITService Providers with over
+                    As one of the world&apos;s largest ITService Providers with over
                     120 engineers and IT support staff are ready to help.
                   </h4>
                 </div>

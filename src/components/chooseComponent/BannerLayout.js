@@ -17,7 +17,7 @@ const BannerLayout = () => {
                 <p className="heading__desc mb-30">
                   We are experienced professionals who understand that It
                   services is changing, and are partners who care about your
-                  success. As one of the world's largest IT Service Providers,
+                  success. As one of the world&#39;s largest IT Service Providers,
                   our deep pool of certified engineers and IT staff are ready to
                   help.
                 </p>

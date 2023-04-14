@@ -21,7 +21,7 @@ const Features = () => {
             <div className="row">
               <div className="col-sm-6">
                 <p className="heading__desc">
-                  In today's highly competitive business world, software
+                  In today&#39;s highly competitive business world, software
                   development is essential. Al jaami technology s main strategy
                   is to be committed. We are committed to our professional
                   tactics and skills to make things bright for you. As we mean
@@ -137,7 +137,7 @@ const Features = () => {
             <div className="row">
               <div className="col-sm-6">
                 <p className="mb-30 font-weight-bold sub__desc">
-                  As one of the world's largest ITService Providers with over
+                  As one of the world&#39;s largest ITService Providers with over
                   120 engineers and IT support staff are ready to help.
                 </p>
                 <Link
