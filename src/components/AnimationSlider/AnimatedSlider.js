@@ -13,47 +13,59 @@ const AnimatedSlider = () => {
     arrows: false,
     infinite: true,
     slidesToShow: 4,
-    slidesToScroll: 1,
     autoplay: true,
-    speed: 5000,
     autoplaySpeed: 2000,
     cssEase: "linear",
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+    ],
   };
   return (
-    <div className="clients">
-      <div className="slick-carousel">
-        <Slider {...settings}>
-          <div className="client">
-            <Image height={180} width={180} src={image1} alt="client" />
-            <Image height={180} width={180} src={image1} alt="client" />
-          </div>
-          <div className="client">
-            <Image height={180} width={180} src={image2} alt="client" />
-            <Image height={180} width={180} src={image2} alt="client" />
-          </div>
-          <div className="client">
-            <Image height={180} width={180} src={image3} alt="client" />
-            <Image height={180} width={180} src={image3} alt="client" />
-          </div>
-          <div className="client">
-            <Image height={180} width={180} src={image4} alt="client" />
-            <Image height={180} width={180} src={image4} alt="client" />
-          </div>
-          <div className="client">
-            <Image height={180} width={180} src={image5} alt="client" />
-            <Image height={180} width={180} src={image5} alt="client" />
-          </div>
-          <div className="client">
-            <Image height={180} width={180} src={image6} alt="client" />
-            <Image height={180} width={180} src={image6} alt="client" />
-          </div>
-          <div className="client">
-            <Image height={180} width={180} src={image7} alt="client" />
-            <Image height={180} width={180} src={image7} alt="client" />
-          </div>
-        </Slider>
+    <Slider
+      {...settings}
+      className="slick-carousel"
+      style={{ height: "80px"}}
+    >
+      <div className="client">
+        <Image height={80} width={"auto"} src={image1} alt="client" />
+        <Image height={80} width={"auto"} src={image1} alt="client" />
       </div>
-    </div>
+      <div className="client">
+        <Image height={80} width={"auto"} src={image2} alt="client" />
+        <Image height={80} width={"auto"} src={image2} alt="client" />
+      </div>
+      <div className="client">
+        <Image height={80} width={"auto"} src={image3} alt="client" />
+        <Image height={80} width={"auto"} src={image3} alt="client" />
+      </div>
+      <div className="client">
+        <Image height={80} width={"auto"} src={image4} alt="client" />
+        <Image height={80} width={"auto"} src={image4} alt="client" />
+      </div>
+      <div className="client">
+        <Image height={80} width={"auto"} src={image5} alt="client" />
+        <Image height={80} width={"auto"} src={image5} alt="client" />
+      </div>
+      <div className="client">
+        <Image height={80} width={"auto"} src={image6} alt="client" />
+        <Image height={80} width={"auto"} src={image6} alt="client" />
+      </div>
+      <div className="client">
+        <Image height={80} width={"auto"} src={image7} alt="client" />
+        <Image height={80} width={"auto"} src={image7} alt="client" />
+      </div>
+    </Slider>
   );
 };
 

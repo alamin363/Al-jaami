@@ -15,14 +15,12 @@
     font-size: 25px;
     font-weight: 300;
     color: $color-white;
-    margin-bottom: 8px;
+    margin-bottom: 30px;
   }
 
   .slide__title {
-    font-family: $font-heading;
-    // font-size: 75px;
-    font-size: 46px;
-    margin-top: 30px;
+    // font-family: $font-heading;
+    font-size: 70px;
     font-weight: 800;
     line-height: 1.1;
     // letter-spacing: 5px;
@@ -30,11 +28,19 @@
     margin-bottom: 30px;
   }
 
+  // .slide__desc {
+  //   font-size: 16px;
+  //   line-height: 1.25;
+  //   font-weight: 300;
+  //   color: $color-white;
+  //   max-width: 600px;
+  //   margin-bottom: 30px;
+  // }
   .slide__desc {
-    font-size: 16px;
-    line-height: 1.25;
-    font-weight: 300;
-    color: $color-white;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 700;
+    color: #ffffff;
     max-width: 600px;
     margin-bottom: 30px;
   }

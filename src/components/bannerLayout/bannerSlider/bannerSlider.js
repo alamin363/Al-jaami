@@ -44,8 +44,22 @@ const BannerSlider = ({ children }) => {
                 marginTop: "50px",
               }}
             >
-              <Image width={50} height={50} src={client1} alt="client" />
-              <Image width={50} height={50} src={client2} alt="client" />
+              <span className="testimonial__thumb">
+                <Image
+                  width={50}
+                  height={50}
+                  src="https://images.pexels.com/photos/2896424/pexels-photo-2896424.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                  alt="client"
+                />
+              </span>
+              <span className="testimonial__thumb">
+                <Image
+                  width={50}
+                  height={50}
+                  src="https://images.pexels.com/photos/3262878/pexels-photo-3262878.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                  alt="client"
+                />
+              </span>
             </div>
           </div>
         </div>
@@ -68,14 +82,22 @@ const BannerSlider = ({ children }) => {
                 marginTop: "50px",
               }}
             >
-              <Image
-                width={50}
-                height={50}
-                src={client2}
-                alt="client"
-                style={{ marginRight: "10px" }}
-              />
-              <Image width={50} height={50} src={client3} alt="client" />
+              <span className="testimonial__thumb">
+                <Image
+                  width={50}
+                  height={50}
+                  src="https://images.pexels.com/photos/3262878/pexels-photo-3262878.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                  alt="client"
+                />
+              </span>
+              <span className="testimonial__thumb">
+                <Image
+                  width={50}
+                  height={50}
+                  src="https://images.pexels.com/photos/2806202/pexels-photo-2806202.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                  alt="client"
+                />
+              </span>
             </div>
           </div>
         </div>
@@ -102,14 +124,22 @@ const BannerSlider = ({ children }) => {
                 marginTop: "50px",
               }}
             >
-              <Image
-                width={50}
-                height={50}
-                src={client3}
-                alt="client"
-                style={{ marginRight: "10px" }}
-              />
-              <Image width={50} height={50} src={client4} alt="client" />
+              <span className="testimonial__thumb">
+                <Image
+                  width={50}
+                  height={50}
+                  src="https://images.pexels.com/photos/2806202/pexels-photo-2806202.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                  alt="client"
+                />
+              </span>
+              <span className="testimonial__thumb">
+                <Image
+                  width={50}
+                  height={50}
+                  src="https://images.pexels.com/photos/2838597/pexels-photo-2838597.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                  alt="client"
+                />
+              </span>
             </div>
           </div>
         </div>
@@ -133,14 +163,22 @@ const BannerSlider = ({ children }) => {
                 marginTop: "50px",
               }}
             >
-              <Image
-                width={50}
-                height={50}
-                src={client4}
-                alt="client"
-                style={{ marginRight: "10px" }}
-              />
-              <Image width={50} height={50} src={client5} alt="client" />
+              <span className="testimonial__thumb">
+                <Image
+                  width={50}
+                  height={50}
+                  src="https://images.pexels.com/photos/2838597/pexels-photo-2838597.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                  alt="client"
+                />
+              </span>
+              <span className="testimonial__thumb">
+                <Image
+                  width={50}
+                  height={50}
+                  src="https://images.pexels.com/photos/1390599/pexels-photo-1390599.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                  alt="client"
+                />
+              </span>
             </div>
           </div>
         </div>
@@ -163,19 +201,26 @@ const BannerSlider = ({ children }) => {
                 marginTop: "50px",
               }}
             >
-              <Image
-                width={50}
-                height={50}
-                src={client5}
-                alt="client"
-                style={{ marginRight: "10px" }}
-              />
-              <Image width={50} height={50} src={client1} alt="client" />
+              <span className="testimonial__thumb">
+                <Image
+                  width={50}
+                  height={50}
+                  src="https://images.pexels.com/photos/1390599/pexels-photo-1390599.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                  alt="client"
+                />
+              </span>
+              <span className="testimonial__thumb">
+                <Image
+                  width={50}
+                  height={50}
+                  src="https://images.pexels.com/photos/2896424/pexels-photo-2896424.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                  alt="client"
+                />
+              </span>
             </div>
           </div>
         </div>
       </SwiperSlide>
-      {/* {children} */}
     </Swiper>
 
     // </div>

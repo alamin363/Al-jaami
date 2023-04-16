@@ -1518,7 +1518,7 @@ h6 {
   line-height: 60px;
   text-align: center;
   padding: 0 15px;
-  letter-spacing: 1px;
+  /* letter-spacing: 1px; */
   border: 0;
   border-radius: 3px;
   overflow: hidden;
@@ -1553,7 +1553,7 @@ h6 {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-color: #063946;
+  background-color: #063946 !important;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transform-origin: right center;
@@ -1590,7 +1590,7 @@ h6 {
 
 .btn__primary .icon-arrow-right,
 .btn__primary .icon-arrow-left {
-  color: #063946;
+  color: #063946 !important;
   background-color: #ffffff;
 }
 
@@ -2830,10 +2830,10 @@ input[type=radio] {
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
-
+/* change margin right */
 .navbar .nav__item {
   position: relative;
-  margin-right: 30px;
+  /* margin-right: 30px; */
 }
 
 .navbar .nav__item:last-child {
@@ -2880,7 +2880,7 @@ input[type=radio] {
 }
 
 .navbar .dropdown-toggle:after {
-  content: "\f107";
+  content: "";
   font-family: "Font Awesome 5 Free";
   border: none;
   vertical-align: middle;
@@ -2996,7 +2996,7 @@ input[type=radio] {
   border-color: #d7b680 !important;
 }
 .header-transparent .is-sticky .action__btn-contact:hover {
-  color: #063946;
+  /* color: #063946; */
 }
 
 .header-transparent .action__btn-contact:before {
@@ -3116,6 +3116,7 @@ input[type=radio] {
 .is-sticky .logo-dark {
   display: inline-block;
   height: 55px;
+  width: 100%;
 }
 
 .is-sticky .action__btn {
@@ -3123,7 +3124,7 @@ input[type=radio] {
 }
 
 .is-sticky .action__btn-contact {
-  background-color: #d7b680;
+  background-color: #d7b680 !important;
   border-color: #d7b680;
   color: #063946;
 }
@@ -5849,7 +5850,7 @@ section>.fw-container-fluid.rull-container {
 /*---------------------------
     Client
 ---------------------------*/
-.clients .client {
+/* .clients .client {
   position: relative;
   overflow: hidden;
 }
@@ -5886,7 +5887,7 @@ section>.fw-container-fluid.rull-container {
 .clients .client:hover img:last-of-type {
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-}
+} */
 
 /*--------------------
      Blog
@@ -7722,6 +7723,9 @@ section>.fw-container-fluid.rull-container {
   .banner-layout5 .banner__content {
     padding: 130px 75px 110px;
   }
+  .banner-layout2 .contact-panel {
+    margin-bottom: -160px !important;
+}
 }
 
 @media (min-width: 992px) and (max-width: 1500px) {

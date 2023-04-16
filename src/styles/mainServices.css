@@ -438,7 +438,7 @@
 }
 .client {
   background: #f4f4f4;
-  margin-top: 70px;
+  /* margin-top: 70px; */
 }
 .singleClient {
   position: relative;

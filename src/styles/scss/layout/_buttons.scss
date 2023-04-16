@@ -2,20 +2,35 @@
    Buttons
 ---------------------*/
 .btn {
+    // text-transform: capitalize;
+    // position: relative;
+    // z-index: 1;
+    // font-size: 15px;
+    // font-weight: 700;
+    // min-width: 170px!important;
+    // height: 60px;
+    // line-height: 60px;
+    // text-align: center;
+    // padding: 0 15px;
+    // letter-spacing: 1px;
+    // border: 0;
+    // border-radius: 3px;
+    // overflow: hidden;
     text-transform: capitalize;
     position: relative;
     z-index: 1;
     font-size: 15px;
     font-weight: 700;
-    min-width: 170px!important;
+    min-width: 170px;
     height: 60px;
     line-height: 60px;
     text-align: center;
     padding: 0 15px;
-    letter-spacing: 1px;
+    // letter-spacing: 1px;
     border: 0;
     border-radius: 3px;
     overflow: hidden;
+    -webkit-transition: all 0.3s linear;
     @include prefix(transition, all .3s linear, webkit moz ms o);
 
     &:focus,

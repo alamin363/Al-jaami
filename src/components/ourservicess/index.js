@@ -16,12 +16,15 @@ const OurServices = () => {
             </div>
           </div>
 
-          <div className="col-sm-12 col-md-12 ">
+          <div className="col-sm-12 col-md-12 col-lg-7">
             <h3 className="heading__title">
               Nationwide Service, Local Expertise Offering The Latest Software
               And IT Services To Our Customers!
             </h3>
-            <p className="heading__desc">
+
+          </div>
+          <div className="col-sm-12 col-md-12 col-lg-5">
+          <p className="heading__desc">
               Increase productivity, leverage tech, and deliver superior
               customer experiences by utilizing current technology services
               available globally. Our highly experienced professionals, utilize

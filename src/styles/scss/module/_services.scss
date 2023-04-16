@@ -22,14 +22,14 @@
             opacity: 0;
             height: 3px;
             border-radius: 2px;
-            background-color: $color-primary;
+            // background-color: $color-primary;
             @include prefix(transition, all .4s ease, webkit moz ms o);
         }
 
         .btn {
             height: 40px;
             line-height: 38px;
-            min-width: 138px;
+            min-width: 138px !important;
             padding: 0 20px;
             margin-top: 30px !important;
             span {

@@ -12469,13 +12469,13 @@ a.btn.action__btn-contact {
 
 
 
-.slick-arrow.slick-next {
+/* .slick-arrow.slick-next {
   right: -80px !important;
 }
 
 .slick-arrow.slick-prev {
   left: -80px !important;
-}
+} */
 
 @media (max-width:800px) {
   .slick-arrow{

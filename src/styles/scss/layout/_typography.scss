@@ -50,29 +50,10 @@ h6 {
     color: $color-primary;
     margin-bottom: 12px;
 }
-.heading__title_about {
-    font-size: 25px;
-    margin-bottom: 20px;
 
-    .underlined-text {
-        border-bottom: 4px solid $color-primary;
-    }
-}
-
-.heading__title_feturedsection {
-    font-size: 18px;
-    margin-bottom: 20px;
-    color: rgb(255, 255, 255);
-    text-transform: initial;
-
-    .underlined-text {
-        border-bottom: 4px solid $color-primary;
-    }
-}
 .heading__title {
     font-size: 37px;
     margin-bottom: 20px;
-    letter-spacing: 2px;
 
     .underlined-text {
         border-bottom: 4px solid $color-primary;
@@ -81,15 +62,6 @@ h6 {
 
 .heading__desc {
     margin-bottom: 0;
-}
-.heading__desc_service {
-    margin-bottom: 0;
-    margin-top: -87px;
-    margin-left: 15px;
-}
-.heading__desc_service {
-    margin-bottom: 0;
-    text-align: left;
 }
 
 .heading-layout2 {

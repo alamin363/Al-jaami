@@ -1,6 +1,7 @@
 import Image from "next/image";
 import banner5 from "../../assets/images/banners/5.jpg";
-import BannerSlider from "./bannerSlider/bannerSlider";
+import ServicesCarousel from "./bannerSlider/bannerSlider";
+import BannerSlider from "../bannerLayout/bannerSlider/bannerSlider";
 
 const BannerLayout = () => {
   return (
@@ -17,9 +18,9 @@ const BannerLayout = () => {
                 <p className="heading__desc mb-30">
                   We are experienced professionals who understand that It
                   services is changing, and are partners who care about your
-                  success. As one of the world&#39;s largest IT Service Providers,
-                  our deep pool of certified engineers and IT staff are ready to
-                  help.
+                  success. As one of the world&#39;s largest IT Service
+                  Providers, our deep pool of certified engineers and IT staff
+                  are ready to help.
                 </p>
               </div>
               {/* <!-- /.heading --> */}
@@ -39,7 +40,11 @@ const BannerLayout = () => {
             {/* 
              slider
              */}
-            <BannerSlider />
+            <div className="testimonials testimonials-wrapper">
+              <div className="slider-with-navs">
+                <BannerSlider />
+              </div>
+            </div>
           </div>
           {/* <!-- /.col-xl-6 --> */}
           <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6">
@@ -52,7 +57,9 @@ const BannerLayout = () => {
               >
                 <div className="row">
                   <div className="col-12">
-                    <h4 className="contact-panel__title mb-20">Request A Quote</h4>
+                    <h4 className="contact-panel__title mb-20">
+                      Request A Quote
+                    </h4>
                     <p className="contact-panel__desc mb-30">
                       Our deep pool of certified engineers and IT staff are
                       ready to help you to keep your IT business safe & ensure

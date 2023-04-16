@@ -4,7 +4,7 @@ import Accordion from "../Accordion/Accoredion";
 
 const AppDevelopmentMainCard = () => {
   let value = {
-    webDeveloper: true,
+    webDeveloper: false,
     graphicDesign: false,
     contentWriting: false,
   };

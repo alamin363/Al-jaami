@@ -106,13 +106,13 @@ const Header = () => {
           >
             <ul className="navbar-nav ml-auto">
               <li className="nav__item  has-dropdown">
-                <Link href="/" className="nav__item-link active">
+                <Link href="/" style={{marginRight:"10px"}} className="nav__item-link active">
                   Home
                 </Link>
               </li>
               <li className="nav__item  has-dropdown">
                 {/* <i className="fa-solid fa-angle-down"></i> */}
-                <p
+                <a
                   onClick={() =>
                     setOpenSlideItem({
                       company: !openSlideNavItem.company,
@@ -127,7 +127,7 @@ const Header = () => {
                     style={{ fontSize: 15, marginLeft: 5 }}
                     icon={faAngleDown}
                   />
-                </p>
+                </a>
 
                 <ul
                   className={`dropdown-menu ${
@@ -409,12 +409,12 @@ const Header = () => {
               </Link>
             </li>
             <li className={`${hidelogin ? "d-none" : "d-block"}`}>
-              <button
+              <a
                 onClick={() => setModalOpen((Pre) => !Pre)}
                 className="btn action__btn-contact"
               >
-                <span>Login</span>
-              </button>
+                Login
+              </a>
             </li>
           </ul>
           {/* /.navbar-actions */}

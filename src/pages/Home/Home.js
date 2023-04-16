@@ -7,7 +7,6 @@ import MultimediaService from "@/components/multimediaService/MultimediaService"
 import BannerLayout from "@/components/bannerLayout/BannerLayout";
 import Header from "@/components/header/Header";
 import Tab2 from "@/components/Tabs/Tab2";
-import { useEffect, useState } from "react";
 import { Loaders } from "@/components/Loader/Loader";
 import RoyalLoader from "@/components/Loader/RoyalLoader";
 const Home = () => {

@@ -3,6 +3,7 @@ import PricingFeatures from "@/components/QuoteComponents/PricingFeatures";
 import QuoteAbout from "@/components/QuoteComponents/QuoteAbout";
 import QuoteBannerLayout from "@/components/QuoteComponents/QuoteBennerLayout";
 import QuoteHeader from "@/components/QuoteComponents/QuoteHeader";
+import BannerLayout from "@/components/bannerLayout/BannerLayout";
 import Header from "@/components/header/Header";
 
 const index = () => {
@@ -11,7 +12,8 @@ const index = () => {
     <Header />
       <QuoteHeader />
       <QuoteAbout />
-      <QuoteBannerLayout />
+      {/* <QuoteBannerLayout /> */}
+      <BannerLayout />
       <PricingFeatures />
     </>
   );
