@@ -432,9 +432,10 @@
         background-color: $color-primary;
         border-color: $color-primary;
         // color: $color-white;
+        color: #063946;
 
         &:before {
-            background-color: $color-secondary !important;
+            background-color: #ffffff !important;
         }
     }
 }

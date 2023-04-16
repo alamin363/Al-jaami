@@ -160,7 +160,7 @@ const CommonServices = ({ value }) => {
             <p style={{ fontSize: "17px" }}>
               We provide practical marketing tools that generate a high return
               on investment. We are devoted to offering affordable,
-              custom-designed packages that meet our customers' expectations.
+              custom-designed packages that meet our customers expectations.
             </p>
 
             <p style={{ fontSize: "17px" }}>
@@ -232,7 +232,7 @@ const CommonServices = ({ value }) => {
               Need something changed or is there something not quite working the
               way you envisaged? Is your van a little old and tired and need
               refreshing? Lorem Ipsum is simply dummy text of the printing and
-              typesetting industry. Lorem Ipsum has been the industry's standard
+              typesetting industry. Lorem Ipsum has been the industry&rsquo;s standard
               dummy text ever since the 1500s, when an unknown printer took a
               galley of type and scrambled it to make a type specimen book. It
               has survived not only five centuries, but also the leap into
@@ -240,7 +240,7 @@ const CommonServices = ({ value }) => {
             </p>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
+              industry. Lorem Ipsum has been the industry&rsquo;s standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
               type and scrambled it to make a type specimen book. It has
               survived not only five centuries, but also the leap into
