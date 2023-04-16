@@ -61,7 +61,6 @@ const About = () => {
                 >
                   Best Organizations
                 </Link>
-                <AnimatedSlider />
               </div>
             </div>
           </div>

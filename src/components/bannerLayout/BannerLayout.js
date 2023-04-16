@@ -33,9 +33,7 @@ const BannerLayout = () => {
             <div className="heading heading-light">
               <h3 className="heading__title mb-30">Our Trusted Clients</h3>
             </div>
-            <div class="clients">
-            <AnimatedSlider />
-            </div>
+            <div class="clients"></div>
           </div>
           {/* <!-- /.col-xl-6 --> */}
           <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6">

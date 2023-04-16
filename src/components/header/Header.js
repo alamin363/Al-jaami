@@ -107,11 +107,7 @@ const Header = () => {
           >
             <ul className="navbar-nav ml-auto">
               <li className="nav__item  has-dropdown">
-                <Link
-                  href="/"
-                  style={{ marginRight: "10px" }}
-                  className="nav__item-link active"
-                >
+                <Link href="/" className="nav__item-link active">
                   Home
                 </Link>
               </li>

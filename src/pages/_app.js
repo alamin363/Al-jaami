@@ -15,9 +15,6 @@ import MainLayout from "@/Layout/MainLayout";
 config.autoAddCss = false;
 
 export default function App({ Component, pageProps }) {
-  // useEffect(() => {
-  //   require("bootstrap/dist/js/bootstrap.bundle.min.js");
-  // }, []);
   return (
     <>
       <MainLayout>

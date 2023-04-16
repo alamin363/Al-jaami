@@ -67,10 +67,6 @@ const QuoteBannerLayout = () => {
               <h3 className="heading__title mb-30">Our Trusted Clients</h3>
             </div>
             <div className="clients">
-              {/* carocell */}
-              {/* slider animated */}
-              <AnimatedSlider />
-
               {/* <!-- /.carousel --> */}
             </div>
           </div>
