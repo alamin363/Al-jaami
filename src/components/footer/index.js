@@ -45,9 +45,9 @@ const Footer = () => {
                   <nav>
                     <ul className="list-unstyled">
                       <li className="nav__item">
-                        <a href="about-us.html" className="nav__item-link">
+                        <Link href="about-us.html" className="nav__item-link">
                           About Us
-                        </a>
+                        </Link>
                       </li>
                       <li className="nav__item">
                         <Link href="choose" className="nav__item-link">
@@ -65,9 +65,9 @@ const Footer = () => {
                         </Link>
                       </li>
                       <li className="nav__item">
-                        <a href="faqs.html" className="nav__item-link">
+                        <Link href="faqs.html" className="nav__item-link">
                           Help & FAQs
-                        </a>
+                        </Link>
                       </li>
                       <li className="nav__item">
                         <Link href="/careers" className="nav__item-link">
@@ -84,44 +84,44 @@ const Footer = () => {
                   <nav>
                     <ul className="list-unstyled">
                       <li className="nav__item">
-                        <a
+                        <Link
                           href="web_service_details.html"
                           className="nav__item-link"
                         >
                           Web Development
-                        </a>
+                        </Link>
                       </li>
                       <li className="nav__item">
-                        <a
+                        <Link
                           href="graphic_service_details.html"
                           className="nav__item-link"
                         >
                           Graphics Design
-                        </a>
+                        </Link>
                       </li>
                       <li className="nav__item">
-                        <a
+                        <Link
                           href="content_service_details.html"
                           className="nav__item-link"
                         >
                           Content Writing
-                        </a>
+                        </Link>
                       </li>
                       <li className="nav__item">
-                        <a
+                        <Link
                           href="seo_service_details.html"
                           className="nav__item-link"
                         >
                           SEO & Digital Marketing
-                        </a>
+                        </Link>
                       </li>
                       <li className="nav__item">
-                        <a
+                        <Link
                           href="app_service_details.html"
                           className="nav__item-link"
                         >
                           App Development
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </nav>
@@ -186,16 +186,16 @@ const Footer = () => {
                         LU2 9NQ
                       </p>
                       <li className="list_none">
-                        <a href="#">
+                        <Link href="#">
                           <i className="fab fa-whatsapp"></i> &nbsp; 07772 053
                           605
-                        </a>
+                        </Link>
                       </li>
                       <li className="list_none">
-                        <a href="#">
+                        <Link href="#">
                           <i className="fab fa-telegram-plane"></i> &nbsp;
                           business@aljaami.co.uk
-                        </a>
+                        </Link>
                       </li>
                     </div>
                     <div className="col-md-3">
@@ -205,32 +205,32 @@ const Footer = () => {
                         Bangladesh-7000
                       </p>
                       <li className="list_none">
-                        <a href="#">
+                        <Link href="#">
                           <i className="fab fa-whatsapp"></i> &nbsp; +880 1712
                           112 443
-                        </a>
+                        </Link>
                       </li>
                       <li className="list_none">
-                        <a href="#">
+                        <Link href="#">
                           <i className="fab fa-telegram-plane"></i> &nbsp;
                           business@aljaami.net
-                        </a>
+                        </Link>
                       </li>
                     </div>
                     <div className="col-md-3">
                       <h6 className=" mb-0"> DEVELOPMENT OFFICE </h6>
                       <p className="m_b_1">14-Km, Pusroor Road, Sialkot</p>
                       <li className="list_none">
-                        <a href="#">
+                        <Link href="#">
                           <i className="fab fa-whatsapp"></i> &nbsp; +92 333
                           6610047
-                        </a>
+                        </Link>
                       </li>
                       <li className="list_none">
-                        <a href="#">
+                        <Link href="#">
                           <i className="fab fa-telegram-plane"></i> &nbsp;
                           business@aljaami.pk
-                        </a>
+                        </Link>
                       </li>
                     </div>
                     <div className="col-md-3">
@@ -240,16 +240,16 @@ const Footer = () => {
                         Pradesh 201301, India
                       </p>
                       <li className="list_none">
-                        <a href="#">
+                        <Link href="#">
                           <i className="fab fa-whatsapp"></i> &nbsp; +91 120 423
                           3116
-                        </a>
+                        </Link>
                       </li>
                       <li className="list_none">
-                        <a href="#">
+                        <Link href="#">
                           <i className="fab fa-telegram-plane"></i> &nbsp;
                           business@aljaami.in
-                        </a>
+                        </Link>
                       </li>
                     </div>
                   </div>
@@ -280,30 +280,30 @@ const Footer = () => {
               <div className="col-sm-12 col-md-5 col-lg-5 d-flex flex-wrap justify-content-end align-items-center">
                 <ul className="social-icons list-unstyled mb-0 mr-30">
                   <li>
-                    <a href="#">
+                    <Link href="#">
                       <i className="fab fa-facebook-f"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
+                    <Link href="#">
                       <i className="fab fa-instagram"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
+                    <Link href="#">
                       <i className="fab fa-twitter"></i>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
                 <div>
-                  <a href="#" className="btn btn__white btn__download mr-20">
+                  <Link href="#" className="btn btn__white btn__download mr-20">
                     <i className="fab fa-apple"></i>
                     <span>App Store</span>
-                  </a>
-                  <a href="#" className="btn btn__white btn__download">
+                  </Link>
+                  <Link href="#" className="btn btn__white btn__download">
                     <i className="fab fa-google-play"></i>
                     <span>Google Play</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

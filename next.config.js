@@ -6,6 +6,9 @@ const nextConfig = {
   sassOptions: {
     includePaths: [path.join(__dirname, "./src/styles/scss")],
   },
+  experimental: {
+    prefetch: true,
+  },
   images: {
     domains: ["cdn.pixabay.com", "t2.gstatic.com", "images.pexels.com"],
   },

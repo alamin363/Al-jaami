@@ -2861,8 +2861,8 @@ input[type="radio"] {
   margin: auto;
   display: block;
   background-color: #d7b680;
-  -webkit-transition: 0.5s ease;
-  transition: 0.5s ease;
+  /* -webkit-transition: 0.5s ease;
+  transition: 0.5s ease; */
 }
 
 .navbar .nav__item .nav__item-link.active:before,

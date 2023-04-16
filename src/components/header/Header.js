@@ -117,7 +117,7 @@ const Header = () => {
               </li>
               <li className="nav__item  has-dropdown">
                 {/* <i className="fa-solid fa-angle-down"></i> */}
-                <a
+                <p
                   onClick={() =>
                     setOpenSlideItem({
                       company: !openSlideNavItem.company,
@@ -132,7 +132,7 @@ const Header = () => {
                     style={{ fontSize: 15, marginLeft: 5 }}
                     icon={faAngleDown}
                   />
-                </a>
+                </p>
 
                 <ul
                   className={`dropdown-menu ${
