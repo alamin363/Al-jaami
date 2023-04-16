@@ -136,12 +136,12 @@
         }
 
         &:hover {
-            color: $color-secondary;
-
+            color:  #0e2b3d;
+            background-color: #ffffff !important;
             .icon-arrow-right,
             .icon-arrow-left {
-                color: $color-white;
-                background-color: $color-secondary;
+                color:#fff ;
+                background-color:  #0e2b3d;
             }
         }
     }

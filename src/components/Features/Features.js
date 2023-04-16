@@ -5,9 +5,7 @@ const Features = () => {
   return (
     <section className="features-layout1 pb-0">
       <div className="features-bg" style={{ backgroundColor: "#063946" }}>
-        <div className="bg-img">
-          {/* <img src="" alt="background" /> */}
-        </div>
+        <div className="bg-img">{/* <img src="" alt="background" /> */}</div>
       </div>
       <div className="container">
         <div className="row heading heading-light mb-30">
@@ -137,8 +135,8 @@ const Features = () => {
             <div className="row">
               <div className="col-sm-6">
                 <p className="mb-30 font-weight-bold sub__desc">
-                  As one of the world&#39;s largest ITService Providers with over
-                  120 engineers and IT support staff are ready to help.
+                  As one of the world&#39;s largest ITService Providers with
+                  over 120 engineers and IT support staff are ready to help.
                 </p>
                 <Link
                   href="/request-quote"

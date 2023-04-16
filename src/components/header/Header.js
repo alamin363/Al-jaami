@@ -37,7 +37,7 @@ const Header = () => {
     };
   }, []);
 
-  // hide login and quote in conditional 
+  // hide login and quote in conditional
   useEffect(() => {
     switch (router.pathname) {
       case "/":
@@ -59,6 +59,7 @@ const Header = () => {
   const handelMenu = () => {
     setToggle((Pre) => !Pre);
   };
+  console.log(toggle);
 
   return (
     <header className="header header-transparent">
@@ -95,7 +96,7 @@ const Header = () => {
             type="button"
           >
             <span className="menu-lines">
-              <span />
+              <span></span>
             </span>
           </button>
           <div
@@ -106,7 +107,11 @@ const Header = () => {
           >
             <ul className="navbar-nav ml-auto">
               <li className="nav__item  has-dropdown">
-                <Link href="/" style={{marginRight:"10px"}} className="nav__item-link active">
+                <Link
+                  href="/"
+                  style={{ marginRight: "10px" }}
+                  className="nav__item-link active"
+                >
                   Home
                 </Link>
               </li>

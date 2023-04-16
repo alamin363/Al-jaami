@@ -799,7 +799,8 @@
         .navbar .navbar-toggler .menu-lines:before,
         .navbar .navbar-toggler .menu-lines:after,
         .navbar .navbar-toggler .menu-lines span {
-            background-color: $color-secondary;
+            // background-color: $color-secondary;
+            background-color: $color-white;
         }
 
         .navbar-expand-lg>.container,

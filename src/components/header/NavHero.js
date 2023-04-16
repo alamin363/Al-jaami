@@ -6,7 +6,7 @@ import React from "react";
 const NavHero = () => {
   return (
     <nav>
-      <ol className="breadcrumb justify-content-center mb-0">
+      <ol className="breadcrumb justify-content-center mb-0 mt-30">
         <li className="breadcrumb-item">
           <Link href="/">Home</Link>
           <FontAwesomeIcon
