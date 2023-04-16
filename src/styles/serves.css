@@ -184,7 +184,7 @@
   position: absolute;
   bottom: 0;
   background: #d7b680;
-  background: rgb(215 182 128 / 85%); /* Black see-through */
+  background: rgb(215 182 128 / 85%);
   color: #f1f1f1;
   width: 100%;
   transition: 0.5s ease;

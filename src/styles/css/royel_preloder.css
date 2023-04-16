@@ -1,8 +1,4 @@
-/* div.royal_preloader { */
-    /* height: 500px; */
-  /* background: none; */
-  /* visibility: hidden;     */
-/* } */
+
 .RoyalLoader_bg{
     background-blend-mode: overlay;
     background-image: url("../../assets/images/logo/big-logo.svg");
@@ -70,7 +66,6 @@
   bottom: auto;
 }
 
-/* Number Mode */
 #royal_preloader.royal_preloader_number .royal_preloader_percentage {
   position: absolute;
   top: 0;
@@ -105,7 +100,6 @@
   animation: rotate 0.8s linear infinite;
 }
 
-/* Line Mode */
 #royal_preloader.royal_preloader_line .royal_preloader_loader {
   position: absolute;
   height: 100%;
@@ -119,7 +113,6 @@
   opacity: 0.5;
 }
 
-/* Text Mode */
 #royal_preloader.royal_preloader_text .royal_preloader_loader {
   color: #ffffff;
   position: absolute;
@@ -147,7 +140,6 @@
   filter: alpha(opacity=70);
 }
 
-/* Scale Text Mode */
 #royal_preloader.royal_preloader_scale_text .royal_preloader_loader {
   color: #ffffff;
   position: absolute;
@@ -183,7 +175,6 @@
   animation: scale 0.2s forwards;
 }
 
-/* Logo Mode */
 #royal_preloader.royal_preloader_logo .royal_preloader_loader {
   position: absolute;
   left: 50%;
@@ -220,7 +211,6 @@
   padding-top: 10px;
 }
 
-/* Progress Mode */
 #royal_preloader.royal_preloader_progress .royal_preloader_percentage {
   position: absolute;
   top: 50%;

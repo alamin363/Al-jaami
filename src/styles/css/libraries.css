@@ -42,7 +42,6 @@
 html {
   font-family: sans-serif;
   line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -601,18 +600,6 @@ pre code {
     max-width: 1140px;
   }
 }
-
-/* .container-fluid,
-.container-lg,
-.container-md,
-.container-sm,
-.container-xl {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-} */
 
 @media (min-width: 576px) {
 
@@ -2892,7 +2879,7 @@ textarea.form-control.is-invalid {
 }
 
 .btn:hover {
-  /* color: #212529; */
+
   text-decoration: none;
 }
 
@@ -11499,9 +11486,6 @@ a.text-dark:hover {
   }
 }
 
-/*# sourceMappingURL=bootstrap.min.css.map */
-
-/* Magnific Popup CSS */
 .mfp-bg {
   top: 0;
   left: 0;
@@ -11946,7 +11930,6 @@ screen and (max-height: 300px) {
   }
 }
 
-/* slick carousel */
 .slick-slider {
   position: relative;
   display: block !important;
@@ -12052,7 +12035,6 @@ screen and (max-height: 300px) {
   display: none;
 }
 
-/* nice-select.css */
 .nice-select {
   -webkit-tap-highlight-color: transparent;
   background-color: #fff;
@@ -12240,7 +12222,6 @@ screen and (max-height: 300px) {
   display: block;
 }
 
-/* Template custom icon Font*/
 @font-face {
   font-family: icomoon;
   src: url(../fonts/icomoon.eot);
@@ -12442,7 +12423,6 @@ screen and (max-height: 300px) {
   content: "\e927";
 }
 
-/* Custom CSS */
 p.dropdown-toggle.nav__item-link {
   margin-bottom: 0px;
 }
@@ -12469,14 +12449,6 @@ a.btn.action__btn-contact {
 
 
 
-/* .slick-arrow.slick-next {
-  right: -80px !important;
-}
-
-.slick-arrow.slick-prev {
-  left: -80px !important;
-} */
-
 @media (max-width:800px) {
   .slick-arrow{
     top: 6.4% !important;
@@ -12498,15 +12470,13 @@ section.page-title.page-title-layout9.bg-overlay.bg-overlay-gradient.bg-parallax
   background-size: cover !important;
   background-position: center center !important;
   background-repeat: no-repeat !important;
-  /* width: 1903px !important; */
+ 
   position: relative !important;
   left: 0px !important;
   top: 0px !important;
   z-index: 999 !important;
   opacity: 1 !important;
 }
-
-/* Sidebar Custom CSS */
 .meipaly_services_help {
   position: relative;
   background-color: #063946;
@@ -12535,13 +12505,6 @@ section.page-title.page-title-layout9.bg-overlay.bg-overlay-gradient.bg-parallax
   margin: 0 0 0;
 }
 
-/*----------------------
-    Accordions
-------------------------*/
-/* .accordion-item {
-  border-radius: 0 !important;
-  margin-bottom: 0 !important;
-} */
 .accordion-item {
   background: #F7F7F7;
   padding: 0px !important;
@@ -12574,14 +12537,9 @@ button.btn.btn__secondary.btn__block.btn__icon.btn.btn-primary {
   margin-top: 30px !important;
 }
 
-.service-item {
-  /* height: 600px !important; */
-}
 
 @media (max-width:700px) {
-  .service-item {
-    /* height: 500px !important; */
-  }
+
   .responsive{
     margin: -20px auto;
   }
@@ -12599,7 +12557,6 @@ button.btn.btn__secondary.btn__block.btn__icon.btn.btn-primary {
   height: 690px !important;
 }
 
-/* Brochure Image */
 img.BrochureImg {
   width: 70%;
 }
@@ -12608,7 +12565,7 @@ img.BrochureImg {
   background: #133a60;
 }
 
-/* When the width is between 600px and 900px OR above 1100px - change the appearance of <div> */
+
 @media screen and (max-width: 990px) and (min-width: 320px),
 (min-width: 1100px) {
   .logo-dark {
