@@ -44,13 +44,21 @@ import ReactLogo from "../../assets/images/icons/react-native-1.svg";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
+  faA,
   faAppleAlt,
   faBookAtlas,
   faC,
+  faH,
+  faJ,
   faK,
+  faL,
+  faM,
   faPersonWalkingArrowLoopLeft,
+  faR,
   faRobot,
   faSquare,
+  faT,
+  faV,
   faVectorSquare,
 } from "@fortawesome/free-solid-svg-icons";
 
@@ -154,7 +162,8 @@ const Tab2 = () => {
                         <span>Objective-C</span>{" "}
                       </div>
                       <div className="single-item">
-                        <FontAwesomeIcon icon={faC} /> <span>C#</span>{" "}
+                        <FontAwesomeIcon icon={faC} />
+                         <span>C#</span>{" "}
                       </div>
                       <div className="single-item">
                         <FontAwesomeIcon icon={faC} />
@@ -169,6 +178,7 @@ const Tab2 = () => {
                         <span style={{ marginTop: "-3px" }}>Ionic</span>{" "}
                       </div>
                       <div className="single-item">
+                      <Image width={50} height={50} src={kotlin} alt="" />
                         <span>Kotlin</span>{" "}
                       </div>
                       <div className="single-item">
@@ -191,20 +201,24 @@ const Tab2 = () => {
                       id="id-1"
                     >
                       <div className="single-item">
-                        <Image width={50} height={50} src={ReactLogo} alt="" />
+                      <FontAwesomeIcon icon={faA} />
                         <span>Angular</span>{" "}
                       </div>
                       <div className="single-item">
-                        <Image width={50} height={50} src={ReactLogo} alt="" />
+                      <FontAwesomeIcon icon={faR} />
+                      <FontAwesomeIcon icon={faJ} />
                         <span>ReactJs</span>{" "}
                       </div>
                       <div className="single-item">
-                        <Image width={50} height={50} src={ReactLogo} alt="" />
+                      <FontAwesomeIcon icon={faV} />
                         <span>VueJS</span>{" "}
                       </div>
                       <div className="single-item">
-                        <Image width={50} height={50} src={react} alt="" />
-                        <span>HTML</span>{" "}
+                      <FontAwesomeIcon icon={faH} />
+                      <FontAwesomeIcon icon={faT} />
+                      <FontAwesomeIcon icon={faM} />
+                      <FontAwesomeIcon icon={faL} />
+                          <span>HTML</span>{" "}
                       </div>
                       <div className="single-item">
                         <Image width={50} height={50} src={react} alt="" />
