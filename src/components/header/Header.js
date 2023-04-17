@@ -12,11 +12,11 @@ import Login from "../LoginRegisterModal/LoginRegisterModal";
 
 const Header = () => {
   const [hidelogin, setHidelogin] = useState(false);
+  const [QuoteHide, setQuote] = useState(false);
   const [DisplayScroll, setDisplayScroll] = useState(false);
   const [modalopen, setModalOpen] = useState(false);
   const [toggle, setToggle] = useState(false);
   const [windowSize, setWindowSize] = useState(getWindowSize());
-  const [QuoteHide, setQuote] = useState(false);
   const [openSlideNavItem, setOpenSlideItem] = useState({
     company: false,
     services: false,
@@ -49,7 +49,7 @@ const Header = () => {
         setHidelogin(true);
         break;
     }
-  }, []);
+  }, [router.pathname]);
   function getWindowSize() {
     if (typeof window !== "undefined") {
       const { innerWidth, innerHeight } = window;
