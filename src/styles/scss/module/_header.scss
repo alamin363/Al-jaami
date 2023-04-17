@@ -328,7 +328,7 @@
 
         .action__btn,
         .nav__item>.nav__item-link {
-            color: $color-secondary;
+            color: $color-primary;
         }
 
         .dropdown-menu .nav__item .nav__item-link {
@@ -814,6 +814,7 @@
         .navbar>.container,
         .navbar>.container-fluid {
             height: 80px;
+            // background-color: #063946;
         }
 
         .navbar-brand {

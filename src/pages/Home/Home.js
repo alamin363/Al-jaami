@@ -8,14 +8,12 @@ import BannerLayout from "@/components/bannerLayout/BannerLayout";
 import Header from "@/components/header/Header";
 import Tab2 from "@/components/Tabs/Tab2";
 import { Loaders } from "@/components/Loader/Loader";
-import RoyalLoader from "@/components/Loader/RoyalLoader";
 const Home = () => {
   return (
     <>
-    
       <Sliders />
-      <Loaders />
       <About />
+      <Loaders />
       <OurServices />
       <Features />
       <Banner />

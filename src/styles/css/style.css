@@ -3498,7 +3498,7 @@ input[type="radio"] {
 
   .header .navbar,
   .header-transparent .navbar {
-    background-color: #063946;
+    background-color: #063946 !important;
   }
 
   .header .logo-dark,

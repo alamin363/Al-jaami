@@ -2,6 +2,8 @@ import Link from "next/link";
 import aboutImg from "../../assets/images/about/1.jpg";
 import Image from "next/image";
 import AnimatedSlider from "../AnimationSlider/AnimatedSlider";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCheck } from "@fortawesome/free-solid-svg-icons";
 const About = () => {
   return (
     <div>
@@ -24,16 +26,16 @@ const About = () => {
             </div>
             <div className="col-sm-12 col-md-12 col-lg-6">
               <p>
-                Al jaami&#39;s unique approach to technology management and advisory
-                solutions has helped enterprises worldwide manage their IT. With
-                the help of our skilled professionals, give appropriate access
-                and view permissions to requests, issues, revisions, contracts,
-                assets, solutions, and reports.
+                Al jaami&#39;s unique approach to technology management and
+                advisory solutions has helped enterprises worldwide manage their
+                IT. With the help of our skilled professionals, give appropriate
+                access and view permissions to requests, issues, revisions,
+                contracts, assets, solutions, and reports.
               </p>
               <p>
-                Our job as one of the world&#39;s leading IT service providers is to
-                assist you in keeping your IT business secure while ensuring
-                high availability.
+                Our job as one of the world&#39;s leading IT service providers
+                is to assist you in keeping your IT business secure while
+                ensuring high availability.
               </p>
             </div>
           </div>
@@ -53,7 +55,9 @@ const About = () => {
                 <li>Structure Data & Docs</li>
               </ul>
               <div className="clients">
-                <p className="text__link text-center">Trusted By The World&#39;s</p>
+                <p className="text__link text-center">
+                  Trusted By The World&#39;s
+                </p>
                 <Link
                   href="/it-solutions"
                   className="btn btn__link  btn__underlined"

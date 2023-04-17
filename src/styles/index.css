@@ -115,9 +115,6 @@ h6 {
   animation: headerAnimation 0.7s;
 }
 
-.header-transparent .is-sticky .nav__item > .nav__item-link {
-  color: #d7b680 !important;
-}
 
 .navbar .dropdown-toggle:after {
   content: "";
