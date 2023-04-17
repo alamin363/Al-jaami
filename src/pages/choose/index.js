@@ -10,7 +10,7 @@ import React from "react";
 const index = () => {
   return (
     <>
-      <Header />
+  
       <Easy />
       <SecondaryNav />
       <Serves />

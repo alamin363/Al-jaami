@@ -12,12 +12,12 @@ const ContentWriting = () => {
     contentWriting: true,
   };
   return (
-    <div>
-      <Header />
+    <>
+  
       <ContentWritingHeroSection />
       <CommonServices value={value} />
       <ContactUs />
-    </div>
+    </>
   );
 };
 

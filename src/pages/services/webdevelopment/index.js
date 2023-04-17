@@ -9,12 +9,12 @@ const WebDevelopment = () => {
     contentWriting: false,
   };
   return (
-    <div>
-      <Header />
+    <>
+  
       <HeroSection />
       <CommonServices value={value}/>
       <ContactUs />
-    </div>
+    </>
   );
 };
 

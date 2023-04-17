@@ -1,7 +1,15 @@
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 
 const MyServices = () => {
+  const [showTab, setShowTab] = useState({
+    WebDevelopment: true,
+    GraphicsDesign: false,
+    ContentWriting: false,
+    SEODigitalMarketing: false,
+    AppDevelopment: false,
+  });
+  console.log(showTab);
   return (
     <section className="service_section commonSection">
       <div className="container">
@@ -24,62 +32,117 @@ const MyServices = () => {
             <div className="tech-list-wrapper mt-20">
               <ul className="nav tech-list" id="myTab">
                 <li className="nav-item">
-                  <Link
+                  <a
                     data-target="#id-0"
-                    className="nav-link active"
+                    className={`nav-link ${
+                      showTab.WebDevelopment ? "active" : ""
+                    }`}
                     data-toggle="tab"
-                    href=""
+                    onClick={() =>
+                      setShowTab({
+                        WebDevelopment: !showTab.WebDevelopment,
+                        GraphicsDesign: false,
+                        ContentWriting: false,
+                        SEODigitalMarketing: false,
+                        AppDevelopment: false,
+                      })
+                    }
                   >
                     Web Development
-                  </Link>
+                  </a>
                 </li>
                 <li className="nav-item">
-                  <Link
+                  <a
                     data-target="#id-1"
-                    className="nav-link"
+                    className={`nav-link ${
+                      showTab.GraphicsDesign ? "active" : ""
+                    }`}
                     data-toggle="tab"
-                    href=""
+                    onClick={() =>
+                      setShowTab({
+                        WebDevelopment: false,
+                        GraphicsDesign: !showTab.GraphicsDesign,
+                        ContentWriting: false,
+                        SEODigitalMarketing: false,
+                        AppDevelopment: false,
+                      })
+                    }
                   >
                     Graphics Design
-                  </Link>
+                  </a>
                 </li>
                 <li className="nav-item">
-                  <Link
+                  <a
                     data-target="#id-2"
-                    className="nav-link"
+                    className={`nav-link ${
+                      showTab.ContentWriting ? "active" : ""
+                    }`}
                     data-toggle="tab"
-                    href=""
+                    onClick={() =>
+                      setShowTab({
+                        WebDevelopment: false,
+                        GraphicsDesign: false,
+                        ContentWriting: !showTab.ContentWriting,
+                        SEODigitalMarketing: false,
+                        AppDevelopment: false,
+                      })
+                    }
                   >
                     Content Writing
-                  </Link>
+                  </a>
                 </li>
                 <li className="nav-item">
-                  <Link
+                  <a
                     data-target="#id-3"
-                    className="nav-link"
+                    className={`nav-link ${
+                      showTab.SEODigitalMarketing ? "active" : ""
+                    }`}
                     data-toggle="tab"
-                    href=""
+                    onClick={() =>
+                      setShowTab({
+                        WebDevelopment: false,
+                        GraphicsDesign: false,
+                        ContentWriting: false,
+                        SEODigitalMarketing: !showTab.SEODigitalMarketing,
+                        AppDevelopment: false,
+                      })
+                    }
                   >
                     SEO & Digital Marketing
-                  </Link>
+                  </a>
                 </li>
                 <li className="nav-item">
-                  <Link
+                  <a
                     data-target="#id-4"
-                    className="nav-link"
+                    className={`nav-link ${
+                      showTab.AppDevelopment ? "active" : ""
+                    }`}
                     data-toggle="tab"
-                    href=""
+                    onClick={() =>
+                      setShowTab({
+                        WebDevelopment: false,
+                        GraphicsDesign: false,
+                        ContentWriting: false,
+                        SEODigitalMarketing: false,
+                        AppDevelopment: !showTab.AppDevelopment,
+                      })
+                    }
                   >
                     App Development
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>
             <div className="tab-content">
-              <div className="single-row tab-pane fade show active" id="id-0">
+              <div
+                className={`single-row tab-pane fade ${
+                  showTab.WebDevelopment ? "show active" : ""
+                }`}
+                id="id-0"
+              >
                 <div className="row">
                   <div className="col-lg-4 col-sm-12 col-md-6">
-                    <div className="icon_box_2 text-center">
+                    <div className="icon_box_2-services text-center">
                       <h3>Website Design</h3>
                       <p>
                         Phaseus sit amet tristique lorem ipsum is simply free
@@ -88,7 +151,7 @@ const MyServices = () => {
                     </div>
                   </div>
                   <div className="col-lg-4 col-sm-12 col-md-6">
-                    <div className="icon_box_2 text-center">
+                    <div className="icon_box_2-services text-center">
                       <h3>Web Application</h3>
                       <p>
                         Phaseus sit amet tristique lorem ipsum is simply free
@@ -97,17 +160,17 @@ const MyServices = () => {
                     </div>
                   </div>
                   <div className="col-lg-4 col-sm-12 col-md-6 mt-md-1 mt-lg-none">
-                    <div className="icon_box_2 text-center">
-                      <h3>Mobbile App Development</h3>
+                    <div className="icon_box_2-services text-center">
+                      <h3>Mobile App Development</h3>
                       <p>Phaseus sit amet tristique lorem ipsum</p>
                     </div>
                   </div>
                   <div className="col-lg-2 d-md-none"></div>
                   <div
                     className="col-lg-4 col-sm-12 col-md-6 mt-lg-3 mt-md-none"
-                    style={{marginBottom: "50px"}}
+                    style={{ marginBottom: "50px" }}
                   >
-                    <div className="icon_box_2 text-center">
+                    <div className="icon_box_2-services text-center">
                       <h3>Ecommerce Development</h3>
                       <p>
                         Phaseus sit amet tristique lorem ipsum is simply free
@@ -115,7 +178,7 @@ const MyServices = () => {
                     </div>
                   </div>
                   <div className="col-lg-4 col-sm-12 col-md-6 mt-3 mt-lg-none">
-                    <div className="icon_box_2 text-center">
+                    <div className="icon_box_2-services text-center">
                       <h3>CMS Development</h3>
                       <p>
                         Phaseus sit amet tristique lorem ipsum is simply free
@@ -126,10 +189,15 @@ const MyServices = () => {
                   <div className="col-lg-2"></div>
                 </div>
               </div>
-              <div className="single-row tab-pane fade" id="id-1">
+              <div
+                className={`single-row tab-pane fade ${
+                  showTab.GraphicsDesign ? "show active" : ""
+                }`}
+                id="id-1"
+              >
                 <div className="row">
                   <div className="col-lg-4 col-sm-12 col-md-6">
-                    <div className="icon_box_2 text-center">
+                    <div className="icon_box_2-services text-center">
                       <h3>Brand Design</h3>
                       <p>
                         Phaseus sit amet tristique lorem ipsum is simply free
@@ -138,7 +206,7 @@ const MyServices = () => {
                     </div>
                   </div>
                   <div className="col-lg-4 col-sm-12 col-md-6">
-                    <div className="icon_box_2 text-center">
+                    <div className="icon_box_2-services text-center">
                       <h3>Logo Design</h3>
                       <p>
                         Phaseus sit amet tristique lorem ipsum is simply free
@@ -147,7 +215,7 @@ const MyServices = () => {
                     </div>
                   </div>
                   <div className="col-lg-4 col-sm-12 col-md-6 mt-md-1 mt-lg-none">
-                    <div className="icon_box_2 text-center">
+                    <div className="icon_box_2-services text-center">
                       <h3>UIUX Design</h3>
                       <p>
                         Phaseus sit amet tristique lorem ipsum is simply free
@@ -156,7 +224,7 @@ const MyServices = () => {
                     </div>
                   </div>
                   <div className="col-lg-4 col-sm-12 col-md-6 mt-3 mt-lg-none">
-                    <div className="icon_box_2 text-center">
+                    <div className="icon_box_2-services text-center">
                       <h3>Social Media Design</h3>
                       <p>
                         Phaseus sit amet tristique lorem ipsum is simply free
@@ -165,7 +233,7 @@ const MyServices = () => {
                     </div>
                   </div>
                   <div className="col-lg-4 col-sm-12 col-md-6 mt-3 mt-lg-none">
-                    <div className="icon_box_2 text-center">
+                    <div className="icon_box_2-services text-center">
                       <h3>Packaging Design</h3>
                       <p>
                         Phaseus sit amet tristique lorem ipsum is simply free
@@ -174,7 +242,7 @@ const MyServices = () => {
                     </div>
                   </div>
                   <div className="col-lg-4 col-sm-12 col-md-6 mt-3 mt-lg-none">
-                    <div className="icon_box_2 text-center">
+                    <div className="icon_box_2-services text-center">
                       <h3>Cover Design</h3>
                       <p>
                         Phaseus sit amet tristique lorem ipsum is simply free
@@ -184,7 +252,7 @@ const MyServices = () => {
                   </div>
                   <div className="col-md-4"></div>
                   <div className="col-lg-4 col-sm-12 col-md-6 mt-3 mt-lg-none">
-                    <div className="icon_box_2 text-center">
+                    <div className="icon_box_2-services text-center">
                       <h3>Cover Design</h3>
                       <p>
                         Phaseus sit amet tristique lorem ipsum is simply free
@@ -195,10 +263,15 @@ const MyServices = () => {
                   <div className="col-md-4"></div>
                 </div>
               </div>
-              <div className="single-row tab-pane fade" id="id-2">
+              <div
+                className={`single-row tab-pane fade ${
+                  showTab.ContentWriting ? "show active" : ""
+                }`}
+                id="id-2"
+              >
                 <div className="row">
                   <div className="col-lg-4 col-sm-12 col-md-6">
-                    <div className="icon_box_2 text-center">
+                    <div className="icon_box_2-services text-center">
                       <h3>E-Books</h3>
                       <p>
                         Phaseus sit amet tristique lorem ipsum is simply free
@@ -207,7 +280,7 @@ const MyServices = () => {
                     </div>
                   </div>
                   <div className="col-lg-4 col-sm-12 col-md-6">
-                    <div className="icon_box_2 text-center">
+                    <div className="icon_box_2-services text-center">
                       <h3>Artical Marketing</h3>
                       <p>
                         Phaseus sit amet tristique lorem ipsum is simply free
@@ -216,7 +289,7 @@ const MyServices = () => {
                     </div>
                   </div>
                   <div className="col-lg-4 col-sm-12 col-md-6 mt-md-1 mt-lg-none">
-                    <div className="icon_box_2 text-center">
+                    <div className="icon_box_2-services text-center">
                       <h3>Blog Content</h3>
                       <p>
                         Phaseus sit amet tristique lorem ipsum is simply free
@@ -225,7 +298,7 @@ const MyServices = () => {
                     </div>
                   </div>
                   <div className="col-lg-4 col-sm-12 col-md-6 mt-3 mt-lg-none">
-                    <div className="icon_box_2 text-center">
+                    <div className="icon_box_2-services text-center">
                       <h3>Business Webpage</h3>
                       <p>
                         Phaseus sit amet tristique lorem ipsum is simply free
@@ -234,7 +307,7 @@ const MyServices = () => {
                     </div>
                   </div>
                   <div className="col-lg-4 col-sm-12 col-md-6 mt-3 mt-lg-none">
-                    <div className="icon_box_2 text-center">
+                    <div className="icon_box_2-services text-center">
                       <h3>Marketing Collateral</h3>
                       <p>
                         Phaseus sit amet tristique lorem ipsum is simply free
@@ -243,7 +316,7 @@ const MyServices = () => {
                     </div>
                   </div>
                   <div className="col-lg-4 col-sm-12 col-md-6 mt-3 mt-lg-none">
-                    <div className="icon_box_2 text-center">
+                    <div className="icon_box_2-services text-center">
                       <h3>Email Marketing Campagins</h3>
                       <p>
                         Phaseus sit amet tristique lorem ipsum is simply free
@@ -253,7 +326,9 @@ const MyServices = () => {
                   </div>
                 </div>
               </div>
-              <div className="single-row tab-pane fade" id="id-3"></div>
+              <div  className={`single-row tab-pane fade ${
+                  showTab.ContentWriting ? "show active" : ""
+                }`} id="id-3"></div>
             </div>
           </div>
         </div>

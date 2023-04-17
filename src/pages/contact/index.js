@@ -8,7 +8,7 @@ import Header from "@/components/header/Header";
 const index = () => {
   return (
     <>
-    <Header />
+
       <ContactHeroSection />
       <Location />
       <ContactFrom />

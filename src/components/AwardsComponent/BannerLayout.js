@@ -59,7 +59,7 @@ const BannerLayout = () => {
                   <p className="heading__desc mb-20">As one of the world&#39;s largest ITService Providers, we are ready to
                     help.
                   </p>
-                  <a href="" target="_blank" className="btn btn__white btn__bordered btn__xl btn__icon">
+                  <a href="https://aljaami.co.uk/assets/Broucher.pdf" target="_blank" className="btn btn__white btn__bordered btn__xl btn__icon">
                     <span>Download Brochure</span>
                     <i className="icon-arrow-right"></i>
                   </a>

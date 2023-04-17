@@ -12,9 +12,9 @@ import RoyalLoader from "@/components/Loader/RoyalLoader";
 const Home = () => {
   return (
     <>
-      <Loaders />
-      <Header />
+    
       <Sliders />
+      <Loaders />
       <About />
       <OurServices />
       <Features />

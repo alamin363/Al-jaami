@@ -10,9 +10,6 @@ const Banner = () => {
         backgroundColor: "rgba(6, 57, 70, 0.8)",
       }}
     >
-      {/* <div className="bg-img">
-      <img src="https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849821__340.jpg" alt="background" />
-      </div> */}
       <div className="container">
         <div className="row">
           <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6">
@@ -35,7 +32,7 @@ const Banner = () => {
               </Link>
             </div>
             <div className="responsive-mini-nav">
-            <NavHero />
+              <NavHero />
             </div>
           </div>
         </div>

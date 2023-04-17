@@ -9,7 +9,7 @@ import Header from "@/components/header/Header";
 const index = () => {
   return (
     <>
-    <Header />
+
       <QuoteHeader />
       <QuoteAbout />
       {/* <QuoteBannerLayout /> */}

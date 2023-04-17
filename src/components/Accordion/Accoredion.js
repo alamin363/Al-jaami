@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React, { useState } from "react";
 
 const Accordion = ({ value }) => {
@@ -43,7 +44,7 @@ const Accordion = ({ value }) => {
           <div className="card-body">
             <ul>
               <li>
-                <a href="">Web Design</a>
+                <Link href="/">Web Design</Link>
               </li>
               <li className="nav__item">
                 <a href="blog-single-post.html" className="nav__item-link">
@@ -53,7 +54,7 @@ const Accordion = ({ value }) => {
               {/* <!-- /.nav-item --> */}
               <li className="nav__item">
                 <a href="case-studies-grid.html" className="nav__item-link">
-                  Mobbile App Development
+                  Mobile App Development
                 </a>
               </li>
               {/* <!-- /.nav-item --> */}

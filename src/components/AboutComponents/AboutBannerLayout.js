@@ -5,20 +5,12 @@ import Image from "next/image";
 import VerticalSlider from "../Banner/VerticalSlider/VerticalSlider";
 import Link from "next/link";
 const AboutBannerLayout = () => {
-  // const styling = {
-  //   backgroundImage: `url('${aboutbannere}')`,
-  //   width: "100%",
-  //   height: "100%",
-  //   backgroundPosition: "cover",
-  // };
+
   return (
     <section
       // style={styling}
       className="banner-layout5 banner-layout5-sticky bg-parallax pt-130 pb-0 bg-layout-5"
     >
-      {/* <div className="bg-img">
-    <Image width="" height=""  src="https://images.pexels.com/photos/5473307/pexels-photo-5473307.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="background" />
-    </div> */}
       <div className="container-fluid">
         <div className="row">
           <div className="col-sm-12 col-md-12 col-lg-12 col-xl-5 d-flex flex-column justify-content-between pb-80">
@@ -85,7 +77,7 @@ const AboutBannerLayout = () => {
                     ready to help.
                   </p>
                   <Link
-                    href="assets/Broucher.pdf"
+                    href="https://aljaami.co.uk/assets/Broucher.pdf"
                     target="_blank"
                     className="btn btn__white btn__bordered btn__xl btn__icon"
                   >

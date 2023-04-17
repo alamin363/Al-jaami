@@ -6,6 +6,7 @@ const MainLayout = ({ children }) => {
   return (
     <div class="royal_preloader">
       <div class="wrapper">
+
         {children}
         <Footer />
       </div>

@@ -58,7 +58,7 @@ h6 {
 .bg-slider-img {
   background-blend-mode: overlay;
   background-color:rgba(6, 57, 70, 0.8) ;
-  background-image: url("../assets/images/sliders/firstSlider.jpg");
+  background-image: url("https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849825__480.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -67,14 +67,14 @@ h6 {
 .bg-slider-img-2 {
   background-blend-mode: overlay;
   background-color:rgba(6, 57, 70, 0.8) ;
-  background-image: url("../assets/images/sliders/2.jpg");
+  background-image: url("https://cdn.pixabay.com/photo/2015/01/09/11/09/meeting-594091__340.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 .banner_img {
   background-blend-mode: overlay;
-  background-image: url(https://images.pexels.com/photos/5473337/pexels-photo-5473337.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+  background-image: url("https://images.pexels.com/photos/5473337/pexels-photo-5473337.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -82,7 +82,7 @@ h6 {
 .banner_img-2 {
   background-blend-mode: overlay;
   background-color:rgba(6, 57, 70, 0.8) ;
-  background-image: url("../assets/images/backgrounds/wordpress-923188__340.jpg");
+  background-image: url("https://cdn.pixabay.com/photo/2015/09/04/23/28/wordpress-923188__340.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -166,14 +166,14 @@ h6 {
 }
 .bg-layout-5 {
   background-blend-mode: overlay;
-  background-image: url("../assets/images/about/aboutbannere.webp");
+  background-image: url("https://images.pexels.com/photos/5473307/pexels-photo-5473307.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 .background-img-3 {
   background-blend-mode: overlay;
-  background-image: url("../assets/images/backgrounds/telework.jpg");
+  background-image: url("https://cdn.pixabay.com/photo/2021/11/14/18/36/telework-6795505_960_720.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -187,14 +187,14 @@ h6 {
 }
 .page-title-layout3 {
   background-blend-mode: overlay;
-  background-image: url("../assets/images/banners/student-849821__340\ \(1\).jpg");
+  background-image: url("https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849821__340.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 .award_backgroun_color {
   background-blend-mode: overlay;
-  background-image: url("../assets/images/backgrounds/student-849826_960_720.jpg");
+  background-image: url("https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849826_960_720.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;

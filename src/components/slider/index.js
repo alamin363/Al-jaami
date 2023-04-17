@@ -17,23 +17,21 @@ const Sliders = () => {
       <div className="slick-carousel carousel-arrows-light carousel-dots-light m-slides-0">
         <Slider {...settings}>
           <div className="">
-            <div
-              className="slide-item align-v-h bg-overlay bg-overlay-gradient bg-parallax bg-slider-img bg-color-blend-mode"
-
-            >
+            <div className="slide-item align-v-h bg-overlay bg-overlay-gradient bg-parallax bg-slider-img bg-color-blend-mode">
               <div className="container">
                 <div className="row">
                   <div className="col-sm-12 col-md-12 col-lg-12 col-xl-7">
                     <div className="slide__content">
                       <h4 className="slide__title font-56px">
-                      We can help your business In reducing labor costs Increasing profit, and eclipsing your competitors.
+                        We can help your business In reducing labor costs
+                        Increasing profit, and eclipsing your competitors.
                       </h4>
                       <p className="slide__desc">
-                        Our sites are designed to each group&apos;s specific needs.
-                        We can help your company with anything from landing
-                        pages, style, photos, graphics, and media to branding,
-                        marketing, analytics, and sales strategy. We can make it
-                        happen.
+                        Our sites are designed to each group&apos;s specific
+                        needs. We can help your company with anything from
+                        landing pages, style, photos, graphics, and media to
+                        branding, marketing, analytics, and sales strategy. We
+                        can make it happen.
                       </p>
                       <Link
                         href="/aboutus"
@@ -42,7 +40,7 @@ const Sliders = () => {
                         <span>More About Us</span>
                         <i className="icon-arrow-right" />
                       </Link>
-                      <Link href="projects_grid" className="btn btn__white">
+                      <Link href="/services" className="btn btn__white">
                         Our Services
                       </Link>
                     </div>

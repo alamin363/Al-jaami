@@ -12,12 +12,12 @@ const index = () => {
     contentWriting: false,
   };
   return (
-    <div>
-    <Header />
+    <>
+
       <GraphicHeroSection />
       <CommonServices value={value}/>
       <ContactUs />
-    </div>
+    </>
   );
 };
 

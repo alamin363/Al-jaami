@@ -76,7 +76,7 @@ const Banner = () => {
                     ready to help.
                   </p>
                   <a
-                    href=""
+                    href="https://aljaami.co.uk/assets/Broucher.pdf"
                     target="_blank"
                     className="btn btn__white btn__bordered btn__xl btn__icon"
                   >
