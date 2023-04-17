@@ -1812,7 +1812,7 @@ h6 {
 
 .btn__link.btn__primary.btn__underlined {
   padding-bottom: 3px;
-  border-bottom: 2px solid #d7b680;
+  border-bottom: 2px solid #d7b680 !important;
 }
 
 .btn__link.btn__primary:hover {

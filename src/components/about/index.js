@@ -57,14 +57,14 @@ const About = () => {
               <div className="clients">
                 <p className="text__link text-center">
                   Trusted By The World&#39;s
+                  <Link
+                    href="/it-solutions"
+                    className="btn btn__link btn__primary btn__underlined"
+                    style={{ borderBottom: " 2px solid #d7b680" }}
+                  >
+                    Best Organizations
+                  </Link>
                 </p>
-                <Link
-                  href="/it-solutions"
-                  className="btn btn__link  btn__underlined"
-                  style={{ borderBottom: " 2px solid #d7b680" }}
-                >
-                  Best Organizations
-                </Link>
               </div>
             </div>
           </div>
