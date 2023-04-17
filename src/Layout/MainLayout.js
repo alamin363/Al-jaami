@@ -8,8 +8,8 @@ export const metadata = {
 };
 const MainLayout = ({ children }) => {
   return (
-    <div class="royal_preloader">
-      <div class="wrapper">
+    <div className="royal_preloader">
+      <div className="wrapper">
         {children}
         <Footer />
       </div>

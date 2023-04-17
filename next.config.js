@@ -7,7 +7,7 @@ const nextConfig = {
     includePaths: [path.join(__dirname, "./src/styles/scss")],
   },
   images: {
-    domains: ["cdn.pixabay.com", "t2.gstatic.com", "images.pexels.com"],
+    domains: ["cdn.pixabay.com", "t2.gstatic.com", "images.pexels.com","https://i.ibb.co"],
   },
 };
 

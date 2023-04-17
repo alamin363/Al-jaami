@@ -30,7 +30,7 @@ const BannerLayout = () => {
             <div className="heading heading-light">
               <h3 className="heading__title mb-30">Our Trusted Clients</h3>
             </div>
-            <div class="clients" style={{ marginTop: "-60px" }}>
+            <div className="clients" style={{ marginTop: "-60px" }}>
               <AnimatedSlider />
             </div>
           </div>
