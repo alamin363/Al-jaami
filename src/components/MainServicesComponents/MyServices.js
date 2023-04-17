@@ -9,7 +9,7 @@ const MyServices = () => {
     SEODigitalMarketing: false,
     AppDevelopment: false,
   });
-  console.log(showTab);
+  // console.log(showTab);
   return (
     <section className="service_section commonSection">
       <div className="container">
@@ -34,7 +34,7 @@ const MyServices = () => {
                 <li className="nav-item">
                   <a
                     data-target="#id-0"
-                    className={`nav-link ${
+                    className={`nav-link text-white ${
                       showTab.WebDevelopment ? "active" : ""
                     }`}
                     data-toggle="tab"
@@ -54,7 +54,7 @@ const MyServices = () => {
                 <li className="nav-item">
                   <a
                     data-target="#id-1"
-                    className={`nav-link ${
+                    className={`nav-link text-white ${
                       showTab.GraphicsDesign ? "active" : ""
                     }`}
                     data-toggle="tab"
@@ -74,7 +74,7 @@ const MyServices = () => {
                 <li className="nav-item">
                   <a
                     data-target="#id-2"
-                    className={`nav-link ${
+                    className={`nav-link text-white ${
                       showTab.ContentWriting ? "active" : ""
                     }`}
                     data-toggle="tab"
@@ -94,7 +94,7 @@ const MyServices = () => {
                 <li className="nav-item">
                   <a
                     data-target="#id-3"
-                    className={`nav-link ${
+                    className={`nav-link text-white ${
                       showTab.SEODigitalMarketing ? "active" : ""
                     }`}
                     data-toggle="tab"
@@ -114,7 +114,7 @@ const MyServices = () => {
                 <li className="nav-item">
                   <a
                     data-target="#id-4"
-                    className={`nav-link ${
+                    className={`nav-link text-white ${
                       showTab.AppDevelopment ? "active" : ""
                     }`}
                     data-toggle="tab"
@@ -161,7 +161,7 @@ const MyServices = () => {
                   </div>
                   <div className="col-lg-4 col-sm-12 col-md-6 mt-md-1 mt-lg-none">
                     <div className="icon_box_2-services text-center">
-                      <h3>Mobile App Development</h3>
+                      <h3>Mobbile App Development</h3>
                       <p>Phaseus sit amet tristique lorem ipsum</p>
                     </div>
                   </div>
@@ -326,9 +326,12 @@ const MyServices = () => {
                   </div>
                 </div>
               </div>
-              <div  className={`single-row tab-pane fade ${
-                  showTab.ContentWriting ? "show active" : ""
-                }`} id="id-3"></div>
+              <div
+                className={`single-row tab-pane fade ${
+                  showTab.AppDevelopment ? "show active" : ""
+                }`}
+                id="id-3"
+              ></div>
             </div>
           </div>
         </div>

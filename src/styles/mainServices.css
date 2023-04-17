@@ -418,8 +418,8 @@
   -moz-transition: all ease 500ms;
   -webkit-transition: all ease 500ms;
 }
-.tech-list li a {
-  color: #fff !important;
+.tech-list li p{
+  color: #fff;
 }
 .tab-content .icon_box_2-services {
   background-color: #063946;
