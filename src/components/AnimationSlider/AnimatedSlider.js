@@ -35,7 +35,7 @@ const AnimatedSlider = () => {
     <Slider
       {...settings}
       className="slick-carousel"
-      style={{ height: "80px"}}
+      style={{ height: "180px",marginTop:"-50px" }}
     >
       <div className="client">
         <Image height={80} width={"auto"} src={image1} alt="client" />

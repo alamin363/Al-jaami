@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const OurServices = () => {
   return (
-    <section className="services-layout2 services-carousel pt-0 pb-0 bg-gray">
+    <section className="services-layout2 services-carousel pt-120 pb-0 bg-gray">
       <div className="container">
         <div className="row heading mb-40">
           <div className="col-12">
@@ -21,10 +21,9 @@ const OurServices = () => {
               Nationwide Service, Local Expertise Offering The Latest Software
               And IT Services To Our Customers!
             </h3>
-
           </div>
           <div className="col-sm-12 col-md-12 col-lg-5">
-          <p className="heading__desc">
+            <p className="heading__desc">
               Increase productivity, leverage tech, and deliver superior
               customer experiences by utilizing current technology services
               available globally. Our highly experienced professionals, utilize
@@ -33,10 +32,10 @@ const OurServices = () => {
           </div>
         </div>
         {/* <div className="row"> */}
-            {/* <div className="slick-carousel"> */}
-              <ServicesCarousel />
-            {/* </div> */}
-          {/* </div> */}
+        {/* <div className="slick-carousel"> */}
+        <ServicesCarousel />
+        {/* </div> */}
+        {/* </div> */}
         <div className="row">
           <div className="col-12 btn-wrapper btn_Slider_wrapper">
             <Link

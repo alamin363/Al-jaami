@@ -1,6 +1,3 @@
-import Image from "next/image";
-import banner8 from "../../assets/images/banners/8.jpg";
-import banrImag from "../../assets/service/images/pexels-photo-3262878.webp";
 import ServicesCarousel from "./bannerSlider/bannerSlider";
 import ClientSlider from "./bannerSlider/clientSlider";
 import AnimatedSlider from "../AnimationSlider/AnimatedSlider";
@@ -14,7 +11,7 @@ const BannerLayout = () => {
         <div className="row">
           <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6 col-inner">
             <div className="heading heading-light">
-              <h3 className="heading__title mb-30">
+              <h3 className="heading__title mb---50">
                 Satisfied Users Over The Globe
               </h3>
             </div>
@@ -33,7 +30,7 @@ const BannerLayout = () => {
             <div className="heading heading-light">
               <h3 className="heading__title mb-30">Our Trusted Clients</h3>
             </div>
-            <div class="clients" style={{marginTop:"-80px"}}>
+            <div class="clients" style={{ marginTop: "-60px" }}>
               <AnimatedSlider />
             </div>
           </div>

@@ -87,7 +87,36 @@ h6 {
   background-position: center center;
   background-repeat: no-repeat;
 }
-
+.services-webdesign-mage {
+  background-blend-mode: overlay;
+  background-image: url("../assets/images/DesignServices/Design-Services.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.bg-img-page-title-service {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index: 999;
+  opacity: 1;
+  background: #d7b680 !important;
+}
+.bg-slider-img-Banner-multi {
+  /* background-image: url("../assets/images/backgrounds/1.jpg"); */
+  background: #d7b680 !important;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index: 999;
+  opacity: 1;
+}
 .bg-slider-img-Banner-two {
   background-color: #00243b;
   background-size: cover;
@@ -205,6 +234,20 @@ h6 {
 .quote-Banneralyout-bg {
   background-blend-mode: overlay;
   background-image: url("../assets/images/banners/8.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.it-web-header-bg {
+  background-blend-mode: overlay;
+  background-image: url("../assets/images/ITandWebService/ITWeb-Services.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.itservices-title-bg {
+  background-blend-mode: overlay;
+  background-image: url("../assets/images/SellingPlatforms/Selling-Platforms.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -435,4 +478,8 @@ swiper-container {
 }
 .h-75 {
   height: 75px;
+}
+.mb---50{
+
+  margin-bottom: -50px !important;
 }

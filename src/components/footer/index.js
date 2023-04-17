@@ -179,11 +179,10 @@ const Footer = () => {
                     <div className="col-md-3">
                       <h6 className="mb-0"> HEAD OFFICE </h6>
                       <p className="m_b_1">
-                        London Luton Airport Aljaami techologies UK ltd{" "}
+                        Aljaami techologies UK ltd
                       </p>
                       <p>
-                        Signature Flight Support Terminal 2, Frank Lester Way
-                        LU2 9NQ
+                      Blackburn Road, Houghton Regis, Dunstable LU5 5BQ
                       </p>
                       <li className="list_none">
                         <Link href="#">

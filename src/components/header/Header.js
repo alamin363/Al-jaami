@@ -193,10 +193,17 @@ const Header = () => {
                 >
                   {/* /.nav-item */}
                   <li className="nav__item has-dropdown">
-                    <Link
+                    {/* <Link
                       data-toggle="dropdown"
                       className="dropdown-toggle nav__item-link"
                       href="/services/webdevelopment"
+                    >
+                      Web Development
+                    </Link> */}
+                    <Link
+                      data-toggle="dropdown"
+                      className="dropdown-toggle nav__item-link"
+                      href="/services/designservice"
                     >
                       Web Development
                     </Link>
@@ -245,10 +252,17 @@ const Header = () => {
                   </li>
                   {/* /.nav-item */}
                   <li className="nav__item has-dropdown">
-                    <Link
+                    {/* <Link
                       data-toggle="dropdown"
                       className="dropdown-toggle nav__item-link"
                       href="/services/graphicdesign"
+                    >
+                      Graphics Design
+                    </Link> */}
+                    <Link
+                      data-toggle="dropdown"
+                      className="dropdown-toggle nav__item-link"
+                      href="/services/itwebservices"
                     >
                       Graphics Design
                     </Link>
@@ -313,10 +327,17 @@ const Header = () => {
                   </li>
                   {/* /.nav-item */}
                   <li className="nav__item has-dropdown">
-                    <Link
+                    {/* <Link
                       data-toggle="dropdown"
                       className="dropdown-toggle nav__item-link"
                       href="/services/contentwriting"
+                    >
+                      Content Writing
+                    </Link> */}
+                    <Link
+                      data-toggle="dropdown"
+                      className="dropdown-toggle nav__item-link"
+                      href="/services/sellingplatforms"
                     >
                       Content Writing
                     </Link>
