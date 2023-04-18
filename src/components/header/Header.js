@@ -59,7 +59,6 @@ const Header = () => {
   const handelMenu = () => {
     setToggle((Pre) => !Pre);
   };
-  console.log(toggle);
 
   return (
     <header className="header header-transparent">

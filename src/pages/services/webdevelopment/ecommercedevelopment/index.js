@@ -26,9 +26,6 @@ const index = () => {
       {/* not completed checking */}
       <div
         className="checking"
-        style={{
-          marginTop: "-650px",
-        }}
       >
         <ContextAPI>
           <PricingContent />

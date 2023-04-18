@@ -5119,7 +5119,7 @@ section > .fw-container-fluid.rull-container {
 
 .portfolio-item:hover .btn__link {
   padding: 0 15px;
-  color: #ffffff;
+  /* color: #ffffff; */
   background-color: #d7b680;
 }
 
