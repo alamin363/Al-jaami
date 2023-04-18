@@ -3,8 +3,6 @@ import BrochureSection from "@/components/DesignServiceComponents/BrochureSectio
 import ServicePagetitle from "@/components/SellingPlatfromComponents/ServicePagetitle";
 import BannerLayout from "@/components/bannerLayout/BannerLayout";
 
-import React from "react";
-
 const index = () => {
   return (
     <>

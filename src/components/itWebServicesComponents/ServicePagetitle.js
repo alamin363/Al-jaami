@@ -9,10 +9,10 @@ export default function ServicePagetitle() {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6">
-            <h1 className="pagetitle__heading">IT & Web Service</h1>
+            <h1 className="pagetitle__heading">Graphics Design</h1>
             <p className="pagetitle__desc">
               At Business Savvy UK, we understand the importance of technology
-              for businesses, and our IT and web services provide tailored
+              for businesses, and our Graphics Design services provide tailored
               solutions that meet each business&apos;s specific needs.
             </p>
             <div className="d-flex align-items-center flex-wrap">

@@ -1,7 +1,12 @@
 import HeroSection from "@/components/servicesComponent/HeroSection";
 import CommonServices from "@/components/servicesComponent/CommonServices";
 import ContactUs from "@/components/servicesComponent/ContactUs";
-import Header from "@/components/header/Header";
+
+import BannerLayoutThree from "@/components/DesignServiceComponents/BannerLayoutThree";
+import BrochureSection from "@/components/DesignServiceComponents/BrochureSection";
+import ServicePagetitle from "@/components/DesignServiceComponents/ServicePagetitle";
+import BannerLayout from "@/components/bannerLayout/BannerLayout";
+
 const WebDevelopment = () => {
   let value = {
     webDeveloper: true,
@@ -10,10 +15,13 @@ const WebDevelopment = () => {
   };
   return (
     <>
-  
-      <HeroSection />
+      {/* <HeroSection />
       <CommonServices value={value}/>
-      <ContactUs />
+      <ContactUs /> */}
+      <ServicePagetitle />
+      <BrochureSection />
+      <BannerLayoutThree />
+      <BannerLayout />
     </>
   );
 };

@@ -3,7 +3,10 @@ import Footer from "@/components/footer";
 import Header from "@/components/header/Header";
 import CommonServices from "@/components/servicesComponent/CommonServices";
 import ContactUs from "@/components/servicesComponent/ContactUs";
-import React from "react";
+import BannerLayoutThree from "@/components/DesignServiceComponents/BannerLayoutThree";
+import BrochureSection from "@/components/DesignServiceComponents/BrochureSection";
+import ServicePagetitle from "@/components/itWebServicesComponents/ServicePagetitle";
+import BannerLayout from "@/components/bannerLayout/BannerLayout";
 
 const index = () => {
   let value = {
@@ -13,10 +16,13 @@ const index = () => {
   };
   return (
     <>
-
-      <GraphicHeroSection />
+      {/* <GraphicHeroSection />
       <CommonServices value={value}/>
-      <ContactUs />
+      <ContactUs /> */}
+      <ServicePagetitle />
+      <BrochureSection />
+      <BannerLayoutThree />
+      <BannerLayout />
     </>
   );
 };

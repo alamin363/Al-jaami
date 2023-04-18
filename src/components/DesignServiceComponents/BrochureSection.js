@@ -11,8 +11,8 @@ const BrochureSection = () => {
             <div className="heading text-center mb-50">
               <h2 className="heading__subtitle">Business Savvy UK</h2>
               <h3 className="heading__title">
-                Design Service Single Category items. Selected your affordable
-                Service.
+              Web Development Service Single Category items. Selected your
+                affordable Service.
               </h3>
             </div>
             {/* /.heading */}
@@ -50,7 +50,7 @@ const BrochureSection = () => {
                 </p>
               </div>
               <a
-                href="services-it-solutions-single.html"
+                href="services-it-solutions-single"
                 className="btn btn__white btn__bordered btn__icon btn__xl"
               >
                 <span>Download Brochure</span>

@@ -11,9 +11,9 @@ const ServicePagetitle = () => {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6">
-            <h1 className="pagetitle__heading">Selling Platforms</h1>
+            <h1 className="pagetitle__heading">Content Writing</h1>
             <p className="pagetitle__desc">
-              Our Selling Platforms service helps businesses optimize their
+              Our Content Writings service helps businesses optimize their
               product listings by creating awareness and marketing on popular
               platforms such as Amazon, eBay, OnBuy, social media, and
               e-campaigners.

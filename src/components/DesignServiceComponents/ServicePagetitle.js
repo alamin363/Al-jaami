@@ -9,9 +9,9 @@ export default function ServicePagetitle() {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6">
-            <h1 className="pagetitle__heading">Design Service</h1>
+            <h1 className="pagetitle__heading">Web Development</h1>
             <p className="pagetitle__desc">
-              Looking for design services to help elevate your business? Look no
+              Looking for Web Development services to help elevate your business? Look no
               further than Business Savvy UK! Our experienced team offers
               various services to enable enterprises to build a strong brand,
               create a professional image, and engage with customers. In
