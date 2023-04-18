@@ -3,26 +3,26 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import React from "react";
 
-const NavHero = () => {
+const NavHero = ({home, services, page}) => {
   return (
     <nav>
       <ol className="breadcrumb justify-content-center mb-0 mt-30">
         <li className="breadcrumb-item">
-          <Link href="/">Home</Link>
+          <Link href="/">{`${home || "Home"} `}</Link>
           <FontAwesomeIcon
             icon={faAngleRight}
             style={{ marginLeft: 10, fontSize: 15 }}
           />
         </li>
         <li className="breadcrumb-item">
-          <Link href="/about-us">Company</Link>
+          <Link href="/about-us">{`${services || "Company"}`}</Link>
           <FontAwesomeIcon
             icon={faAngleRight}
             style={{ marginLeft: 10, fontSize: 15 }}
           />
         </li>
         <li className="breadcrumb-item active" aria-current="page">
-          about
+          {`${page || "about"}`}
         </li>
       </ol>
     </nav>

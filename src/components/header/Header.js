@@ -293,7 +293,7 @@ const Header = () => {
                       </li>
                       <li className="nav__item">
                         <Link
-                          href="/services/graphicdesign/socal mediadesign"
+                          href="/services/graphicdesign/socalmediadesign"
                           className="nav__item-link"
                         >
                           Social Media Design

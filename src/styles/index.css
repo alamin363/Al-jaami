@@ -94,6 +94,28 @@ h6 {
   background-position: center center;
   background-repeat: no-repeat;
 }
+.webDesign-hero-bg-image {
+  background-blend-mode: overlay;
+  background-image: url("../assets/images/DesignServices/Websitedesign/website-design-banner.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.graphic-hero-bg-image {
+  background-blend-mode: overlay;
+  background-image: url("../assets/images/ITandWebService/Website-Building-2.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.article-hero-bg-image {
+  background-blend-mode: overlay;
+  background-image: url("../assets/images/ITandWebService/Artificial-intelligence.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
 .bg-img-page-title-service {
   background-size: cover;
   background-position: center center;
@@ -481,4 +503,8 @@ swiper-container {
 }
 .mb---50 {
   margin-bottom: -50px !important;
+}
+
+.slick-track {
+  margin-left: -170px;
 }
