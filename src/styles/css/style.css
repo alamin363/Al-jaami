@@ -7719,9 +7719,9 @@ section > .fw-container-fluid.rull-container {
   .banner-layout5 .banner__content {
     padding: 130px 75px 110px;
   }
-  .banner-layout2 .contact-panel {
+  /* .banner-layout2 .contact-panel {
     margin-bottom: -160px !important;
-  }
+  } */
 }
 
 @media (min-width: 992px) and (max-width: 1500px) {
