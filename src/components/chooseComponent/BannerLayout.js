@@ -2,6 +2,7 @@ import Image from "next/image";
 import banner5 from "../../assets/images/banners/5.jpg";
 import ServicesCarousel from "./bannerSlider/bannerSlider";
 import BannerSlider from "../bannerLayout/bannerSlider/bannerSlider";
+import Link from "next/link";
 
 const BannerLayout = () => {
   return (
@@ -29,12 +30,12 @@ const BannerLayout = () => {
                   <span>Get Started</span>
                   <i className="icon-arrow-right"></i>
                 </a>
-                <a
-                  href="request-quote.html"
+                <Link
+                  href="/quote"
                   className="btn btn__white btn__bordered"
                 >
                   Request Demo
-                </a>
+                </Link>
               </div>
             </div>
             {/* 

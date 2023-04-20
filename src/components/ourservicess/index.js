@@ -39,7 +39,7 @@ const OurServices = () => {
         <div className="row">
           <div className="col-12 btn-wrapper btn_Slider_wrapper">
             <Link
-              href="services.html"
+              href="services"
               className="btn btn__secondary btn__bordered btn__icon responsive"
             >
               <span>Explore All Services</span>

@@ -1,4 +1,4 @@
-import { Navigation, Pagination, A11y } from "swiper";
+import { Navigation, Pagination, A11y, Autoplay } from "swiper";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -22,8 +22,11 @@ export default function VerticalSlider() {
         },
       }}
       loop={true}
-      // autoplay={true}
-      modules={[Navigation, Pagination, A11y]}
+      autoplay={{
+        delay: 3000,
+        disableOnInteraction: false
+      }}
+      modules={[Navigation, Pagination, A11y, Autoplay]}
       spaceBetween={50}
       slidesPerView={3}
       

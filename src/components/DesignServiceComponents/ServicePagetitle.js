@@ -1,5 +1,6 @@
 import { faPlay } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Link from "next/link";
 
 export default function ServicePagetitle() {
   return (
@@ -19,9 +20,9 @@ export default function ServicePagetitle() {
               that fit each business&apos;s unique needs.
             </p>
             <div className="d-flex align-items-center flex-wrap">
-              <a href="contact-us.html" className="btn btn__white mr-30">
+              <Link href="/contact" className="btn btn__white mr-30">
                 Contact Us
-              </a>
+              </Link>
               <a
                 className="video__btn video__btn-rounded video__btn-white popup-video"
                 href="https://www.youtube.com/watch?v=nrJtHemSPW4"

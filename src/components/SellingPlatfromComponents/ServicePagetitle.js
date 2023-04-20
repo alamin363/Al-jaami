@@ -19,7 +19,7 @@ const ServicePagetitle = () => {
               e-campaigners.
             </p>
             <div className="d-flex align-items-center flex-wrap">
-              <Link href="contactus" className="btn btn__white mr-30">
+              <Link href="/contact" className="btn btn__white mr-30">
                 Contact Us
               </Link>
               <a

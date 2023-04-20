@@ -1,8 +1,8 @@
 import Image from "next/image";
-import BrochureImg from "../../assets/images/Brochure/web-design.svg";
-import { BrochureSlideSection } from "./BrochureSlideSection";
+import BrochureImg from "../../../assets/images/Brochure/web-design.svg";
+import { WebDevelopmentSlide } from "./WebDevelopmentSlider";
 
-const BrochureSection = () => {
+const WebDevelopmentMainSection = () => {
   return (
     <section className="services-layout1 bg-gray pt-130 pb-90">
       <div className="container">
@@ -20,7 +20,7 @@ const BrochureSection = () => {
           {/* /.col-lg-8 */}
         </div>
         <>
-          <BrochureSlideSection />
+          <WebDevelopmentSlide />
         </>
         <div className="row mt-60">
           <div className="col-sm-12 col-md-4 col-lg-8 align-self-center">
@@ -68,4 +68,4 @@ const BrochureSection = () => {
   );
 };
 
-export default BrochureSection;
+export default WebDevelopmentMainSection;

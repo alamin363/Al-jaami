@@ -25,13 +25,13 @@ const Features = () => {
                   tactics and skills to make things bright for you. As we mean
                   your success.
                 </p>
-                <a
-                  href="request-quote.html"
+                <Link
+                  href="/quote"
                   className="btn btn__primary btn__primary-style2 btn__icon mt-30 mb-30"
                 >
                   <span>Request Demo</span>
                   <i className="icon-arrow-right"></i>
-                </a>
+                </Link>
               </div>
               <div className="col-sm-6">
                 <p className="heading__desc">
@@ -139,7 +139,7 @@ const Features = () => {
                   over 120 engineers and IT support staff are ready to help.
                 </p>
                 <Link
-                  href="/request-quote"
+                  href="/quote"
                   className="btn btn__primary btn__bordered btn__icon mb-30"
                 >
                   <span>Request Demo</span>

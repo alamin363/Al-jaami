@@ -6,12 +6,11 @@ import laptop_614213 from "../../assets/images/history/laptop-614213__340.jpg";
 import plant from "../../assets/images/history/plant-4208112__340.jpg";
 import telework from "../../assets/images/history/telework-6795505__340.jpg";
 import AboutSlider from "./AboutSlider";
+import Link from "next/link";
 const History = () => {
   return (
     <section className="history-timeline pb-0">
-      <div
-        className="history-timeline-bg bg-color-aboutLayout"
-      >
+      <div className="history-timeline-bg bg-color-aboutLayout">
         <div className="bg-img"></div>
       </div>
       <div className="container">
@@ -67,19 +66,19 @@ const History = () => {
                 </p>
               </div>
             </div>
-            <div className="row" style={{marginTop:"10px"}}>
+            <div className="row" style={{ marginTop: "10px" }}>
               <div className="col-sm-12 col-md-6">
                 <p className="mb-30 font-weight-bold sub__desc">
-                  As one of the worlds largest ITService Providers with over
-                  120 engineers and IT support staff are ready to help.
+                  As one of the worlds largest ITService Providers with over 120
+                  engineers and IT support staff are ready to help.
                 </p>
-                <a
-                  href="request-quote.html"
+                <Link
+                  href="/quote"
                   className="btn btn__primary btn__bordered btn__icon mb-30"
                 >
                   <span>Request Demo</span>
                   <i className="icon-arrow-right"></i>
-                </a>
+                </Link>
               </div>
               <div className="col-sm-12 col-md-6">
                 <ul className="list-items list-unstyled mb-30">

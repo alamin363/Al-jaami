@@ -1,11 +1,13 @@
 import React, { useContext, useState } from "react";
 import { GlobalContextAPI } from "@/components/ContextAPI/ContextAPI";
 import ContactForm from "./Form/ContactForm";
-export default function PricingContent() {
+import Link from "next/link";
+export default function PricingContent({ PricingRef }) {
   const { PriceTable } = useContext(GlobalContextAPI);
   const [openContactFrom, setOpenContactFrom] = useState(false);
   return (
     <section
+      ref={PricingRef}
       id="pricing"
       className="pricing pt-130 bg-top-center bg-slider-img-Banner-Pricing"
     >

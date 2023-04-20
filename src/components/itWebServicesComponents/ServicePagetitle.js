@@ -16,7 +16,7 @@ export default function ServicePagetitle() {
               solutions that meet each business&apos;s specific needs.
             </p>
             <div className="d-flex align-items-center flex-wrap">
-              <Link href="/contactus" className="btn btn__white mr-30">
+              <Link href="/contact" className="btn btn__white mr-30">
                 Contact Us
               </Link>
               <a

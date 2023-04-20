@@ -14,8 +14,6 @@ const SecondaryNav = () => {
     awards: Route.pathname == "/awards",
     careers: Route.pathname == "/careers",
   });
-  console.log(Route);
-  console.log("activeSecondaryNav", activeSecondaryNav);
 
   useEffect(() => {
     const handleScrollDisplay = () => {

@@ -20,7 +20,7 @@ const Banner = () => {
               care about your success.
             </p>
             <div className="d-flex align-items-center">
-              <Link href="contact-us" className="btn btn__white mr-30">
+              <Link href="/contact" className="btn btn__white mr-30">
                 Contact Us
               </Link>
               <Link

@@ -2,11 +2,13 @@ import React from "react";
 import { TestimonailsSlider } from "./Slider/TestimonailsSlider";
 import ServicesCarousel from "@/components/servicesCarosel";
 import BannerSlider from "@/components/bannerLayout/bannerSlider/bannerSlider";
+import Link from "next/link";
 
-export default function CommonSolutionBannerLayoutOne() {
+export default function CommonSolutionBannerLayoutOne({ FutureRef }) {
   return (
     <section
       id="banner1"
+      ref={FutureRef}
       className="banner-layout1 pt-90 pb-90 bg-overlay bg-overlay-primary"
     >
       <div className="container-fluid">
@@ -31,17 +33,14 @@ export default function CommonSolutionBannerLayoutOne() {
                   <span>Get Started</span>
                   <i className="icon-arrow-right" />
                 </a>
-                <a
-                  href="request-quote.html"
-                  className="btn btn__white btn__bordered"
-                >
+                <Link href="/quote" className="btn btn__white btn__bordered">
                   Request Demo
-                </a>
+                </Link>
               </div>
             </div>
             <div className="testimonials testimonials-wrapper">
               {/* <TestimonailsSlider /> */}
-               <BannerSlider />
+              <BannerSlider />
               {/* /.slcik-nav */}
             </div>
           </div>

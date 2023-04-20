@@ -1,6 +1,7 @@
 import SecondaryNav from "@/components/AboutComponents/SecondaryNav";
 import ContextAPI from "@/components/ContextAPI/ContextAPI";
 import PricingFeatures from "@/components/QuoteComponents/PricingFeatures";
+import CommonSecondaryNav from "@/components/servicesComponent/CommonSecendaryNav/CommonSecendaryNav";
 import CommonBannerLayouttwo from "@/components/servicesComponent/WebsiteDeveloperCommonComponents/CommonBannerLayouttwo";
 import CommonPortfolioGridSection from "@/components/servicesComponent/WebsiteDeveloperCommonComponents/CommonPortfolioGridSection";
 import CommonSolutionBannerLayoutOne from "@/components/servicesComponent/WebsiteDeveloperCommonComponents/CommonSolutionBannerLayoutOne";
@@ -8,8 +9,20 @@ import PricingContent from "@/components/servicesComponent/WebsiteDeveloperCommo
 import SolutionClient from "@/components/servicesComponent/WebsiteDeveloperCommonComponents/SolutionClient";
 import WebDeveloperLayout from "@/components/servicesComponent/WebsiteDeveloperCommonComponents/SolutionsLayoutThree";
 import { WebDesignHeroSection } from "@/components/servicesComponent/WebsiteDeveloperCommonComponents/WebDesignHeroSection";
+import { useRef } from "react";
 
-const index = () => {
+const Index = () => {
+  const OurTeamRef = useRef(null);
+  const serviceRef = useRef(null);
+  const StudiesRef = useRef(null);
+  const PricingRef = useRef(null);
+  const FutureRef = useRef(null);
+  const QuestionsRef = useRef(null);
+  let value = {
+    webDeveloper: false,
+    graphicDesign: true,
+    contentWriting: false,
+  };
   return (
     <>
       <WebDesignHeroSection
@@ -19,23 +32,28 @@ const index = () => {
         className="article-hero-bg-image"
         page="content writing"
       />
-      <SecondaryNav />
-      <WebDeveloperLayout />
+      <CommonSecondaryNav
+        OurTeamRef={OurTeamRef}
+        serviceRef={serviceRef}
+        StudiesRef={StudiesRef}
+        PricingRef={PricingRef}
+        FutureRef={FutureRef}
+        QuestionsRef={QuestionsRef}
+      />
+      <WebDeveloperLayout OurTeamRef={OurTeamRef} value={value} />
       <SolutionClient />
-      <CommonBannerLayouttwo />
-      <CommonPortfolioGridSection />
+      <CommonBannerLayouttwo serviceRef={serviceRef} />
+      <CommonPortfolioGridSection StudiesRef={StudiesRef} />
       {/* not completed checking */}
-      <div
-        className="checking"
-      >
+      <div className="checking">
         <ContextAPI>
-          <PricingContent />
+          <PricingContent PricingRef={PricingRef} />
         </ContextAPI>
       </div>
-      <CommonSolutionBannerLayoutOne />
-      <PricingFeatures />
+      <CommonSolutionBannerLayoutOne FutureRef={FutureRef} />
+      <PricingFeatures QuestionsRef={QuestionsRef} />
     </>
   );
 };
 
-export default index;
+export default Index;

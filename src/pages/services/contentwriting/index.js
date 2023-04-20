@@ -8,20 +8,16 @@ import BannerLayoutThree from "@/components/DesignServiceComponents/BannerLayout
 import BrochureSection from "@/components/DesignServiceComponents/BrochureSection";
 import ServicePagetitle from "@/components/SellingPlatfromComponents/ServicePagetitle";
 import BannerLayout from "@/components/bannerLayout/BannerLayout";
+import ContentWritingMainSection from "@/components/servicesComponents/ContentWriting/ContentWritingMainSection";
 
 const ContentWriting = () => {
-  let value = {
-    webDeveloper: false,
-    graphicDesign: false,
-    contentWriting: true,
-  };
   return (
     <>
       {/* <ContentWritingHeroSection />
       <CommonServices value={value} />
       <ContactUs /> */}
       <ServicePagetitle />
-      <BrochureSection />
+      <ContentWritingMainSection />
       <BannerLayoutThree />
       <BannerLayout />
     </>

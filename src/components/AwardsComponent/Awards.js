@@ -1,7 +1,7 @@
 import React from "react";
 import logo1 from "../../assets/images/awards/icons/1.png";
 import logo2 from "../../assets/images/awards/icons/2.png";
-import logo3 from "../../assets/images/awards/icons/3.png";
+
 import logo4 from "../../assets/images/awards/icons/4.png";
 import Image from "next/image";
 const Awards = () => {
@@ -40,7 +40,7 @@ const Awards = () => {
             {/* <!-- fancybox item #1 --> */}
             <div className="fancybox-item  flacybox_content_h-400">
               <div className="fancybox__icon-img">
-                <Image src={logo2} width={150} height={100} alt="logo" />
+                <Image src={logo2} width={64} height={64} alt="logo" />
               </div>
               {/* <!-- /.fancybox__icon-img --> */}
               <div className="fancybox__content" style={{ marginTop: "100px" }}>
@@ -60,7 +60,7 @@ const Awards = () => {
             <div className="fancybox-item flacybox_content_h-400">
               <span className="pinned-ribbon"></span>
               <div className="fancybox__icon-img">
-                <Image src={logo1} width={100} height={80} alt="logo" />
+                <Image src={logo1} width={74} height={64} alt="logo" />
               </div>
               {/* <!-- /.fancybox__icon-img --> */}
               <div className="fancybox__content" style={{ marginTop: "100px" }}>
@@ -79,7 +79,7 @@ const Awards = () => {
             {/* <!-- fancybox item #3 --> */}
             <div className="fancybox-item flacybox_content_h-400">
               <div className="fancybox__icon-img">
-                <Image src={logo3} width={100} height={80} alt="logo" />
+              <Image src={logo4} width={100} height={31} alt="logo" />
               </div>
               {/* <!-- /.fancybox__icon-img --> */}
               <div className="fancybox__content" style={{ marginTop: "100px" }}>
@@ -98,7 +98,7 @@ const Awards = () => {
             {/* <!-- fancybox item #4 --> */}
             <div className="fancybox-item flacybox_content_h-400">
               <div className="fancybox__icon-img">
-                <Image src={logo4} width={100} height={80} alt="logo" />
+                <Image src={logo4} width={100} height={31} alt="logo" />
               </div>
               {/* <!-- /.fancybox__icon-img --> */}
               <div className="fancybox__content" style={{ marginTop: "100px" }}>

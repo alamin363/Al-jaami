@@ -4,9 +4,9 @@ import Link from "next/link";
 import React from "react";
 import Accordion from "./Accordion";
 
-const PricingFeatures = () => {
+const PricingFeatures = ({QuestionsRef}) => {
   return (
-    <section id="faqs" className="faq pt-120 pb-70">
+    <section ref={QuestionsRef} id="faqs" className="faq pt-120 pb-70">
       <div className="container">
         <div className="row">
           <div className="col-sm-12 col-md-12 col-lg-6 offset-lg-3">

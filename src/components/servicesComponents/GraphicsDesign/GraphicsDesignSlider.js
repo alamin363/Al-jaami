@@ -4,23 +4,29 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import Link from "next/link";
+import { A11y, Autoplay, Navigation, Pagination } from "swiper";
 
-export const BrochureSlideSetion = () => {
+export const GraphicsDesignSlider = () => {
   return (
     <Swiper
+      modules={[Navigation, Pagination, A11y, Autoplay]}
+      navigation
+      pagination={{ clickable: true }}
       spaceBetween={50}
       slidesPerView={3}
-      onSlideChange={() => console.log("slide change")}
-      onSwiper={(swiper) => console.log(swiper)}
+      autoplay={{
+        delay: 3000,
+        disableOnInteraction: false,
+      }}
     >
       <SwiperSlide>
         <div className="service-item">
           <div className="service__content">
             <div className="service__icon">
-            <i className="icon-server" />
+              <i className="icon-server" />
             </div>
             {/* /.service__icon */}
-            <h4 className="service__title">Website Design</h4>
+            <h4 className="service__title">Brand Design</h4>
             <p className="service__desc">
               We offer various design services to help businesses build strong
               brands, create a professional image, and engage customers.{" "}
@@ -42,10 +48,10 @@ export const BrochureSlideSetion = () => {
         <div className="service-item">
           <div className="service__content">
             <div className="service__icon">
-            <i className="icon-cyberspace" />
+              <i className="icon-cyberspace" />
             </div>
             {/* /.service__icon */}
-            <h4 className="service__title">Logo & Branding</h4>
+            <h4 className="service__title">Logo Design</h4>
             <p className="service__desc">
               We provide IT and web services that help businesses stay
               up-to-date with the latest technology trends.
@@ -71,7 +77,7 @@ export const BrochureSlideSetion = () => {
               <i className="icon-cloud-computing" />
             </div>
             {/* /.service__icon */}
-            <h4 className="service__title">Advertising</h4>
+            <h4 className="service__title">UIUX Design</h4>
             <p className="service__desc">
               We help businesses control the pricing monopoly at full retail by
               creating awareness and marketing on popular platforms such as:
@@ -95,7 +101,7 @@ export const BrochureSlideSetion = () => {
               <i className="icon-server" />
             </div>
             {/* /.service__icon */}
-            <h4 className="service__title">Social Media</h4>
+            <h4 className="service__title">Social Media Design</h4>
             <p className="service__desc">
               We offer various design services to help businesses build strong
               brands, create a professional image, and engage customers.{" "}
@@ -120,7 +126,7 @@ export const BrochureSlideSetion = () => {
               <i className="icon-cyberspace" />
             </div>
             {/* /.service__icon */}
-            <h4 className="service__title">Packaging</h4>
+            <h4 className="service__title">Packaging Design</h4>
             <p className="service__desc">
               We provide IT and web services that help businesses stay
               up-to-date with the latest technology trends.
@@ -142,19 +148,20 @@ export const BrochureSlideSetion = () => {
         <div className="service-item">
           <div className="service__content">
             <div className="service__icon">
-              <i className="icon-cloud-computing" />
+              <i className="icon-cyberspace" />
             </div>
             {/* /.service__icon */}
-            <h4 className="service__title">Graphic Design</h4>
+            <h4 className="service__title">Cover Design</h4>
             <p className="service__desc">
-              We help businesses control the pricing monopoly at full retail by
-              creating awareness and marketing on popular platforms such as:
+              We provide IT and web services that help businesses stay
+              up-to-date with the latest technology trends.
             </p>
             <p className="service__desc">
-              Our services provide businesses with a robust online presence that
-              attracts new customers and retains existing ones.
+              Our team of experts tailors solutions that meet each
+              business&rsquo;s specific needs
             </p>
-            <Link href="/Graphic-Design" className="btn btn__secondary">
+            <br />
+            <Link href="/packaging" className="btn btn__secondary">
               <span>Read More</span>
               <i className="icon-arrow-right" />
             </Link>
@@ -169,16 +176,17 @@ export const BrochureSlideSetion = () => {
               <i className="icon-cyberspace" />
             </div>
             {/* /.service__icon */}
-            <h4 className="service__title">Copywriting Services</h4>
+            <h4 className="service__title">Video Production</h4>
             <p className="service__desc">
-              We help businesses control the pricing monopoly at full retail by
-              creating awareness and marketing on popular platforms such as:
+              We provide IT and web services that help businesses stay
+              up-to-date with the latest technology trends.
             </p>
             <p className="service__desc">
-              Our services provide businesses with a robust online presence that
-              attracts new customers and retains existing ones.
+              Our team of experts tailors solutions that meet each
+              business&rsquo;s specific needs
             </p>
-            <Link href="/Copy-writing-Services" className="btn btn__secondary">
+            <br />
+            <Link href="/packaging" className="btn btn__secondary">
               <span>Read More</span>
               <i className="icon-arrow-right" />
             </Link>

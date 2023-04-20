@@ -3,7 +3,6 @@ import React, { createContext } from 'react';
 export const GlobalContextAPI = createContext();
 
 const ContextAPI = ({ children }) => {
-
     //  Price Table All Data Values
     const PriceTable = [
         {

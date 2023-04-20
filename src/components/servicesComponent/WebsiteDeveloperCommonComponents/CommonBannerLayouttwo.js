@@ -4,9 +4,10 @@ import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlay } from "@fortawesome/free-solid-svg-icons";
 
-export default function CommonBannerLayouttwo() {
+export default function CommonBannerLayouttwo({ serviceRef }) {
   return (
     <section
+      ref={serviceRef}
       id="banner3"
       className="banner-layout3 pb-70 bg-slider-img-Banner-multi"
     >

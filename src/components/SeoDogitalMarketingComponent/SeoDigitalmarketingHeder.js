@@ -1,34 +1,41 @@
-import React from "react";
-
+import { faPlay } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Link from "next/link";
 const SeoDigitalmarketingHeader = () => {
   return (
-    <section className="slider">
-      <div
-        className="slide-item align-v-h bg-overlay bg-overlay-gradient seo_digital-marketing-bg"
-        style={{
-          height: "410px",
-          backgroundBlendMode: "multiply",
-          backgroundColor: "rgba(6, 57, 70, 0.8)",
-        }}
-      >
-        {/* <div className="bg-img"><img src="https://images.pexels.com/photos/2115217/pexels-photo-2115217.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="slide img"></div> */}
-
-        <div className="container">
-          <div className="row">
-            <div className="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-              <h2
-                style={{ fontSize: "54px", color: "white", textAlign: "center" }}
+    <section className="page-title page-title-layout9 bg-overlay bg-overlay-gradient bg-parallax seo-digital-bg">
+      <div className="container">
+        <div className="row align-items-center">
+          <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6">
+            <h1 className="pagetitle__heading">SEO & DIGITAL MARKETING</h1>
+            <p className="pagetitle__desc">
+              Looking for Seo & Digital services to help elevate your business?
+              Look no further than Business Savvy UK! Our experienced team
+              offers various services to enable enterprises to build a strong
+              brand, create a professional image, and engage with customers. In
+              addition, our team of experienced designers creates custom designs
+              that fit each business&apos;s unique needs.
+            </p>
+            <div className="d-flex align-items-center flex-wrap">
+              <Link href="/contact" className="btn btn__white mr-30">
+                Contact Us
+              </Link>
+              <a
+                className="video__btn video__btn-rounded video__btn-white popup-video"
+                href="https://www.youtube.com/watch?v=nrJtHemSPW4"
               >
-                SEO & DEGITAL MARKETING
-              </h2>
+                <div className="video__player">
+                  <FontAwesomeIcon icon={faPlay} />
+                </div>
+                <span className="video__btn-title color-white">Our Video!</span>
+              </a>
             </div>
-            {/* <!-- /.col-xl-7 --> */}
           </div>
-          {/* <!-- /.row --> */}
+          {/* /.col-xl-6 */}
         </div>
-        {/* <!-- /.container --> */}
+        {/* /.row */}
       </div>
-      {/* <!-- /.slide-item --> */}
+      {/* /.container */}
     </section>
   );
 };

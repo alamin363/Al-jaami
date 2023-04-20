@@ -274,6 +274,13 @@ h6 {
   background-position: center center;
   background-repeat: no-repeat;
 }
+.seo-digital-bg {
+  background-blend-mode: overlay;
+  background-image: url("https://images.pexels.com/photos/2115217/pexels-photo-2115217.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
 .awards .fancybox-item {
   border-radius: 5px;
   width: auto;
@@ -471,7 +478,7 @@ swiper-container {
   position: relative;
 }
 .client {
-  background-color: rgba(6, 57, 70, 0.8) !important;
+  background-color: transparent !important;
 }
 .bg-color-blend-mode {
   background-blend-mode: multiply;
@@ -497,6 +504,9 @@ swiper-container {
 }
 .mt--40 {
   margin-top: -40px;
+}
+.mt--30 {
+  margin-top: -30px;
 }
 .h-75 {
   height: 75px;

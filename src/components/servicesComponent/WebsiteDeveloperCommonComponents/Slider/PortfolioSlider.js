@@ -1,5 +1,3 @@
-import React from "react";
-import Slider from "react-slick";
 import Two from "../../../../assets/images/portfolio/grid/1.jpg";
 import Image from "next/image";
 import Link from "next/link";
@@ -7,17 +5,24 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
+import "swiper/css/autoplay";
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from "swiper";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 export default function PortfolioSlider() {
   return (
     <div className="slick-carousel">
       <Swiper
-        modules={[Navigation, Pagination, A11y]}
+        modules={[Navigation, Pagination, A11y, Autoplay]}
         spaceBetween={34}
         slidesPerView={3}
-        navigation
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+          pauseOnMouseEnter: true,
+        }}
+        loop
+        navigation={true}
         pagination={{ clickable: true }}
       >
         <SwiperSlide>
