@@ -4,6 +4,7 @@ import logo2 from "../../assets/images/awards/icons/2.png";
 
 import logo4 from "../../assets/images/awards/icons/4.png";
 import Image from "next/image";
+import Link from "next/link";
 const Awards = () => {
   return (
     <section className="awards pb-70">
@@ -27,10 +28,10 @@ const Awards = () => {
               World to manage their IT with our unique approach to technology
               management and consultancy solutions.{" "}
             </p>
-            <a href="#" className="btn btn__primary btn__icon mt-20">
+            <Link href="/quote" className="btn btn__primary btn__icon mt-20">
               <span>Get Started</span>
               <i className="icon-arrow-right"></i>
-            </a>
+            </Link>
           </div>
           {/* <!-- /.col-lg-5 --> */}
         </div>

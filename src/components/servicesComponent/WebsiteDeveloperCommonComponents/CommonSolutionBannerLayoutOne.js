@@ -29,10 +29,10 @@ export default function CommonSolutionBannerLayoutOne({ FutureRef }) {
               </div>
               {/* /.heading */}
               <div className="d-flex align-items-center mb-40">
-                <a href="#" className="btn btn__white btn__icon mr-30">
+                <Link href="/quote" className="btn btn__white btn__icon mr-30">
                   <span>Get Started</span>
                   <i className="icon-arrow-right" />
-                </a>
+                </Link>
                 <Link href="/quote" className="btn btn__white btn__bordered">
                   Request Demo
                 </Link>

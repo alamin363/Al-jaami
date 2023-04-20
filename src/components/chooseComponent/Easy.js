@@ -24,7 +24,7 @@ const Easy = () => {
                 Our Services
               </Link>
               <Link
-                href="/"
+                href="/quote"
                 className="btn btn__white btn__bordered btn__icon mt-20"
               >
                 <span>Get Started</span>

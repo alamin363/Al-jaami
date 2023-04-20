@@ -1,7 +1,13 @@
 const ContactForm = ({ setOpenContactFrom }) => {
   return (
-    <div className="col-sm-12 col-md-12 col-lg-12 mb-3 p-10 mt-10">
-      <form className="contact-form" method="post" id="contactForm">
+    <div
+      style={{
+        height: "444px",
+        width: "600px",
+      }}
+      className="col-sm-12 col-md-12 col-lg-12 mb-3 p-10 mt-10"
+    >
+      <form className="contact-form">
         <div className="row">
           <div className="col-sm-12">
             <h4 className="contact-panel__title">Get In Touch</h4>

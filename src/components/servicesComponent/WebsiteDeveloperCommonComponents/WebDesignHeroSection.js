@@ -23,10 +23,7 @@ export const WebDesignHeroSection = ({
             <h1 className="pagetitle__heading">{title}</h1>
             <p className="pagetitle__desc">{description}</p>
             <div className="d-flex align-items-center flex-wrap">
-              <Link
-                href="/requestquote"
-                className="btn btn__white btn__icon mr-30"
-              >
+              <Link href="/quote" className="btn btn__white btn__icon mr-30">
                 <span>Get Started</span>
                 <i className="icon-arrow-right" />
               </Link>

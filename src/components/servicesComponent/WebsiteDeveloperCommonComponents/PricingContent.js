@@ -33,7 +33,7 @@ export default function PricingContent({ PricingRef }) {
           {/* pricing item #1*/}
           {PriceTable?.map((PriceTables) => (
             <>
-              <div className="col-sm-12 col-md-4 col-lg-4 ">
+              <div className="col-sm-12 col-md-4 col-lg-4 w-100">
                 <div className="pricing-item d-flex flex-column justify-content-between mr-5">
                   <div>
                     <div className="pricing__header">
@@ -61,12 +61,14 @@ export default function PricingContent({ PricingRef }) {
                     {/* /.pricing__content  */}
                   </div>
                   <div className="pricing__footer">
-                    <a
+                    <Link
+                      href={"/contact"}
+                      style={{ width: "250px" }}
                       onClick={() => setOpenContactFrom((Pre) => !Pre)}
-                      className="btn "
+                      className="btn btn__secondary btn__block btn__icon btn btn-primary"
                     >
-                      <span>Contact Us</span>
-                    </a>
+                      <span style={{ fontSize: "20px" }}>Contact Us</span>
+                    </Link>
                   </div>
                   {/* /.pricing__footer  */}
                 </div>
@@ -74,14 +76,15 @@ export default function PricingContent({ PricingRef }) {
               </div>
             </>
           ))}
-          <div>
+          {/* <div>
             {openContactFrom ? (
               <div
                 style={{
                   position: "absolute",
-                  top: 60,
-                  right: 70,
+                  top: 0,
+                  right: 0,
                   background: "white",
+                  opacity: 99,
                 }}
               >
                 <ContactForm setOpenContactFrom={setOpenContactFrom} />
@@ -89,7 +92,7 @@ export default function PricingContent({ PricingRef }) {
             ) : (
               ""
             )}
-          </div>
+          </div> */}
         </div>
         {/* /.row */}
       </div>

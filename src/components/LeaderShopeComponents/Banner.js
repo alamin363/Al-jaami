@@ -24,7 +24,7 @@ const Banner = () => {
                 Contact Us
               </Link>
               <Link
-                href="request-quote"
+                href="/quote"
                 className="btn btn__white btn__bordered btn__icon"
               >
                 <span>Get Started</span>
