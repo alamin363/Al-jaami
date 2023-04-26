@@ -1,9 +1,12 @@
 import Image from "next/image";
-import bannerimg5 from "../../assets/images/banners/5.jpg"
+import bannerimg5 from "../../assets/images/banners/5.jpg";
 import Link from "next/link";
-const Business = () => {
+import { useRouter } from "next/router";
+const Business = ({ WorksRef }) => {
+  const path = useRouter();
   return (
     <section
+      ref={WorksRef}
       className="banner-layout3 pb-70"
       style={{ backgroundColor: "#063946" }}
     >
@@ -16,12 +19,15 @@ const Business = () => {
                 Keep business safe & ensure high availability.
               </h3>
               <p className="heading__desc">
-                As one of the world&#39;s largest ITService Providers, our deep pool
-                of certified engineers and IT staff are ready to help you to
-                keep your IT business safe & ensure high availability.
+                As one of the world&#39;s largest ITService Providers, our deep
+                pool of certified engineers and IT staff are ready to help you
+                to keep your IT business safe & ensure high availability.
               </p>
             </div>
-            <div className="fancybox-item d-flex flex-wrap mb-lg-5" style={{marginBottom:"20px"}}>
+            <div
+              className="fancybox-item d-flex flex-wrap mb-lg-5"
+              style={{ marginBottom: "20px" }}
+            >
               <div className="fancybox__icon">
                 <i className="icon-coding"></i>
               </div>
@@ -39,7 +45,10 @@ const Business = () => {
                 </Link>
               </div>
             </div>
-            <div className="fancybox-item d-flex flex-wrap mb-lg-5" style={{marginBottom:"20px"}}>
+            <div
+              className="fancybox-item d-flex flex-wrap mb-lg-5"
+              style={{ marginBottom: "20px" }}
+            >
               <div className="fancybox__icon">
                 <i className="icon-programming2"></i>
               </div>
@@ -58,7 +67,10 @@ const Business = () => {
               </div>
             </div>
             {/* <!-- fancybox item #3 --> */}
-            <div className="fancybox-item d-flex flex-wrap mb-lg-5" style={{marginBottom:"20px"}}>
+            <div
+              className="fancybox-item d-flex flex-wrap mb-lg-5"
+              style={{ marginBottom: "20px" }}
+            >
               <div className="fancybox__icon">
                 <i className="icon-script"></i>
               </div>
@@ -82,10 +94,21 @@ const Business = () => {
           <div className="col-sm-12 col-md-12 col-lg-12 col-xl-7">
             <div className="sticky-top">
               <div className="banner-img">
-                <Image
-                  src={bannerimg5} width={670} height={450}
-                  alt="banner"
-                />
+                {path.asPath === "/itsolutionssingle" ? (
+                  <Image
+                    src="https://cdn.pixabay.com/photo/2014/12/30/11/55/office-583841__340.jpg"
+                    width={510}
+                    height={340}
+                    alt="banner"
+                  />
+                ) : (
+                  <Image
+                    src={bannerimg5}
+                    width={670}
+                    height={450}
+                    alt="banner"
+                  />
+                )}
               </div>
               <div className="d-flex flex-wrap justify-content-end read-note mt-40">
                 <div className="rating mb-10 mr-50">

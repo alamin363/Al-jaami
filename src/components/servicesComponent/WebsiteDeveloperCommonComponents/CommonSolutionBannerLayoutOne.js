@@ -4,14 +4,14 @@ import ServicesCarousel from "@/components/servicesCarosel";
 import BannerSlider from "@/components/bannerLayout/bannerSlider/bannerSlider";
 import Link from "next/link";
 
-export default function CommonSolutionBannerLayoutOne({ FutureRef }) {
+export default function CommonSolutionBannerLayoutOne({ FutureRef, Ref }) {
   return (
     <section
       id="banner1"
       ref={FutureRef}
       className="banner-layout1 pt-90 pb-90 bg-overlay bg-overlay-primary"
     >
-      <div className="container-fluid">
+      <div ref={Ref} className="container-fluid">
         <div className="row">
           <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6 col-inner d-flex flex-column justify-content-between">
             <div>

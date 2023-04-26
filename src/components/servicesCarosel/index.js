@@ -54,10 +54,10 @@ const ServicesCarousel = () => {
                 <li> IT financial management</li>
                 <li> IT service management</li>
               </ul>
-              <a href="it-solutions-single.html" className="btn btn__secondary">
+              <Link href="/itsolutionssingle" className="btn btn__secondary">
                 <span>Read More</span>
                 <i className="icon-arrow-right"></i>
-              </a>
+              </Link>
             </div>
           </div>
         </SwiperSlide>
@@ -81,10 +81,10 @@ const ServicesCarousel = () => {
                 <li>Automotive security</li>
                 <li>Cyberwarfare</li>
               </ul>
-              <a href="it-solutions-single.html" className="btn btn__secondary">
+              <Link href="/itsolutionssingle" className="btn btn__secondary">
                 <span>Read More</span>
                 <i className="icon-arrow-right"></i>
-              </a>
+              </Link>
             </div>
           </div>
         </SwiperSlide>
@@ -107,10 +107,10 @@ const ServicesCarousel = () => {
                 <li>Public cloud services</li>
                 <li>Hybrid cloud services</li>
               </ul>
-              <a href="it-solutions-single.html" className="btn btn__secondary">
+              <Link href="/itsolutionssingle" className="btn btn__secondary">
                 <span>Read More</span>
                 <i className="icon-arrow-right"></i>
-              </a>
+              </Link>
             </div>
           </div>
         </SwiperSlide>
@@ -133,10 +133,10 @@ const ServicesCarousel = () => {
                 <li>Process & system design</li>
                 <li>Project management support</li>
               </ul>
-              <a href="it-solutions-single.html" className="btn btn__secondary">
+              <Link href="/itsolutionssingle" className="btn btn__secondary">
                 <span>Read More</span>
                 <i className="icon-arrow-right"></i>
-              </a>
+              </Link>
             </div>
           </div>
         </SwiperSlide>
@@ -160,10 +160,10 @@ const ServicesCarousel = () => {
                 <li>Testing & documenting</li>
                 <li>Deployment & maintenance</li>
               </ul>
-              <a href="it-solutions-single.html" className="btn btn__secondary">
+              <Link href="/itsolutionssingle" className="btn btn__secondary">
                 <span>Read More</span>
                 <i className="icon-arrow-right"></i>
-              </a>
+              </Link>
             </div>
           </div>
         </SwiperSlide>
@@ -187,10 +187,10 @@ const ServicesCarousel = () => {
                 <li>Duplication & Encryption</li>
                 <li>Multiplexing & Refactoring</li>
               </ul>
-              <a href="it-solutions-single.html" className="btn btn__secondary">
+              <Link href="/itsolutionssingle" className="btn btn__secondary">
                 <span>Read More</span>
                 <i className="icon-arrow-right"></i>
-              </a>
+              </Link>
             </div>
           </div>
         </SwiperSlide>
