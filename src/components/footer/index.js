@@ -176,7 +176,7 @@ const Footer = () => {
                   <div className="row">
                     <div className="col-md-3">
                       <h6 className="mb-0"> HEAD OFFICE </h6>
-                      <p className="m_b_1">Al-jaami Techologies.</p>
+                      {/* <p className="m_b_1">Al-jaami Techologies.</p> */}
                       <p className="m_b_1">Blackburn Road, Houghton Regis, Dunstable LU5 5BQ</p>
                       <p>
                         <svg
@@ -222,7 +222,7 @@ const Footer = () => {
                               fill="#d7b680"
                             />
                           </svg>
-                          &nbsp; business@aljaami.com
+                          &nbsp; business@aljaami.co.uk
                         </Link>
                       </li>
                     </div>

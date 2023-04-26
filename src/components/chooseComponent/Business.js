@@ -1,5 +1,5 @@
 import Image from "next/image";
-import bannerimg5 from "../../assets/images/banners/5.jpg";
+import Bannerimg5 from "../../assets/images/banners/5.jpg";
 import Link from "next/link";
 import { useRouter } from "next/router";
 const Business = ({ WorksRef }) => {
@@ -103,7 +103,7 @@ const Business = ({ WorksRef }) => {
                   />
                 ) : (
                   <Image
-                    src={bannerimg5}
+                    src={Bannerimg5}
                     width={670}
                     height={450}
                     alt="banner"
