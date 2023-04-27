@@ -60,7 +60,7 @@ const About = () => {
                   <Link
                     href="/it-solutions"
                     className="btn btn__link btn__primary btn__underlined"
-                    style={{ borderBottom: " 2px solid #d7b680" }}
+                    style={{ borderBottom: " 2px solid #d7b680", margin:"0 5px" }}
                   >
                     Best Organizations
                   </Link>

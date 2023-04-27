@@ -343,7 +343,7 @@ const Tab2 = () => {
                           src={aspnet}
                           alt=""
                         />
-                        <span style={{ marginTop: "-42px" }}>ASP.NET</span>{" "}
+                        <span style={{ marginTop: "-42px" }}>ASP.NET</span>
                       </div>
                       <div className="single-item">
                         <Image {...heightAndWidth} src={jquery} alt="" />
@@ -383,17 +383,17 @@ const Tab2 = () => {
                         <span>PHP</span>{" "}
                       </div>
                       <div className="single-item">
-                        <Image {...heightAndWidth} src={aspnet} alt="" />
-                        <span style={{ marginTop: "-42px" }}>ASP.NET</span>
+                        <Image {...heightAndWidth} style={{marginBottom:"-42px"}} src={aspnet} alt="" />
+                        <span style={{ marginTop: "-22px" }}>ASP.NET</span>
                       </div>
                       <div className="single-item">
                         <Image
                           {...heightAndWidth}
-                          style={{ marginTop: "-42px", marginRight: "-50px" }}
+                          style={{ marginBottom:"-42px", marginRight: "-50px" }}
                           src={django}
                           alt=""
                         />
-                        <span style={{ marginTop: "-45px" }}>Django</span>
+                        <span style={{ marginTop: "-22px" }}>Django</span>
                       </div>
 
                       <div className="single-item">
@@ -413,11 +413,11 @@ const Tab2 = () => {
                       <div className="single-item">
                         <Image
                           {...heightAndWidth}
-                          style={{ marginTop: "-42px", marginRight: "-70px" }}
+                          style={{ marginBottom:"-42px", marginRight: "-70px" }}
                           src={nodejs}
                           alt=""
                         />
-                        <span style={{ marginTop: "-45px" }}>Node.js</span>
+                        <span style={{ marginTop: "-22px" }}>Node.js</span>
                       </div>
                       <div className="single-item">
                         <Image
