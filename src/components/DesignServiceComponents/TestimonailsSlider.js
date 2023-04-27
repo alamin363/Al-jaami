@@ -1,3 +1,4 @@
+"use client"
 import React, { useEffect, useState, useRef } from "react";
 import Slider from "react-slick";
 // import thumb1 from "../../assets/images/testimonials/thumbs/1.png";

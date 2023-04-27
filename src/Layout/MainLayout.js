@@ -3,8 +3,11 @@ import Header from "@/components/header/Header";
 import React from "react";
 
 export const metadata = {
-  title: "Al jaami",
-  description: " all",
+  title: {
+    default: "Al jaami Technology",
+    template: "%s | Al jaami Technology",
+  },
+  description: "",
 };
 const MainLayout = ({ children }) => {
   return (

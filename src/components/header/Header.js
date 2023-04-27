@@ -1,5 +1,5 @@
+"use client"
 import Link from "next/link";
-import React from "react";
 import logoLight from "./../../assets/images/logo/light-logo.png";
 import logoDark from "./../../assets/images/logo/dark-logo.png";
 import { useState } from "react";

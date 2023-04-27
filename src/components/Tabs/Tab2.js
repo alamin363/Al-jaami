@@ -1,3 +1,4 @@
+"use client"
 import React, { useEffect, useState } from "react";
 import firebase from "../../assets/images/icons/firebase-1.svg";
 import aspnet from "../../assets/images/icons/aspnet.svg";

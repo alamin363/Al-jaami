@@ -4,6 +4,10 @@ import Challenge from "@/components/AboutComponents/Challange";
 import History from "@/components/AboutComponents/History";
 import SecondaryNav from "@/components/AboutComponents/SecondaryNav";
 import Testimonials from "@/components/AboutComponents/Testimonials";
+
+export const metadata = {
+  title: "About"
+};
 const About = () => {
   return (
     <>

@@ -1,3 +1,4 @@
+"use client"
 import { useEffect, useRef, useState } from "react";
 
 // not get api key thats why this is not working

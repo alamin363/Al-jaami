@@ -8,6 +8,13 @@ import BannerLayout from "@/components/bannerLayout/BannerLayout";
 import Header from "@/components/header/Header";
 import Tab2 from "@/components/Tabs/Tab2";
 import { Loaders } from "@/components/Loader/Loader";
+
+export const metadata = {
+  title: {
+    default: "Al jaami Technology",
+    template: "%s | Al jaami Technology",
+  }
+};
 const Home = () => {
   return (
     <>
