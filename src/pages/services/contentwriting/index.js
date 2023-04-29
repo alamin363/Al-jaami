@@ -9,8 +9,10 @@ import BrochureSection from "@/components/DesignServiceComponents/BrochureSectio
 import ServicePagetitle from "@/components/SellingPlatfromComponents/ServicePagetitle";
 import BannerLayout from "@/components/bannerLayout/BannerLayout";
 import ContentWritingMainSection from "@/components/servicesComponents/ContentWriting/ContentWritingMainSection";
+import useTitle from "@/components/hooks/useTitle";
 
 const ContentWriting = () => {
+  useTitle("Content Writing");
   return (
     <>
       {/* <ContentWritingHeroSection />

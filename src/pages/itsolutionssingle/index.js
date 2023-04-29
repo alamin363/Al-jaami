@@ -1,5 +1,6 @@
 import PricingFeatures from "@/components/QuoteComponents/PricingFeatures";
 import Business from "@/components/chooseComponent/Business";
+import useTitle from "@/components/hooks/useTitle";
 import ItSecondaryNav from "@/components/itsolutionssingleComponents/ItSecondaryNav";
 import ItsolutionsSingleHeroSection from "@/components/itsolutionssingleComponents/ItsolutionsSingleHeroSection";
 import OurTrustedClients from "@/components/itsolutionssingleComponents/OurTrustedClients";
@@ -11,6 +12,7 @@ const Index = () => {
   const OverviewRef = useRef(null);
   const WorksRef = useRef(null);
   const QuoteRef = useRef(null);
+  useTitle("It Solution");
   return (
     <>
       <ItsolutionsSingleHeroSection />

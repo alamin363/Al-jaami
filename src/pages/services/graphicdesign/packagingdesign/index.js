@@ -1,6 +1,7 @@
 import SecondaryNav from "@/components/AboutComponents/SecondaryNav";
 import ContextAPI from "@/components/ContextAPI/ContextAPI";
 import PricingFeatures from "@/components/QuoteComponents/PricingFeatures";
+import useTitle from "@/components/hooks/useTitle";
 import CommonSecondaryNav from "@/components/servicesComponent/CommonSecendaryNav/CommonSecendaryNav";
 import CommonBannerLayouttwo from "@/components/servicesComponent/WebsiteDeveloperCommonComponents/CommonBannerLayouttwo";
 import CommonPortfolioGridSection from "@/components/servicesComponent/WebsiteDeveloperCommonComponents/CommonPortfolioGridSection";
@@ -23,6 +24,7 @@ const Index = () => {
     graphicDesign: true,
     contentWriting: false,
   };
+  useTitle("Packaging Design");
   return (
     <>
       <WebDesignHeroSection

@@ -1,7 +1,8 @@
-"use client"
+"use client";
 import Loader from "@/components/Loader/Loader";
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
+import useTitle from "../hooks/useTitle";
 const Login = ({ modalopen, setModalOpen }) => {
   const [open, setOpen] = useState({
     login: true,
@@ -16,7 +17,7 @@ const Login = ({ modalopen, setModalOpen }) => {
       register: false,
     });
   };
-
+  
   // // Register
   const onOpenRegister = () => {
     setOpen({
@@ -32,7 +33,6 @@ const Login = ({ modalopen, setModalOpen }) => {
       onOpenLogin();
     }
   }, []);
-
   return (
     <div>
       <div

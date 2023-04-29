@@ -2,8 +2,10 @@ import BannerLayoutThree from "@/components/DesignServiceComponents/BannerLayout
 import BrochureSection from "@/components/DesignServiceComponents/BrochureSection";
 import ServicePagetitle from "@/components/itWebServicesComponents/ServicePagetitle";
 import BannerLayout from "@/components/bannerLayout/BannerLayout";
+import useTitle from "@/components/hooks/useTitle";
 
-const index = () => {
+const Index = () => {
+  useTitle("It & Web Services");
   return (
     <>
       <ServicePagetitle />
@@ -14,4 +16,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

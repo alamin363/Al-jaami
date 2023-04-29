@@ -4,8 +4,10 @@ import Careers from "@/components/CareersComponents/Careers";
 import HeroSection from "@/components/CareersComponents/HeroSection";
 import { Loaders } from "@/components/Loader/Loader";
 import Header from "@/components/header/Header";
+import useTitle from "@/components/hooks/useTitle";
 
-const index = () => {
+const Index = () => {
+  useTitle("Careers");
   return (
     <>
   
@@ -17,4 +19,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

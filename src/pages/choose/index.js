@@ -4,10 +4,11 @@ import BannerLayout from "@/components/chooseComponent/BannerLayout";
 import Business from "@/components/chooseComponent/Business";
 import Easy from "@/components/chooseComponent/Easy";
 import Serves from "@/components/chooseComponent/Serves";
-import Header from "@/components/header/Header";
+import useTitle from "@/components/hooks/useTitle";
 import React from "react";
 
-const index = () => {
+const Index = () => {
+  useTitle("Choose us");
   return (
     <>
   
@@ -20,4 +21,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

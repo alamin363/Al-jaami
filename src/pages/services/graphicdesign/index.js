@@ -2,9 +2,11 @@ import BannerLayoutThree from "@/components/DesignServiceComponents/BannerLayout
 import ServicePagetitle from "@/components/itWebServicesComponents/ServicePagetitle";
 import BannerLayout from "@/components/bannerLayout/BannerLayout";
 import GraphicsDesignMainSection from "@/components/servicesComponents/GraphicsDesign/GraphicsDesignMainSection";
+import useTitle from "@/components/hooks/useTitle";
 
 
-const index = () => {
+const Index = () => {
+  useTitle("Graphic Design");
   return (
     <>
       {/* <GraphicHeroSection />
@@ -18,4 +20,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

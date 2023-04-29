@@ -1,15 +1,13 @@
 import AppDevelopMentComponentHeroSection from "@/components/AppDevelopMentComponent/AppDevelopMentComponentHeroSection";
 import AppDevelopmentMainCard from "@/components/AppDevelopMentComponent/AppDevelopmentMainCard";
-import { Loaders } from "@/components/Loader/Loader";
-import Footer from "@/components/footer";
-import Header from "@/components/header/Header";
+import useTitle from "@/components/hooks/useTitle";
 import ContactUs from "@/components/servicesComponent/ContactUs";
 import React from "react";
 
-const index = () => {
+const Index = () => {
+  useTitle("App Development");
   return (
     <>
-  
       <AppDevelopMentComponentHeroSection />
       <AppDevelopmentMainCard />
       <ContactUs />
@@ -17,4 +15,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

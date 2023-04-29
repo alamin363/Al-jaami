@@ -1,9 +1,10 @@
 import SecondaryNav from "@/components/AboutComponents/SecondaryNav";
 import Banner from "@/components/LeaderShopeComponents/Banner";
 import ContentLeader from "@/components/LeaderShopeComponents/ContentLeader";
-import Header from "@/components/header/Header";
+import useTitle from "@/components/hooks/useTitle";
 
-const index = () => {
+const Index = () => {
+  useTitle("Leadership");
   return (
     <>
       <Banner />
@@ -13,4 +14,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

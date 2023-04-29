@@ -1,14 +1,12 @@
 import SeoDigitalmarketingHeader from '@/components/SeoDogitalMarketingComponent/SeoDigitalmarketingHeder'
 import SeoMainComponent from '@/components/SeoDogitalMarketingComponent/SeoMainComponent'
-import Footer from '@/components/footer'
-import Header from '@/components/header/Header'
+import useTitle from '@/components/hooks/useTitle';
 import ContactUs from '@/components/servicesComponent/ContactUs'
-import React from 'react'
 
 const SeoDigitalmarketing = () => {
+  useTitle("Seo & Digital Marketing");
   return (
     <>
-
       <SeoDigitalmarketingHeader />
       <SeoMainComponent />
       <ContactUs />

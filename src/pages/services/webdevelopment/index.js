@@ -7,8 +7,10 @@ import BrochureSection from "@/components/DesignServiceComponents/BrochureSectio
 import ServicePagetitle from "@/components/DesignServiceComponents/ServicePagetitle";
 import BannerLayout from "@/components/bannerLayout/BannerLayout";
 import WebDevelopmentMainSection from "@/components/servicesComponents/WebDevelopent/WebDeveloperMainSection";
+import useTitle from "@/components/hooks/useTitle";
 
 const WebDevelopment = () => {
+  useTitle("Web Development");
   return (
     <>
       {/* <HeroSection />
